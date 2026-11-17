@@ -1,0 +1,812 @@
+{
+  "version": 1,
+  "status": "completed_with_reservations",
+  "base_sha256": "cdb3dcb899c6a1670d7fbec32c24e28399210bb2473d3bc16b9adc3b7035f759",
+  "checked_on": "2026-11-12",
+  "semantics": "Documentary support only, never certification of current requirements. All displayed facts require confirmation.",
+  "counts": {
+    "sources": 26,
+    "facts": 52,
+    "associations": 101,
+    "statuses": {
+      "supported": 49,
+      "partially_supported": 3
+    }
+  },
+  "source_checks": [
+    {
+      "original_url": "https://e-justice.ci",
+      "checked_at": "2026-11-12T18:03:49.454114+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Body contains the Bulletin n°3 profile/tariff table and jurisdiction/DACP explanation. Static availability modal is present; no transactional availability inferred.",
+      "id": 1
+    },
+    {
+      "original_url": "https://web.justice.gouv.ci/services",
+      "checked_at": "2026-11-12T18:02:50.865817+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Ministry services body explicitly describes the e-JUSTICE platform.",
+      "id": 2
+    },
+    {
+      "original_url": "https://e-justice.ci/surfer/requests/new/cj/type",
+      "checked_at": "2026-11-12T18:02:50.866064+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Bulletin n°3 public form body contains birth upload, CNI yes/no, personal data, and 2500+500=3000 summary. GET only; conditional/hidden fields not treated as universally required.",
+      "id": 3
+    },
+    {
+      "original_url": "https://servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/81/61",
+      "checked_at": "2026-11-12T18:03:49.455359+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Intended casier-central fiche has substantive description, 2500 FCFA and 24 h despite PHP notices in navigation; warnings retained.",
+      "id": 4
+    },
+    {
+      "original_url": "https://www.oneci.ci/faq",
+      "checked_at": "2026-11-12T18:02:50.866419+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: ONECI FAQ substantive CNI/renewal and birth-extract answers read; resident-card branch isolated.",
+      "id": 5
+    },
+    {
+      "original_url": "https://certificat-actes-etatcivil.oneci.ci",
+      "checked_at": "2026-11-12T18:02:51.461994+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: ONECI civil-status portal substantive certificate request/track descriptions; no transaction tested.",
+      "id": 6
+    },
+    {
+      "original_url": "https://certificat-actes-etatcivil.oneci.ci/demande-acte",
+      "checked_at": "2026-11-12T18:02:51.832581+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Public request body contains NNI/extract routes, distinct certificate/extract options and post-payment tracking text; no form submitted.",
+      "id": 7
+    },
+    {
+      "original_url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1./480/1",
+      "checked_at": "2026-11-12T18:03:49.456845+00:00",
+      "usable": "unknown",
+      "http_status": null,
+      "reason": "not_reachable: HTTPSConnectionPool(host='www.servicepublic.gouv.ci', port=443): Max retries exceeded with url: /accueil/detaildemarcheparticulier/1./480/1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.servicepublic.gouv.ci', port=443) at 0x104be9450>, 'Connection to www.servicepublic.gouv.ci timed out. (connect timeout=12)')); original remains not_reachable (not invalid_url); same-document trailing-slash alternative fetched and body validated",
+      "id": 10,
+      "verified_same_document_alternative_url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1./480/1/",
+      "alternative_checked_at": "2026-11-12T18:07:08.754030+00:00",
+      "alternative_status": 200,
+      "alternative_verified": true,
+      "intermittent": true
+    },
+    {
+      "original_url": "https://www.oneci.ci/nos-produits/etat-civil",
+      "checked_at": "2026-11-12T18:02:52.993376+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: ONECI civil-status responsibilities body describes coordination with officers and control of territorial/consular centres.",
+      "id": 11
+    },
+    {
+      "original_url": "https://www.justice.ci/digitalisation-du-service-public-de-la-justice-16-nouvelles-juridictions-connectees-a-la-plateforme-e-justice-ci",
+      "checked_at": "2026-11-12T18:03:49.457501+00:00",
+      "usable": "unknown",
+      "http_status": null,
+      "reason": "not_reachable: HTTPSConnectionPool(host='www.justice.ci', port=443): Max retries exceeded with url: /digitalisation-du-service-public-de-la-justice-16-nouvelles-juridictions-connectees-a-la-plateforme-e-justice-ci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.justice.ci', port=443) at 0x104be82d0>, 'Connection to www.justice.ci timed out. (connect tim; original remains not_reachable (not invalid_url); same-document trailing-slash alternative fetched and body validated",
+      "id": 13,
+      "verified_same_document_alternative_url": "https://www.justice.ci/digitalisation-du-service-public-de-la-justice-16-nouvelles-juridictions-connectees-a-la-plateforme-e-justice-ci/",
+      "alternative_checked_at": "2026-11-12T18:07:08.760789+00:00",
+      "alternative_status": 200,
+      "alternative_verified": true,
+      "intermittent": true
+    },
+    {
+      "original_url": "https://www.oneci.ci/nos-produits/carte-identite/documents-a-fournir",
+      "checked_at": "2026-11-12T18:03:49.458240+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: ONECI CNI document body lists first request, birth-country/nationality branches, renewal and withdrawal.",
+      "id": 14
+    },
+    {
+      "original_url": "https://www.oneci.ci/downloads/files/etapes-demande-cni.pdf",
+      "checked_at": "2026-11-12T18:03:49.703802+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Valid PDF signature; 3-page CNI document list parsed with pypdf, including notariety/CNI mention, recommended parental CNI and renewal omissions.",
+      "id": 15
+    },
+    {
+      "original_url": "https://www.oneci.ci/qui-sommes-nous",
+      "checked_at": "2026-11-12T18:03:04.812203+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: ONECI institutional body identifies creation decree and national identity products.",
+      "id": 16
+    },
+    {
+      "original_url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/220/38",
+      "checked_at": "2026-11-12T18:03:05.601996+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Intended CNI renewal fiche body contains 5000 FCFA and 45 days, with common 2016 footer only.",
+      "id": 17
+    },
+    {
+      "original_url": "https://servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/205/38",
+      "checked_at": "2026-11-12T18:03:06.043803+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Intended first-CNI fiche body contains 5000 FCFA and indeterminate delay; target mentions adults, not a numeric minimum age.",
+      "id": 18
+    },
+    {
+      "original_url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/288",
+      "checked_at": "2026-11-12T18:03:50.260485+00:00",
+      "usable": "unknown",
+      "http_status": null,
+      "reason": "not_reachable: HTTPSConnectionPool(host='www.servicepublic.gouv.ci', port=443): Max retries exceeded with url: /accueil/detaildemarcheparticulier/1/288 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.servicepublic.gouv.ci', port=443) at 0x104be8550>, 'Connection to www.servicepublic.gouv.ci timed out. (connect timeout=12)')); original remains not_reachable (not invalid_url); same-document trailing-slash alternative fetched and body validated",
+      "id": 19,
+      "verified_same_document_alternative_url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/288/",
+      "alternative_checked_at": "2026-11-12T18:07:08.764688+00:00",
+      "alternative_status": 200,
+      "alternative_verified": true,
+      "intermittent": true
+    },
+    {
+      "original_url": "https://snedai.com/passeport-en-cote-divoire",
+      "checked_at": "2026-11-12T18:03:15.078245+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Operational SNEDAI body contains national-by-origin first-request adults 18+, valid CNI profile, other branches, 40000 FCFA and 72 h after police validation.",
+      "id": 20
+    },
+    {
+      "original_url": "https://snedai.com/faq-passeport-biometrique",
+      "checked_at": "2026-11-12T18:03:16.981732+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: SNEDAI biometric-passport FAQ body contains parental ID, nationality, bank restrictions and personal-collection statements; unspecified FAQ scope not merged into adult list.",
+      "id": 21
+    },
+    {
+      "original_url": "https://doc.monpasseport.ci/faq",
+      "checked_at": "2026-11-12T18:03:18.130216+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: monpasseport FAQ body identifies SNEDAI ownership, online/physical route distinctions, conditional third-party retrieval and post-validation target.",
+      "id": 22
+    },
+    {
+      "original_url": "https://france.diplomatie.gouv.ci/fichiers/1547557712formulaire-passeport-ci.pdf",
+      "checked_at": "2026-11-12T18:03:18.620871+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Valid PDF signature; one-page ordinary-passport form parsed with DST/S-DPAF heading and multi-profile attachment checkboxes. Technical modification date 2009 is not a current requirements list.",
+      "id": 23
+    },
+    {
+      "original_url": "https://passeportsofficiels.diplomatie.gouv.ci",
+      "checked_at": "2026-11-12T18:03:19.108931+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Body explicitly restricts this ministry portal to diplomatic/service passports; usable as exclusion evidence, not ordinary-passport instructions.",
+      "id": 24
+    },
+    {
+      "original_url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/160/24",
+      "checked_at": "2026-11-12T18:03:20.525005+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Intended category-B fiche body explicitly includes 18+, examinations, medical certificate, 23500 F and one-month minimum.",
+      "id": 25
+    },
+    {
+      "original_url": "https://www.transports.gouv.ci/sites/default/files/permis_de_conduire.pdf",
+      "checked_at": "2026-11-12T18:03:20.722075+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Valid PDF signature; two-page ministry-hosted CGI/Quipux brochure parsed; initial registration/new issue and category B table read; technical ModDate July 2021, not tariff-currentness proof.",
+      "id": 26
+    },
+    {
+      "original_url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1./70/24",
+      "checked_at": "2026-11-12T18:03:50.844915+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Intended format-conversion fiche explicitly concerns existing permit holders and contains separate conversion tariffs and one-day target.",
+      "id": 27
+    },
+    {
+      "original_url": "https://transports.gouv.ci/actualites/permis-de-conduire-lautomatisation-de-lexamen-theorique-etendue-toute-la-cote-divoire-des",
+      "checked_at": "2026-11-12T18:03:22.837207+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Intended automation article body read; explicit article date 11 April 2024, announcement of 4 April 2024, no proof of 2026 implementation.",
+      "id": 28
+    },
+    {
+      "original_url": "https://transports.gouv.ci/permis-de-conduire",
+      "checked_at": "2026-11-12T18:03:23.829874+00:00",
+      "usable": true,
+      "http_status": 200,
+      "reason": "validated_intended_document: Ministry publication body contains actual link to permis_de_conduire.pdf; provenance link saved.",
+      "id": 29
+    }
+  ],
+  "claim_checks": [
+    {
+      "path": "/procedures/0/administration",
+      "source_ids": [
+        14,
+        16
+      ],
+      "status": "supported",
+      "reason": "ONECI institution and CNI document list jointly establish the responsible office.",
+      "checked_at": "2026-11-12T18:11:59.696142+00:00"
+    },
+    {
+      "path": "/procedures/0/conditions/0",
+      "source_ids": [
+        14,
+        16
+      ],
+      "status": "supported",
+      "reason": "CNI is a national identity title and nationality proof is explicitly listed; resident-card instructions are a distinct branch, not transferable.",
+      "checked_at": "2026-11-12T18:11:59.697980+00:00"
+    },
+    {
+      "path": "/procedures/0/documents/0",
+      "source_ids": [
+        15
+      ],
+      "status": "supported",
+      "reason": "PDF expressly allows either birth extract/full copy or notoriety act bearing the exact mention « en vue de l’établissement de la CNI »; less-than-two-years heading applies to the birth justification. Not a passport rule.",
+      "checked_at": "2026-11-12T18:11:59.698467+00:00"
+    },
+    {
+      "path": "/procedures/0/documents/1",
+      "source_ids": [
+        14,
+        15
+      ],
+      "status": "supported",
+      "reason": "Less-than-two-year nationality certificate and receipts are listed. Page says receipt of enrolment; PDF says payment receipt for all request types. These are stage-specific, not proof that enrolment precedes itself.",
+      "checked_at": "2026-11-12T18:11:59.700665+00:00"
+    },
+    {
+      "path": "/procedures/0/documents/2",
+      "source_ids": [
+        15
+      ],
+      "status": "supported",
+      "reason": "PDF explicitly limits profession proof to specified professions and marriage evidence to married women; no universal extra document inferred.",
+      "checked_at": "2026-11-12T18:11:59.700974+00:00"
+    },
+    {
+      "path": "/procedures/0/documents/3",
+      "source_ids": [
+        14,
+        15,
+        5
+      ],
+      "status": "supported",
+      "reason": "The source disagreement in wording is real: page « Si possible », PDF « recommandé », FAQ parental CNI without that qualifier. FAQ omission of qualifier does not prove a universal obligation.",
+      "checked_at": "2026-11-12T18:11:59.702083+00:00"
+    },
+    {
+      "path": "/procedures/0/documents/4",
+      "source_ids": [
+        14,
+        15,
+        5
+      ],
+      "status": "supported",
+      "reason": "Page and FAQ request nationality in renewal; PDF renewal list omits it. This is an omission, not an explicit prohibition or proof that nationality is unnecessary.",
+      "checked_at": "2026-11-12T18:11:59.703002+00:00"
+    },
+    {
+      "path": "/procedures/0/steps/0",
+      "source_ids": [
+        5,
+        15,
+        17
+      ],
+      "status": "supported",
+      "reason": "The sources document the staged pathway, payment receipt and collection ID/message; no live enrolment or transaction was tested.",
+      "checked_at": "2026-11-12T18:11:59.703848+00:00"
+    },
+    {
+      "path": "/procedures/0/fees/0",
+      "source_ids": [
+        17,
+        18
+      ],
+      "status": "supported",
+      "reason": "Both portal fiches display 5000 FCFA. This supports a displayed documentary tariff only; neither fiche proves a current 2026 payable total.",
+      "checked_at": "2026-11-12T18:11:59.704139+00:00"
+    },
+    {
+      "path": "/procedures/0/timelines/0",
+      "source_ids": [
+        17,
+        18
+      ],
+      "status": "supported",
+      "reason": "First-request fiche states indeterminate and renewal fiche forty-five days; these remain non-guaranteed historical/undated indications.",
+      "checked_at": "2026-11-12T18:11:59.704346+00:00"
+    },
+    {
+      "path": "/procedures/0/uncertainties/0",
+      "source_ids": [
+        14,
+        15,
+        5
+      ],
+      "status": "partially_supported",
+      "reason": "Foreign birth, naturalisation and marriage branches are explicit; acquisition by declaration is discussed in FAQ. A CNI-minor branch and definitive age threshold are NOT established. FAQ minor-under-16 instructions belong to residence cards. Retain uncertainty but do not state a verified CNI-minor list.",
+      "checked_at": "2026-11-12T18:11:59.704702+00:00"
+    },
+    {
+      "path": "/procedures/0/uncertainties/1",
+      "source_ids": [
+        17,
+        18
+      ],
+      "status": "supported",
+      "reason": "Common portal footer says updated 08/11/2016 on both unrelated fiches; no page-specific update date located. Absence of a detected date is an audit observation, not proof no update ever occurred.",
+      "checked_at": "2026-11-12T18:11:59.704810+00:00"
+    },
+    {
+      "path": "/procedures/1/administration",
+      "source_ids": [
+        5,
+        11,
+        6
+      ],
+      "status": "supported",
+      "reason": "FAQ directs people to their civil-status centre, institutional page establishes ONECI coordination and portal is visibly published; copy issuance must not be confused with initial birth registration.",
+      "checked_at": "2026-11-12T18:11:59.705362+00:00"
+    },
+    {
+      "path": "/procedures/1/conditions/0",
+      "source_ids": [
+        5,
+        10
+      ],
+      "status": "supported",
+      "reason": "FAQ centre route and lost-copy letter to mairie/sous-préfecture support locating the existing act and specifying a copy; cannot replace registration or supplementary judgment.",
+      "checked_at": "2026-11-12T18:11:59.705918+00:00"
+    },
+    {
+      "path": "/procedures/1/documents/0",
+      "source_ids": [
+        10
+      ],
+      "status": "supported",
+      "reason": "Lost/destroyed-copy fiche explicitly requests a letter with applicant/parents names, birth date and reason. Scope is that particular recovery route.",
+      "checked_at": "2026-11-12T18:11:59.705971+00:00"
+    },
+    {
+      "path": "/procedures/1/documents/1",
+      "source_ids": [
+        6,
+        7
+      ],
+      "status": "supported",
+      "reason": "Portal explicitly has NNI, extract-number and other branches plus document uploads. HTML presence alone cannot establish which hidden uploads are required for each chosen branch.",
+      "checked_at": "2026-11-12T18:11:59.706183+00:00"
+    },
+    {
+      "path": "/procedures/1/steps/0",
+      "source_ids": [
+        5,
+        6,
+        7
+      ],
+      "status": "supported",
+      "reason": "Centre route and online search/tracking after payment are described. Form mainly speaks of certificate downloading; do not promise downloadable birth extract equivalence or tested issuance.",
+      "checked_at": "2026-11-12T18:11:59.706498+00:00"
+    },
+    {
+      "path": "/procedures/1/uncertainties/0",
+      "source_ids": [
+        10
+      ],
+      "status": "supported",
+      "reason": "Lost-copy fiche displays Néant and Non déterminé only for that route. It does not establish ordinary copies are universally free, nor current fees.",
+      "checked_at": "2026-11-12T18:11:59.706564+00:00"
+    },
+    {
+      "path": "/procedures/1/uncertainties/1",
+      "source_ids": [
+        5,
+        6,
+        7
+      ],
+      "status": "supported",
+      "reason": "FAQ says online birth requests unavailable while public portal and request page exist. This is a documented availability discrepancy, not proof that the full service works.",
+      "checked_at": "2026-11-12T18:11:59.707731+00:00"
+    },
+    {
+      "path": "/procedures/1/uncertainties/2",
+      "source_ids": [
+        7
+      ],
+      "status": "supported",
+      "reason": "Two distinct request types appear in the select list; no equivalence or receiving-administration acceptance statement was found.",
+      "checked_at": "2026-11-12T18:11:59.707793+00:00"
+    },
+    {
+      "path": "/procedures/2/administration",
+      "source_ids": [
+        1,
+        2
+      ],
+      "status": "supported",
+      "reason": "Homepage assigns birth-location jurisdiction for Ivorians born locally/foreigners with birth registered locally and DACP for stated foreign-born/resident profiles. Ministry page confirms platform provenance, not the routing details itself.",
+      "checked_at": "2026-11-12T18:11:59.708966+00:00"
+    },
+    {
+      "path": "/procedures/2/conditions/0",
+      "source_ids": [
+        1,
+        3
+      ],
+      "status": "supported",
+      "reason": "Bulletin n°3 is explicitly strictly personal on homepage; form contains centre/identity and jurisdiction summary. The profile must be correct; this page is not a ruleset for bulletins 1 or 2.",
+      "checked_at": "2026-11-12T18:11:59.709746+00:00"
+    },
+    {
+      "path": "/procedures/2/documents/0",
+      "source_ids": [
+        3
+      ],
+      "status": "supported",
+      "reason": "Form expressly asks to upload original birth act plus centre, act number and civil references; uploading a scan is not surrender of the physical original.",
+      "checked_at": "2026-11-12T18:11:59.710016+00:00"
+    },
+    {
+      "path": "/procedures/2/documents/1",
+      "source_ids": [
+        1,
+        3
+      ],
+      "status": "supported",
+      "reason": "Both sources condition marriage act on absent marriage mention. Other form branches include separation or unknown-parent evidence; do not mark every hidden upload universally mandatory.",
+      "checked_at": "2026-11-12T18:11:59.710521+00:00"
+    },
+    {
+      "path": "/procedures/2/documents/2",
+      "source_ids": [
+        3
+      ],
+      "status": "supported",
+      "reason": "Form contains « Avez-vous une CNI ? Oui Non »; this supports a non-universal CNI inference only for the consulted route, not acceptance of all identity-free requests.",
+      "checked_at": "2026-11-12T18:11:59.710670+00:00"
+    },
+    {
+      "path": "/procedures/2/steps/0",
+      "source_ids": [
+        1,
+        3
+      ],
+      "status": "supported",
+      "reason": "Static form contains staged entries, confirmation and payment summary; homepage describes digital-only issue and follow-up. A 2025-election warning in static modal is not an established general eligibility condition.",
+      "checked_at": "2026-11-12T18:11:59.711007+00:00"
+    },
+    {
+      "path": "/procedures/2/fees/0",
+      "source_ids": [
+        1,
+        3
+      ],
+      "status": "supported",
+      "reason": "Homepage lists 2500 rights for the three specified 2500 profiles plus 500 service. Main-profile form independently displays 2500+500=3000 (arithmetic checked). Form alone does not prove other profiles. Payment-provider extras unconfirmed.",
+      "checked_at": "2026-11-12T18:11:59.711343+00:00"
+    },
+    {
+      "path": "/procedures/2/fees/1",
+      "source_ids": [
+        1
+      ],
+      "status": "supported",
+      "reason": "Homepage specifically displays 10000 rights for foreigner born abroad residing in Côte d’Ivoire, plus general 500 service line. Record deliberately describes rights, NOT a 10000 all-inclusive total and not the main profile.",
+      "checked_at": "2026-11-12T18:11:59.711425+00:00"
+    },
+    {
+      "path": "/procedures/2/uncertainties/0",
+      "source_ids": [
+        4,
+        13
+      ],
+      "status": "supported",
+      "reason": "Casier-central fiche displays 24 h; ministry report of 20 April 2026 states 80% of delivered acts under 72 h. Population/time basis differs; neither guarantees an individual digital-casier deadline.",
+      "checked_at": "2026-11-12T18:11:59.712201+00:00"
+    },
+    {
+      "path": "/procedures/2/uncertainties/1",
+      "source_ids": [
+        1,
+        3
+      ],
+      "status": "supported",
+      "reason": "Profile/jurisdiction must match homepage and form, and payment summary does not establish extra payment costs or a current guaranteed delay. No page-own update date found; no transaction performed.",
+      "checked_at": "2026-11-12T18:11:59.712693+00:00"
+    },
+    {
+      "path": "/procedures/3/administration",
+      "source_ids": [
+        19,
+        23
+      ],
+      "status": "supported",
+      "reason": "Government fiche explicitly says police-controlled issue by SNEDAI, exclusively responsible for edition; official PDF is headed DST/Sous-direction PAF. SNEDAI is an operator, not the police authority.",
+      "checked_at": "2026-11-12T18:11:59.713151+00:00"
+    },
+    {
+      "path": "/procedures/3/conditions/0",
+      "source_ids": [
+        19,
+        20
+      ],
+      "status": "supported",
+      "reason": "Government fiche establishes Ivorian citizenship; operator explicitly labels first-request national-by-origin adults «18 ans et Plus», with valid CNI. This is operational profile scope, not a general civil-majority ruling.",
+      "checked_at": "2026-11-12T18:11:59.713611+00:00"
+    },
+    {
+      "path": "/procedures/3/documents/0",
+      "source_ids": [
+        20,
+        22
+      ],
+      "status": "supported",
+      "reason": "Adult-with-CNI first-request list explicitly includes recent photo, valid CNI copy/original, original birth extract and receipt or emailed documents. Platform FAQ confirms printing appointment/receipt/form for online route.",
+      "checked_at": "2026-11-12T18:11:59.714621+00:00"
+    },
+    {
+      "path": "/procedures/3/documents/1",
+      "source_ids": [
+        20
+      ],
+      "status": "supported",
+      "reason": "Operational first-request adult section expressly asks traders for registry and drivers for work attestation; marriage act is for wives wishing to use spouse surname.",
+      "checked_at": "2026-11-12T18:11:59.714743+00:00"
+    },
+    {
+      "path": "/procedures/3/documents/2",
+      "source_ids": [
+        20,
+        21,
+        23
+      ],
+      "status": "supported",
+      "reason": "FAQ discusses nationality certificate and parent ID; form has matching generic checkboxes. Adult-with-valid-CNI operator list does not enumerate them. Omission is not an explicit waiver: preserve requirement uncertainty without treating every checkbox as cumulative.",
+      "checked_at": "2026-11-12T18:11:59.715152+00:00"
+    },
+    {
+      "path": "/procedures/3/steps/0",
+      "source_ids": [
+        19,
+        22
+      ],
+      "status": "supported",
+      "reason": "Government fiche specifies personal control/biometrics, enrolment receipt and collection; platform describes online account/form/payment/appointment and printing. Merely reporting pathway; no action performed.",
+      "checked_at": "2026-11-12T18:11:59.715287+00:00"
+    },
+    {
+      "path": "/procedures/3/fees/0",
+      "source_ids": [
+        19,
+        20
+      ],
+      "status": "supported",
+      "reason": "Both government fiche and operational page display 40000 FCFA domestic rights. No date-specific current-tariff confirmation or all-inclusive total; no diaspora extrapolation.",
+      "checked_at": "2026-11-12T18:11:59.715430+00:00"
+    },
+    {
+      "path": "/procedures/3/timelines/0",
+      "source_ids": [
+        19,
+        20,
+        22
+      ],
+      "status": "supported",
+      "reason": "All sources tie 72 hours to police validation, not start of request/payment/appointment. This supports a conditional published target, never an individual guaranteed deadline.",
+      "checked_at": "2026-11-12T18:11:59.715625+00:00"
+    },
+    {
+      "path": "/procedures/3/uncertainties/0",
+      "source_ids": [
+        20,
+        21
+      ],
+      "status": "partially_supported",
+      "reason": "Operator provides explicit minor, renewal, acquired-nationality and missing-CNI branches. Domestic-versus-embassy navigation exists, but cited pages do not establish a complete diaspora list. FAQ does not independently prove each named branch. Preserve as scope warning, not a verified exhaustive list.",
+      "checked_at": "2026-11-12T18:11:59.715833+00:00"
+    },
+    {
+      "path": "/procedures/3/uncertainties/1",
+      "source_ids": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "status": "supported",
+      "reason": "Bank lists diverge: government/FAQ BACI+Ecobank versus operational prose also NSIA; collection FAQ says personal-only while platform allows police-approved proxy. Some platform wording is about use not collection: do not manufacture another conflict from that ambiguous sentence.",
+      "checked_at": "2026-11-12T18:11:59.716195+00:00"
+    },
+    {
+      "path": "/procedures/3/uncertainties/2",
+      "source_ids": [
+        24
+      ],
+      "status": "supported",
+      "reason": "Portal body explicitly says diplomatic or service passport; this is valid exclusion evidence for the ordinary-passport workflow.",
+      "checked_at": "2026-11-12T18:11:59.716461+00:00"
+    },
+    {
+      "path": "/procedures/4/administration",
+      "source_ids": [
+        25,
+        26,
+        28,
+        29
+      ],
+      "status": "supported",
+      "reason": "Category-B fiche identifies CGI service; article names DGTTC and operator participants; publication links ministry-hosted CGI/Quipux brochure. Hosting/operator attribution is not independent tariff-making authority.",
+      "checked_at": "2026-11-12T18:11:59.717394+00:00"
+    },
+    {
+      "path": "/procedures/4/conditions/0",
+      "source_ids": [
+        25
+      ],
+      "status": "supported",
+      "reason": "B fiche expressly states 18 and over with successful code/driving examinations and lists medical fitness certificate. Do not generalize age to other categories.",
+      "checked_at": "2026-11-12T18:11:59.717453+00:00"
+    },
+    {
+      "path": "/procedures/4/documents/0",
+      "source_ids": [
+        26
+      ],
+      "status": "supported",
+      "reason": "Brochure initial-registration section explicitly lists original identity used at driving-school enrolment and original school-registration attestation.",
+      "checked_at": "2026-11-12T18:11:59.717931+00:00"
+    },
+    {
+      "path": "/procedures/4/documents/1",
+      "source_ids": [
+        26
+      ],
+      "status": "supported",
+      "reason": "New-permit issue section lists readable identity, theory/practice certificates and registration-attestation copies, originals presented.",
+      "checked_at": "2026-11-12T18:11:59.717991+00:00"
+    },
+    {
+      "path": "/procedures/4/documents/2",
+      "source_ids": [
+        25,
+        26
+      ],
+      "status": "supported",
+      "reason": "B fiche expressly requires medical certificate; brochure new-issue list omits it. Omission is not evidence it is unnecessary. Exact stage/validity not established and remain to confirm.",
+      "checked_at": "2026-11-12T18:11:59.718223+00:00"
+    },
+    {
+      "path": "/procedures/4/steps/0",
+      "source_ids": [
+        25,
+        26
+      ],
+      "status": "partially_supported",
+      "reason": "Registration and post-exam issue are explicit, while school training is inferred from driving-school registration and successful exams rather than a complete staged procedure in these sources. Administrative edition is not the whole driving-school journey.",
+      "checked_at": "2026-11-12T18:11:59.718434+00:00"
+    },
+    {
+      "path": "/procedures/4/fees/0",
+      "source_ids": [
+        25,
+        26
+      ],
+      "status": "supported",
+      "reason": "B fiche shows 23500; brochure category-B row aligns ENREG.16000 / EDITION7500; arithmetic checked:16000+7500=23500. These are documentary administrative components, not a 2026 all-inclusive driving-school price; never add them again to 23500.",
+      "checked_at": "2026-11-12T18:11:59.718640+00:00"
+    },
+    {
+      "path": "/procedures/4/timelines/0",
+      "source_ids": [
+        25
+      ],
+      "status": "supported",
+      "reason": "B fiche says 01 mois minimum under delivery deadline. Published indication only, not verified full journey or guaranteed 2026 time.",
+      "checked_at": "2026-11-12T18:11:59.718794+00:00"
+    },
+    {
+      "path": "/procedures/4/uncertainties/0",
+      "source_ids": [
+        25,
+        26
+      ],
+      "status": "supported",
+      "reason": "Neither B fiche nor brochure proves total tuition, retake/medical fees or full elapsed time. Retain non-confirmation; do not infer zero omitted costs.",
+      "checked_at": "2026-11-12T18:11:59.718999+00:00"
+    },
+    {
+      "path": "/procedures/4/uncertainties/1",
+      "source_ids": [
+        26
+      ],
+      "status": "supported",
+      "reason": "Actual fetched PDF metadata ModDate D:20210729112258Z confirms July 2021 technical modification. Creation date May 2021 also present. Neither is proof of publication date, currency of tariffs or 2026 applicability.",
+      "checked_at": "2026-11-12T18:11:59.719004+00:00"
+    },
+    {
+      "path": "/procedures/4/uncertainties/2",
+      "source_ids": [
+        27
+      ],
+      "status": "supported",
+      "reason": "Format-conversion fiche explicitly targets existing permit holders, distinguishes paper/digital tariffs and one-day target; not first candidature or category-B issue.",
+      "checked_at": "2026-11-12T18:11:59.719193+00:00"
+    }
+  ],
+  "quarantined_fact_paths": [
+    "/procedures/0/uncertainties/0",
+    "/procedures/3/uncertainties/0",
+    "/procedures/4/steps/0"
+  ],
+  "source_metadata_overrides": [
+    {
+      "id": 20,
+      "official_basis": "Opérateur délégué attesté et lié par la fiche gouvernementale [19], et non par e-Justice [1].",
+      "official_basis_source_ids": [
+        19
+      ]
+    },
+    {
+      "id": 21,
+      "official_basis": "FAQ de l’opérateur délégué dont la provenance est attestée par la fiche gouvernementale [19].",
+      "official_basis_source_ids": [
+        19
+      ]
+    }
+  ],
+  "parent_evidence_check": {
+    "literal_excerpts_checked": 101,
+    "exceptions": [],
+    "alternative_live_checks": [
+      {
+        "id": 10,
+        "usable": false,
+        "error": "ConnectTimeout"
+      },
+      {
+        "id": 13,
+        "url": "https://www.justice.ci/digitalisation-du-service-public-de-la-justice-16-nouvelles-juridictions-connectees-a-la-plateforme-e-justice-ci/",
+        "status": 200,
+        "checked_at": "2026-11-12T18:25:20.501964+00:00",
+        "usable": true,
+        "title": [
+          "DIGITALISATION DU SERVICE PUBLIC DE LA JUSTICE /16 NOUVEllES JURIDICTIONS CONNECTÉES À LA PLATEFORME e-Justice.ci &#8211; MINISTERE DE LA JUSTICE ET DES DROITS DE L&#039;HOMME"
+        ],
+        "snedai_links": []
+      },
+      {
+        "id": 19,
+        "usable": false,
+        "error": "ConnectTimeout"
+      }
+    ]
+  },
+  "provenance": {
+    "links_sha256": "e23a483050bec11a20ba04cc32cf00c8638f980f174b1b575c4675e800c5efb6",
+    "claims_sha256": "7ea38f14c0bef8d04997888dcce0f85992505e2cddc6a8e2c09d738bd58cbca9"
+  }
+}

@@ -1,0 +1,40 @@
+/* Scoped addition only: the public interface stylesheet stays authoritative. */
+.private-card { background: var(--white); border: 1px solid var(--line); border-radius: 20px; padding: 20px 24px; margin: 0 0 24px; color: var(--ink); min-width: 0; overflow-wrap: anywhere; }
+.private-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; min-width: 0; }
+.private-row > * { min-width: 0; }
+.private-row > input { flex: 1 1 210px; }
+.private-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.private-card button { max-width: 100%; white-space: normal; }
+.private-card h2 { margin-top: 24px; font-size: 24px; }
+.private-card h3 { font-size: 17px; margin: 14px 0 8px; }
+.private-card details { margin: 16px 0; font-size: 12px; color: var(--secondary); }
+.private-card summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; text-decoration: underline; }
+.private-card code { display: block; white-space: normal; overflow-wrap: anywhere; padding: 12px; border-radius: 10px; background: var(--paper); }
+.private-note, .private-source { color: var(--muted); font-size: 12px; line-height: 1.7; }
+.private-lock { padding: 12px 16px; border-radius: 12px; background: var(--soft); color: var(--navy); font-size: 12px; }
+.private-simulation { display: flex; align-items: center; gap: 10px; min-height: 44px; margin: 8px 0 0; }
+.private-log { max-height: 620px; overflow-y: auto; overscroll-behavior: contain; margin-top: 18px; }
+.private-bubble { border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-bottom: 12px; background: var(--paper); }
+.private-badge { display: inline-block; font-size: 11px; color: var(--navy); background: var(--soft); border-radius: 20px; padding: 4px 10px; margin-bottom: 12px; }
+.private-copy { white-space: pre-wrap; }
+.private-source { margin: 10px 0; }
+.private-source a { overflow-wrap: anywhere; }
+.private-result { padding: 12px; border: 1px solid var(--line); border-radius: 12px; margin: 12px 0; background: var(--white); }
+.private-result button { margin: 4px 8px 4px 0; }
+.private-composer { border-top: 1px solid var(--line); padding-top: 16px; margin-top: 12px; }
+.private-public-label { font-size: 12px; font-weight: 600; color: var(--muted); margin: 0 0 16px; }
+#private-status { color: var(--secondary); margin: 14px 0; }
+.private-real-summary { font-variant-numeric: tabular-nums; }
+.private-real-summary p { margin: 4px 0 12px; }
+#private-local-continue { min-height: 44px; margin-bottom: 8px; }
+#private-local-continue[hidden] { display: none; }
+#private-status:empty { display: none; }
+@media (max-width: 480px) {
+  .private-card { padding: 16px; border-radius: 16px; }
+  .private-card > .private-row { align-items: flex-start; }
+  .private-composer .private-row { flex-direction: column; align-items: stretch; }
+  .private-composer .private-row > input { flex: auto; }
+  .private-actions button { flex: 1 1 120px; }
+  .private-bubble { padding: 12px; }
+  .private-log { max-height: 65vh; }
+}

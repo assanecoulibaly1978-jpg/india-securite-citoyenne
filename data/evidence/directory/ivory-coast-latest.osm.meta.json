@@ -1,0 +1,21 @@
+{
+  "url": "https://download.geofabrik.de/africa/ivory-coast-latest.osm.pbf",
+  "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 10 Nov 2026 07:41:01 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Tue, 10 Nov 2026 07:30:38 GMT",
+    "ETag": "\"51acd44-65fe70e11fea7\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "85642564",
+    "Cache-Control": "max-age=63072000, public",
+    "Content-Type": "application/octet-stream",
+    "Age": "15237",
+    "Cache-Status": "download-proxy11;hit;detail=match",
+    "Via": "1.1 download-proxy11 (squid/6.14)",
+    "Connection": "keep-alive"
+  },
+  "sha256": "e080916925c31f5fcb46ca7f15c78707dcfb632bb31cd074139fe69552f5fe26",
+  "bytes": 85642564
+}

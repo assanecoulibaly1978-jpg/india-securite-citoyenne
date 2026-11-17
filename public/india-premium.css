@@ -1,0 +1,460 @@
+/* INDIA premium presentation. Load last, after interface/private/identity.
+   The existing danger/warning variables and all business controls stay intact. */
+body.india-app {
+  --india-navy: #06153f;
+  --india-red: #f31b0c;
+  --india-border: #e6ebf3;
+  --india-muted: #52617b;
+  --india-nav-height: 88px;
+  --navy: var(--india-navy);
+  --green: var(--india-navy);
+  --ink: var(--india-navy);
+  --paper: #f8f9fc;
+  --soft: #edf1f8;
+  --line: var(--india-border);
+  margin: 0;
+  min-width: 0;
+  min-height: 100dvh;
+  color: var(--india-navy);
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(180deg, #fff 0%, #fff 55%, #f8f9fc 100%);
+  background-attachment: fixed;
+}
+
+/* Header stays white at every width; Urgence is a deliberate safety exception
+   to the approved three-action header, never hidden for cosmetic symmetry. */
+body.india-app .header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: #fff;
+  border: 0;
+}
+body.india-app .india-header-inner {
+  max-width: 1450px;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+body.india-app .india-header-inner .icon-button {
+  flex: 0 0 48px;
+  width: 48px;
+  min-height: 48px;
+  padding: 8px;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  color: var(--india-navy);
+}
+body.india-app .india-header-inner .icon-button > svg { width: 32px; height: 32px; }
+body.india-app .india-brand {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 58px;
+  flex-shrink: 0;
+  color: var(--india-navy);
+  text-decoration: none;
+  font: 800 58px/.95 'Archivo', Arial, sans-serif;
+  letter-spacing: -2px;
+}
+body.india-app .india-brand-underline {
+  position: absolute;
+  left: 25%;
+  bottom: -13px;
+  width: 77%;
+  height: 20px;
+  color: var(--india-red);
+  fill: currentColor;
+  pointer-events: none;
+  overflow: visible;
+}
+body.india-app .india-brand-tagline {
+  padding-left: 24px;
+  border-left: 1px solid #c5cedd;
+  color: var(--india-navy);
+  font-size: clamp(20px, 2.2vw, 32px);
+  line-height: 1.25;
+  letter-spacing: -.8px;
+}
+body.india-app .india-header-actions { display: flex; align-items: center; gap: 18px; margin-left: auto; }
+body.india-app #india-quick-help {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex-shrink: 0;
+  min-height: 44px;
+  border: 1px solid var(--india-red);
+  border-radius: 999px;
+  background: #d92316;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+body.india-app #india-quick-help svg { width: 20px; height: 20px; }
+body.india-app #india-quick-help:hover { background: #c4160a; border-color: #c4160a; }
+body.india-app #india-notices { position: relative; }
+/* A static brand dot, not a notification count. */
+body.india-app #india-notices::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--india-red);
+  border: 2px solid #fff;
+}
+body.india-app #india-account {
+  color: #fff;
+  background: var(--india-navy);
+  box-shadow: 0 3px 8px #06153f15;
+}
+body.india-app .shell {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 30px calc(var(--india-nav-height) + 32px + env(safe-area-inset-bottom));
+}
+body.india-app .india-home-screen { padding: 0 0 24px; }
+body.india-app .india-hero { text-align: center; padding: 6px 0 0; background: transparent; }
+body.india-app .india-hero-mascot,
+body.india-app .india-avatar,
+body.india-app .india-portrait {
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  mask: none;
+  -webkit-mask: none;
+  box-shadow: none;
+  filter: none;
+  clip-path: none;
+}
+body.india-app .india-hero-mascot {
+  width: 287px;
+  height: 250px;
+  max-width: 100%;
+  margin: 0 auto 6px;
+}
+body.india-app .india-hero-title {
+  max-width: none;
+  margin: 0;
+  color: var(--india-navy);
+  font-family: 'Archivo', Arial, sans-serif;
+  font-size: clamp(52px, 4.8vw, 64px);
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -1.8px;
+}
+body.india-app .india-wordmark { position: relative; display: inline-block; font-weight: 800; }
+body.india-app .india-wordmark .india-brand-underline { bottom: -12px; height: 19px; }
+body.india-app .india-hero-subtitle {
+  margin: 16px 0 28px;
+  color: var(--india-navy);
+  font-size: clamp(28px, 2.7vw, 36px);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -.9px;
+}
+body.india-app .india-question-form {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 85%;
+  max-width: 1100px;
+  min-height: 78px;
+  margin: 0 auto;
+  padding: 7px 16px 7px 30px;
+  background: #fff;
+  border: 1px solid #dfe6f1;
+  border-radius: 999px;
+  box-shadow: 0 10px 18px #102e5312, 0 1px 2px #102e5308;
+}
+body.india-app .india-question-form > svg { flex: 0 0 38px; width: 38px; height: 38px; color: var(--india-navy); }
+body.india-app #india-home-input {
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+  min-height: 52px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  padding: 8px 0;
+  color: var(--india-navy);
+  font-size: clamp(19px, 2vw, 27px);
+  line-height: 1.4;
+}
+body.india-app #india-home-input::placeholder { color: var(--india-muted); opacity: 1; }
+body.india-app .india-send {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 60px;
+  width: 60px;
+  min-height: 60px;
+  border: 0;
+  border-radius: 50%;
+  padding: 14px;
+  background: var(--india-navy);
+  color: #fff;
+}
+body.india-app .india-send svg { width: 30px; height: 30px; }
+body.india-app .india-mode-hint { text-align: center; margin: 10px auto 24px; color: var(--india-muted); font-size: 11px; line-height: 1.5; }
+body.india-app .india-service-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto 26px;
+}
+body.india-app .india-service-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 0;
+  min-height: 144px;
+  padding: 18px 8px 20px;
+  color: var(--india-navy);
+  background: linear-gradient(165deg, #fff 25%, #f8fafe);
+  border: 1px solid var(--india-border);
+  border-radius: 26px;
+  box-shadow: 0 9px 14px #102e5310, 0 1px 2px #102e5308;
+  font-family: 'Archivo', Arial, sans-serif;
+  font-size: clamp(16px, 1.55vw, 21px);
+  font-weight: 600;
+  line-height: 1.12;
+  text-align: center;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+body.india-app .india-service-card > svg { flex: 0 0 48px; width: 48px; height: 48px; }
+body.india-app .india-service-card > span { max-width: 100%; overflow-wrap: break-word; }
+body.india-app .india-service-card:hover { border-color: #a9b7ce; box-shadow: 0 10px 20px #102e531a; }
+body.india-app .india-service-urgent > svg { color: var(--india-red); }
+body.india-app .india-service-urgent::after {
+  content: '';
+  position: absolute;
+  left: 32%;
+  right: 32%;
+  bottom: 0;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--india-red);
+}
+body.india-app .india-navigation {
+  position: fixed;
+  z-index: 40;
+  inset: auto 0 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 28px;
+  min-height: var(--india-nav-height);
+  padding: 7px max(28px, calc((100vw - 1350px) / 2)) calc(7px + env(safe-area-inset-bottom));
+  background: #fff;
+  border-top: 1px solid #edf0f6;
+  box-shadow: 0 -3px 16px #06153f03;
+}
+body.india-app .india-navigation button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  min-height: 74px;
+  padding: 6px 8px;
+  border: 0;
+  border-radius: 26px;
+  background: transparent;
+  color: var(--india-navy);
+  font-family: 'Archivo', Arial, sans-serif;
+  font-size: clamp(16px, 1.7vw, 22px);
+  font-weight: 500;
+  line-height: 1.15;
+}
+body.india-app .india-navigation button > svg { width: 32px; height: 32px; flex-shrink: 0; }
+body.india-app .india-navigation button.active,
+body.india-app .india-navigation button[aria-current="page"] {
+  background: var(--india-navy);
+  color: #fff;
+  box-shadow: 0 4px 10px #06153f18;
+}
+body.india-app .india-navigation button:hover:not(.active):not([aria-current="page"]) { background: #edf1f8; }
+
+/* Hidden is owned by navigation logic, never by a decorative layout rule. */
+body.india-app [hidden] { display: none !important; }
+body.india-app .india-legacy-tabs { display: none !important; }
+body.india-app .india-screen { min-width: 0; }
+body.india-app .emergency { margin-left: 0; margin-right: 0; min-width: 0; }
+body.india-app[data-view="accueil"] .connection-line,
+body.india-app[data-view="accueil"] .footer { display: none; }
+body.india-app .india-independent { text-align: center; color: var(--india-muted); font-size: 12px; line-height: 1.6; }
+body.india-app .india-service-toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 24px; }
+body.india-app .india-service-toolbar button { min-height: 44px; }
+body.india-app .india-portrait { width: 56px; height: 49px; flex-basis: 56px; }
+body.india-app .emergency,
+body.india-app .search-panel,
+body.india-app .private-card,
+body.india-app .india-panel { scroll-margin-top: 112px; }
+body.india-app .india-mode-hint { font-size: 12px; }
+body.india-app .india-screen:not(.india-home-screen) { padding-top: 26px; }
+body.india-app .india-page-heading { margin: 0 0 24px; color: var(--india-navy); font: 700 32px/1.2 'Archivo', Arial, sans-serif; letter-spacing: -.7px; }
+body.india-app .india-page-heading h1,
+body.india-app .india-page-heading h2 { max-width: none; margin: 0 0 12px; font-size: 32px; }
+body.india-app .india-page-heading p { font: 400 14px/1.6 'Inter', Arial, sans-serif; letter-spacing: 0; color: var(--india-muted); }
+/* The original search form lives inside directory now. Explicit visibility
+   defeats the legacy shell :has() layout without exposing hidden screens. */
+body.india-app .shell #directory:not([hidden]) .search-panel { display: block; }
+body.india-app .india-welcome { background: transparent; }
+body.india-app .india-welcome-assistant { background: transparent; border: 0; border-radius: 0; box-shadow: none; padding: 0; }
+body.india-app .india-history-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+body.india-app .india-panel {
+  min-width: 0;
+  padding: 26px;
+  margin-bottom: 22px;
+  border: 1px solid var(--india-border);
+  border-radius: 22px;
+  background: #fff;
+  color: var(--india-navy);
+  box-shadow: 0 5px 20px #06153f06;
+  overflow-wrap: anywhere;
+}
+body.india-app .india-panel h2 { font-size: 24px; }
+body.india-app .india-panel p { color: var(--india-muted); }
+body.india-app .india-panel p:last-child { margin-bottom: 0; }
+body.india-app .india-panel button { min-height: 44px; max-width: 100%; white-space: normal; }
+body.india-app .india-menu-panel {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% - 4px);
+  left: max(16px, calc((100% - 1390px) / 2));
+  width: min(330px, calc(100vw - 32px));
+  padding: 12px;
+  border: 1px solid var(--india-border);
+  border-radius: 18px;
+  background: #fff;
+  color: var(--india-navy);
+  box-shadow: 0 12px 36px #06153f20;
+  overflow-wrap: anywhere;
+}
+body.india-app .india-menu-panel button,
+body.india-app .india-menu-panel a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--india-navy);
+  font: 500 14px/1.4 'Inter', Arial, sans-serif;
+  text-align: left;
+}
+body.india-app .india-menu-panel button:hover,
+body.india-app .india-menu-panel a:hover { background: var(--soft); }
+body.india-app button:focus-visible,
+body.india-app a:focus-visible,
+body.india-app input:focus-visible,
+body.india-app select:focus-visible,
+body.india-app summary:focus-visible { outline: 3px solid #996000; outline-offset: 4px; }
+
+@media (min-width: 1001px) and (max-height: 900px) {
+  body.india-app .india-hero-mascot { width: 252px; height: 220px; }
+}
+
+@media (max-width: 1000px) {
+  body.india-app .india-header-inner { min-height: 88px; padding: 14px 22px; gap: 22px; }
+  body.india-app .india-brand { font-size: 48px; min-height: 50px; }
+  body.india-app .india-brand-tagline { display: none; }
+  body.india-app .india-hero-mascot { width: 207px; height: 180px; }
+  body.india-app .india-hero-title { font-size: 46px; }
+  body.india-app .india-hero-subtitle { font-size: 27px; margin: 16px 0 26px; }
+  body.india-app .india-question-form { width: 94%; }
+  body.india-app .india-service-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  body.india-app .india-service-card { min-height: 122px; font-size: 19px; padding: 14px 10px; gap: 10px; }
+  body.india-app .india-service-card > svg { width: 42px; height: 42px; flex-basis: 42px; }
+  body.india-app .india-navigation { gap: 14px; padding-left: 20px; padding-right: 20px; }
+  body.india-app .india-navigation button { font-size: 17px; border-radius: 22px; }
+}
+
+@media (max-width: 600px) {
+  body.india-app { --india-nav-height: 74px; background-attachment: scroll; }
+  body.india-app .india-header-inner { min-height: 76px; padding: 12px; gap: 8px; }
+  body.india-app .india-header-inner .icon-button {
+    flex: 0 0 44px;
+    width: 44px;
+    min-height: 44px;
+    padding: 8px;
+  }
+  body.india-app .india-header-inner .icon-button > svg { width: 27px; height: 27px; }
+  body.india-app .india-brand { font-size: 32px; min-height: 44px; letter-spacing: -1.2px; }
+  body.india-app .india-brand .india-brand-underline { height: 12px; bottom: -1px; }
+  body.india-app .india-header-actions { gap: 3px; }
+  body.india-app #india-quick-help { padding: 8px 10px; font-size: 11px; gap: 4px; }
+  body.india-app #india-quick-help svg { width: 16px; height: 16px; }
+  body.india-app .shell {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: calc(var(--india-nav-height) + 24px + env(safe-area-inset-bottom));
+  }
+  body.india-app .india-home-screen { padding-top: 8px; padding-bottom: 0; }
+  body.india-app .india-hero { padding: 0; }
+  body.india-app .india-hero-mascot { width: 138px; height: 120px; margin-bottom: 8px; }
+  body.india-app .india-hero-title { font-size: clamp(26px, 7.5vw, 32px); letter-spacing: -.9px; line-height: 1.2; }
+  body.india-app .india-wordmark .india-brand-underline { height: 12px; bottom: -8px; }
+  body.india-app .india-hero-subtitle { font-size: clamp(17px, 4.8vw, 20px); line-height: 1.35; letter-spacing: -.4px; margin: 16px 0 22px; }
+  body.india-app .india-question-form { width: 100%; min-height: 56px; padding: 5px 6px 5px 14px; gap: 9px; }
+  body.india-app .india-question-form > svg { width: 25px; height: 25px; flex-basis: 25px; }
+  body.india-app #india-home-input { min-height: 44px; font-size: 16px; }
+  body.india-app .india-send { width: 44px; min-height: 44px; flex-basis: 44px; padding: 10px; }
+  body.india-app .india-send svg { width: 24px; height: 24px; }
+  body.india-app .india-mode-hint { font-size: 12px; margin: 10px auto 18px; max-width: 34em; }
+  body.india-app .india-service-grid { gap: 10px; margin-bottom: 20px; }
+  body.india-app .india-service-card { min-height: 108px; gap: 8px; padding: 12px 5px 14px; border-radius: 18px; font-size: clamp(12px, 3.35vw, 15px); line-height: 1.18; }
+  body.india-app .india-service-card > svg { width: 32px; height: 32px; flex-basis: 32px; }
+  body.india-app .india-service-urgent::after { height: 4px; }
+  body.india-app .india-navigation { gap: 4px; min-height: 74px; padding: 7px 8px calc(7px + env(safe-area-inset-bottom)); }
+  body.india-app .india-navigation button { min-height: 58px; padding: 6px 1px; font-size: clamp(10px, 2.8vw, 12px); border-radius: 17px; gap: 4px; }
+  body.india-app .india-navigation button > svg { width: 25px; height: 25px; }
+  body.india-app .india-navigation button > span { white-space: nowrap; }
+  body.india-app .india-history-cards { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  body.india-app .india-panel { padding: 20px; border-radius: 18px; }
+  body.india-app .india-page-heading { font-size: 27px; }
+  body.india-app .india-page-heading h1,
+  body.india-app .india-page-heading h2 { font-size: 27px; }
+}
+
+@media (max-width: 360px) {
+  body.india-app .india-header-inner { padding-left: 6px; padding-right: 6px; gap: 2px; }
+  body.india-app .india-brand { font-size: 28px; }
+  body.india-app .india-header-actions { gap: 0; }
+  body.india-app #india-quick-help { padding-left: 8px; padding-right: 8px; font-size: 10px; }
+  body.india-app .shell { padding-left: 12px; padding-right: 12px; }
+  body.india-app .india-service-grid { gap: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.india-app { background-attachment: scroll; }
+  body.india-app *,
+  body.india-app *::before,
+  body.india-app *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

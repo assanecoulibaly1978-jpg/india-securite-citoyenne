@@ -1,0 +1,5 @@
+# Collecteurs uniquement. L’application Node n’a aucune dépendance npm.
+pypdf==6.21.4
+beautifulsoup4==4.15.0
+shapely==2.0.7
+osmium==4.3.2

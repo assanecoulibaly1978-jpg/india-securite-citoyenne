@@ -1,0 +1,499 @@
+<html lang="fr_CI"><head>
+<meta charset="UTF-8">
+<meta name="revisit-after" content="1 days"> 
+<meta name="language" content="fr"> 
+<meta name="robots" content="all"> 
+<meta name="rating" content="general">
+<link rel="icon" type="image/png" href="images/logo_fav.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">        
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=1,minimal-ui">
+
+<!-- Meta Google -->
+<meta name="description" content="Union Nationale des Pharmaciens Privés de Cote d'ivoire">
+<meta name="keywords" content="Pharmacie">
+<meta name="author" content="UNPPCI">
+<meta name="copyright" content="©2015 - UNPPCI">
+<meta name="application-name" content="">
+
+<!-- Meta FB -->
+<meta property="fb:app_id" content="">
+<meta property="og:title" content="UNPPCI">
+<meta property="og:type" content="article">
+<meta property="og:image" content="?images/logo_fb.png">
+<meta property="og:site_name" content="UNPPCI">
+<meta property="og:description" content="Union Nationale des Pharmaciens Privés de Cote d'ivoire">
+<meta property="og:url" content="??p=articles&amp;id=303">
+
+<!-- Meta TW -->
+<meta name="twitter:card" content="article">
+<meta name="twitter:title" content="UNPPCI">
+<meta name="twitter:description" content="Union Nationale des Pharmaciens Privés de Cote d'ivoire">
+<meta name="twitter:image" content="?images/logo_fb.png">
+
+<title>🐴 UNPPCI - Union Nationale des Pharmaciens Privés de Cote d'ivoire</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/style_mobile.css" type="text/css">
+<link rel="stylesheet" href="swiper/swiper.css" type="text/css">
+<style type="text/css">
+	.swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+	}
+</style>
+<script src="js/jquery.js"></script>
+<script src="js/calque.js"></script>
+<script src="js/calendar.js"></script>
+<script src="js/control.js"></script>
+<script src="swiper/swiper.min.js"></script>
+</head>
+<body onkeydown="getKeyCode(event.keyCode);">
+	<iframe src="about:blank" style="width:0px;height:0px;display:none;" id="ipost" name="ipost"></iframe>
+	<div id="notifTrans"></div>
+	<div class="notif" onclick="closeC('notif');" id="notif"></div>
+	<div id="boxTransFolder" onclick="closeBoxForm();"></div>
+	<div id="boxTransChild">
+		<a href="javascript:;" onclick="closeBoxForm();" style="position:absolute;right:10px;top:10px;">
+			<span class="boxTransCloseGris"></span>
+		</a>
+		<div id="boxTransChildIn">
+			<div id="boxTransTitle"></div>
+			<div id="boxTransData"></div>
+		</div>
+	</div>
+
+	<div id="mainPanel">
+
+		<div id="topMobile">
+			<nav id="menuMobile">
+				<ul>
+					<li>
+						<a href="javascript:;" onclick="$('#menuHeadTopFolder').slideToggle(300);$('#qSearchMobileBlock').slideUp(300);" id="session_menu">
+							<span class="ico_mobile_menu"></span>
+						</a>
+					</li>
+				</ul>
+				<ul style="float:right;">
+					<li>
+						<a href="javascript:;" onclick="$('#qSearchMobileBlock').slideToggle(300);$('#menuHeadTopFolder').slideUp(300);focusC('qSearchMobile')">
+							<span class="ico_mobile_search"></span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="qSearchMobileBlock">
+				<form method="GET" action="javascript:if(!getValue('qSearchMobile')){setNotif(2,'Taper un mot clé',2000);}else{document.location='?q='+getValue('qSearchMobile')}">
+					<input type="search" name="q" id="qSearchMobile" placeholder="Rechercher" value="">
+				</form>
+			</div>
+		</div>
+
+		<div id="menuBarLogo">
+			<div class="blockSiteCenter">
+				<div id="menuLogo">
+					<div class="menuLogoItem logoPosition">
+						<a href="?">
+							<img src="images/logo.png">
+							<span class="logoTxt">Union Nationale des Pharmaciens Privés de Cote d'ivoire</span>
+						</a>
+					</div>
+					
+					<div class="menuLogoItem toRight" id="box_card">
+
+						<div class="menuLogoRightItem">
+						<form method="GET" action="javascript:if(!getValue('qSearch')){setNotif(2,'Taper un mot clé',2000);}else{document.location='?q='+getValue('qSearch')}">
+								<input type="search" id="qSearch" style="width:300px;background:#fff;border-radius:15px;height:30px;background:#fff url(images/ico_search_site.png) no-repeat right;background-position:95%;padding:0 30px 0 10px;border:0;" placeholder="Rechercher" value="">
+							</form>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="menuHeadTopFolder">
+			<nav id="menuHeadTop">
+				<ul>
+					<li>
+						<a href="?">
+							Accueil
+						</a>
+					</li>
+				</ul>
+				<ul><li><a href="?p=articles&amp;cat=1">Actualités</a><span class="btnMenuDrop"><a href="javascript:;" onclick="catDrop('1')" id="btnCat1">+</a></span><ul class="rubberBand" id="mn1"><li><a href="?p=articles&amp;cat=8">Info UNPPCI</a></li></ul></li><li><a href="?p=articles&amp;cat=2">L'Union</a></li><li><a href="?p=articles&amp;cat=3">Travaux</a></li><li><a href="?p=articles&amp;cat=4">Communiqués</a></li><li><a href="?p=articles&amp;cat=5">Motion</a></li><li><a href="?p=articles&amp;cat=6">Agenda</a></li></ul>                <ul>
+					<li>
+						<a href="?p=contacts">
+							Contacts
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+        <div class="blockSite100" style="margin:20px 0 0 0;">
+			<div class="blockSiteSim">
+
+                                    <div class="flexHome">
+
+                        <div class="flexHomeBody">
+
+                            <div id="flash">
+                                <marquee onmouseover="this.stop()" onmouseout="this.start()"><a href="https://unppci.org/uploads/f969.pdf" target="">VOEUX DE NOUVEL AN</a> | <a href="https://unppci.org/uploads/f965.pdf" target="">OFFICINE EXPO 2026</a> | <a href="https://unppci.org/uploads/f853.pdf" target="">DEPOT DES TRONCS DANS LES OFFICINES</a> | <a href="https://unppci.org/uploads/f856.pdf" target="">COLLECTE DE FONDS</a> | INFO FLAH UNPPCI</marquee>
+                            </div>
+
+                            <div class="blockSitePad">
+            <article>
+            <h1>
+                TOUR DE GARDE DU MOIS DE NOVEMBRE 2026            </h1>
+            <p class="gris14">
+                04/11/2026 10:17 |  Lu 785 fois | Actualités, Info UNPPCI, Communiqués            </p>
+                            <img src="uploads/f747.jpg" class="articleIllus"><font face="Open Sans, Segoe UI" style="font-size: 16px; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;"><span style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-size: 14px;"><b style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;">Veuillez télécharger ci-dessous Les pharmacies de garde du mois </b></span></font><font color="#cc0000" style="font-family: &quot;Open Sans&quot;; font-size: 16px; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;"><font face="Open Sans, Segoe UI" style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;"><b style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-size: 14px;">de Novembre </b><b style="--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-size: 14px;">2026.</b></font></font>
+                                
+                                    <div class="blockSite100 docsLinks">
+                        <div class="blockSite100" style="line-height:30px;margin:0 0 10px;">
+                            <span class="ico_dwl_noir"></span><b>Télécharger</b>
+                        </div>
+                                                    <a href="javascript:;" onclick="window.open('controllers/downloads.php?id=994','ipost')" target="">
+                                GARDE INTERIEUR NOVEMBRE 2026                            </a>
+                                                    <a href="javascript:;" onclick="window.open('controllers/downloads.php?id=995','ipost')" target="">
+                                GARDE NOVEMBRE 2026                            </a>
+                                            </div>
+                
+                </article>
+        
+    </div>
+
+                        </div>
+
+                        <div class="flexHomeRight">
+                            <div class="rightMenuItem">
+                                <div class="rightMenuTitle">
+                                    <div>Agenda</div>
+                                </div>
+                                <div class="rightMenuData">
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">30 jan. 08:00</div>
+                                                <div class="agendaTitre">OFFICINE EXPO 2026</div>
+                                                <div class="agendaLieu">Centre de Conférences Palmeraie Palace à Marrakech au Maroc.</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">25 sept. 00:00</div>
+                                                <div class="agendaTitre">JOURNEE MONDIALE DES PHARMACIENS</div>
+                                                <div class="agendaLieu">COTE D'IVOIRE</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">03 juil. 08:00</div>
+                                                <div class="agendaTitre">JOURNEE DE L'ORDRE NATIONAL DES PHARMACIENS DE CÔTE D'IVOIRE</div>
+                                                <div class="agendaLieu">RADISSON BLU HOTEL ABIDJAN AIRPORT</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">30 avril. 08:00</div>
+                                                <div class="agendaTitre">24e EDITION DU FORUM PHARMACEUTIQUE INTERNATIONAL DE TUNIS</div>
+                                                <div class="agendaLieu">TUNIS</div>
+                                                <div class="agendaCom">https://www.fpitunis2025.com/inscription/step1</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">22 nov. 09:00</div>
+                                                <div class="agendaTitre">CONVOCATION-ASSEMBLEE GENERALE ORDINAIRE DE L'UNPPCI</div>
+                                                <div class="agendaLieu">A la Maison Du Pharmacien</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">24 sept. 09:00</div>
+                                                <div class="agendaTitre">GIEPHARM: ASSEMBLEE GENERALE ORDINAIRE</div>
+                                                <div class="agendaLieu">A la Maison Du Pharmacien</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">03 juil. 08:00</div>
+                                                <div class="agendaTitre">FORUM PHARMACEUTIQUE INTERNATIONAL 2024</div>
+                                                <div class="agendaLieu">Lomé TOGO</div>
+                                                <div class="agendaCom">https://fpilome2024.com/inscription/</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">23 nov. 08:00</div>
+                                                <div class="agendaTitre">JNPPME 2023</div>
+                                                <div class="agendaLieu">IVOIRE GOLF CLUB</div>
+                                                <div class="agendaCom">THEME: La franchise comme modèle de développement les PME pour le commerce international.</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">05 oct. 08:00</div>
+                                                <div class="agendaTitre">JONPCI 2023</div>
+                                                <div class="agendaLieu">PALAIS DE LA CULTURE ABIDJAN</div>
+                                                <div class="agendaCom">Journée de l'Ordre National des Pharmaciens de CI 2023</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">06 oct. 08:00</div>
+                                                <div class="agendaTitre">JONPCI 2022</div>
+                                                <div class="agendaLieu">Radisson Hôtel Abidjan</div>
+                                                <div class="agendaCom">Journée de l'Ordre National des Pharmaciens de CI 2022</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">13 oct. 08:00</div>
+                                                <div class="agendaTitre">21ème EDITION FORUM PHARMACEUTIQUE INTERNATIONAL</div>
+                                                <div class="agendaLieu">Hôtel Sofitel Ivoire (ABIDJAN)</div>
+                                                <div class="agendaCom">FPI ABIDJAN 2021</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">20 mai. 08:00</div>
+                                                <div class="agendaTitre">JONPCI 2021</div>
+                                                <div class="agendaLieu">HOTEL PRESIDENT YAMOUSSOUKRO</div>
+                                                <div class="agendaCom">Journée de l'Ordre National Pharmaceutique de Cote d'Ivoire (JONPCI) 2021</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">14 mars. 00:00</div>
+                                                <div class="agendaTitre">PHARMAGORA PLUS 2020,</div>
+                                                <div class="agendaLieu">PARIS PORTE DE VERSAILLLES</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">14 mars. 00:00</div>
+                                                <div class="agendaTitre">PHARMAGORA PLUS 2020,</div>
+                                                <div class="agendaLieu">PARIS PORTE DE VERSAILLLES</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">14 mars. 00:00</div>
+                                                <div class="agendaTitre">PHARMAGORA PLUS 2020,</div>
+                                                <div class="agendaLieu">PARIS PORTE DE VERSAILLLES</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">27 fev. 00:00</div>
+                                                <div class="agendaTitre">OFFICINE EXPO MARRAKECH 2020</div>
+                                                <div class="agendaLieu">PALAIS DES CONGRES MANSOUR  EDDAHBI</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">27 fev. 00:00</div>
+                                                <div class="agendaTitre">OFFICINE EXPO MARRAKECH 2020</div>
+                                                <div class="agendaLieu">PALAIS DES CONGRES MANSOUR  EDDAHBI</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">17 fev. 00:00</div>
+                                                <div class="agendaTitre">3ème EDITION DE AFRICA SANTE EXPO</div>
+                                                <div class="agendaLieu">SOFITEL HOTEL IVOIRE D'ABIDJAN</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">28 jan. 08:30</div>
+                                                <div class="agendaTitre">1er CONGRES DE L'UNPPCI</div>
+                                                <div class="agendaLieu">Eden Golf Club de Cocody Riviera</div>
+                                                <div class="agendaCom">Thème: L'UNPPCI face aux nouveaux défis de la profession pharmaceutique: CMU, GIEPHARM et CONFRATERNITE</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">28 jan. 00:00</div>
+                                                <div class="agendaTitre">18ème CONGRES DE LA SOCIÉTÉ FRANÇAISE DE PHARMACIE CLINIQUE</div>
+                                                <div class="agendaLieu">MARSEILLE (FRANCE)</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">18 jan. 00:00</div>
+                                                <div class="agendaTitre">INTRONISATION DU CONFRÈRE EHORA TEORA, ROI DU MORONOU</div>
+                                                <div class="agendaLieu">MORONOU</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">21 dec. 15:30</div>
+                                                <div class="agendaTitre">Agenda 2019</div>
+                                                <div class="agendaLieu">Yop</div>
+                                                <div class="agendaCom">Cache</div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">20 dec. 00:00</div>
+                                                <div class="agendaTitre">Magazine No 2019</div>
+                                                <div class="agendaLieu">Obam's</div>
+                                                <div class="agendaCom"></div>
+                                            </div>
+                                                                                <div class="agendaItem">
+                                                <div class="agendaDate0">12 dec. 00:00</div>
+                                                <div class="agendaTitre">L'agent de la toxoplasmose, Toxoplasma gondii, est une exception</div>
+                                                <div class="agendaLieu">Obam's</div>
+                                                <div class="agendaCom">L'agent de la toxoplasmose, Toxoplasma gondii, est une exception</div>
+                                            </div>
+                                                                    </div>
+                            </div>
+
+                            <div class="rightMenuItem">
+                                <div class="rightMenuTitle">
+                                    <div>L'UNPPCI / Région</div>
+                                </div>
+                                <div class="rightMenuData">
+                                    <a href="?p=carto">
+                                        <div id="carto">
+                                            <img src="images/carto.png">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="rightMenuItem">
+                                <div class="rightMenuTitle">
+                                    <div>Plus lus</div>
+                                </div>
+                                <div class="rightMenuData">
+                                    <div id="plusLus">
+                                                                                        <div class="plusLusItem">
+                                                    <a href="?p=articles&amp;id=99">
+                                                        Tours de garde du mois de Mars 2019                                                        <br>
+                                                        <span class="gris13">
+                                                            27/02/2019 11:29, lu 15266 fois
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                                                        <div class="plusLusItem">
+                                                    <a href="?p=articles&amp;id=46">
+                                                        Tours de garde,  Septembre 2017                                                        <br>
+                                                        <span class="gris13">
+                                                            31/08/2017 22:08, lu 13621 fois
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                                                        <div class="plusLusItem">
+                                                    <a href="?p=articles&amp;id=43">
+                                                        Tours de garde du mois d'Août 2017                                                        <br>
+                                                        <span class="gris13">
+                                                            31/07/2017 08:49, lu 13495 fois
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                                                        <div class="plusLusItem">
+                                                    <a href="?p=articles&amp;id=28">
+                                                        Inscription au forum pharmaceutique international Algérie 2017                                                        <br>
+                                                        <span class="gris13">
+                                                            17/03/2017 15:03, lu 13231 fois
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                                                        <div class="plusLusItem">
+                                                    <a href="?p=articles&amp;id=70">
+                                                        Tours de garde du mois de Juin 2018                                                        <br>
+                                                        <span class="gris13">
+                                                            30/05/2018 01:47, lu 13136 fois
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                                                        <div class="plusLusItem">
+                                                    <a href="?p=articles&amp;id=55">
+                                                        Tours de garde du mois d'Octobre 2017                                                        <br>
+                                                        <span class="gris13">
+                                                            04/10/2017 01:39, lu 13043 fois
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                                                        <div class="plusLusItem">
+                                                    <a href="?p=articles&amp;id=61">
+                                                        Tours de garde mois de Janvier 2018                                                        <br>
+                                                        <span class="gris13">
+                                                            03/01/2018 13:17, lu 12580 fois
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                                
+			</div>
+		</div>
+
+    </div>
+
+	<!-- footer -->
+	<div id="footPanel">
+		<div class="blockSite">
+			<div class="footItem">
+				<div class="footTitle">Plan du site</div>
+				<span><a href="?">Accueil</a></span>
+				<span><a href="?p=apropos">Qui sommes-nous ?</a></span>
+				<span><a href="?p=contacts">Contacts</a></span>
+			</div>
+
+			<div class="footItem">
+				<div class="footTitle">Catégories</div>
+									<span>
+						<a href="?cat=1&amp;rw=actualites">
+							Actualités						</a>
+					</span>
+									<span>
+						<a href="?cat=2&amp;rw=lunion">
+							L'Union						</a>
+					</span>
+									<span>
+						<a href="?cat=3&amp;rw=travaux">
+							Travaux						</a>
+					</span>
+									<span>
+						<a href="?cat=4&amp;rw=communiques">
+							Communiqués						</a>
+					</span>
+									<span>
+						<a href="?cat=5&amp;rw=motion">
+							Motion						</a>
+					</span>
+									<span>
+						<a href="?cat=6&amp;rw=agenda">
+							Agenda						</a>
+					</span>
+							</div>
+
+			<div id="footItemContacts">
+				<div class="footTitle">Contacts</div>
+				<span>Tel. : <a href="tel:+225 22 41 21 61">+225 22 41 21 61</a></span>
+				<span>Fax : +225 22 41 10 15</span>
+				<span>E-mail : <a href="mailto:unppci@unppci.org">unppci@unppci.org</a></span>
+				<span>Adresse siège : II plateaux les Vallons, la maison du pharmacien face siège SNDAI </span>
+                <span>Adresse postale : 06 BP 328 Abidjan 06</span>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var swiper = new Swiper('.swiper-container',{
+			centeredSlides: true,
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+			speed: 1000,
+			slidesPerView: 1,
+			spaceBetween: 10,
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	</script>
+
+</body></html>

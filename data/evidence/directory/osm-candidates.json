@@ -1,0 +1,3933 @@
+[
+  {
+    "type": "node",
+    "id": 768587513,
+    "tags": {
+      "addr:city": "Yopougon",
+      "addr:country": "CI",
+      "addr:state": "Abidjan",
+      "addr:street": "Rue O13",
+      "addr:suburb": "Yopougon",
+      "amenity": "police",
+      "contact:phone": "+22523515044",
+      "description": "Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat du 16ᵉ Arrondissement",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "phone": "+225-23 45 26 64;+225-23.45.27.79",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_213"
+    },
+    "lat": 5.3382922,
+    "lon": -4.0730531,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 2406020279,
+    "tags": {
+      "addr:city": "Attécoubé",
+      "addr:country": "CI",
+      "addr:state": "Abidjan",
+      "addr:suburb": "Atecoube",
+      "amenity": "police",
+      "description": "Dépôt de plainte Bureau genre /violence base sur le genre Brigade des mineurs Brigade des stupéfiants Etablissement, légalisation de document administratif Brigade mondaine",
+      "name": "Commissariat du 10ᵉ arrondissement d’Attecoubé",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "phone": "+225-20 37 16 46",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_294"
+    },
+    "lat": 5.347241,
+    "lon": -4.034597,
+    "timestamp": "2019-07-25 12:03:09+00:00"
+  },
+  {
+    "type": "node",
+    "id": 2489330941,
+    "tags": {
+      "addr:country": "CI",
+      "addr:state": "Abidjan",
+      "addr:suburb": "Abobo",
+      "amenity": "police",
+      "description": "Informations légales ou juridiques Dépôt de plainte Bureau genre /violence base sur le genre Brigade des mineurs Brigade des stupéfiants",
+      "name": "Commissariat de Police du 15ᵉ Arrondissement",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_371"
+    },
+    "lat": 5.4325524,
+    "lon": -4.0127884,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 2894465851,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat et Gendarmerie d'Anyama"
+    },
+    "lat": 5.5056577,
+    "lon": -4.0529194,
+    "timestamp": "2014-06-01 21:34:56+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3042308440,
+    "tags": {
+      "amenity": "police",
+      "name": "Tempo Border Joint Security Station"
+    },
+    "lat": 5.8274745,
+    "lon": -7.5066961,
+    "timestamp": "2024-10-30 14:02:02+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3042416533,
+    "tags": {
+      "amenity": "police",
+      "name": "B'hai Jozon Joint Security Border Check Point"
+    },
+    "lat": 6.4625592,
+    "lon": -8.5213784,
+    "timestamp": "2014-08-25 22:59:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3051775784,
+    "tags": {
+      "amenity": "police",
+      "name": "Garleo Crossborder Point Joint Security"
+    },
+    "lat": 6.2821974,
+    "lon": -8.131739,
+    "timestamp": "2014-08-31 12:39:26+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3069866012,
+    "tags": {
+      "amenity": "police",
+      "name": "Direction de l'Informatique et des Traces Technologiques (DITT)",
+      "operator": "Police Scientifique"
+    },
+    "lat": 5.3448537,
+    "lon": -4.0069229,
+    "timestamp": "2015-02-01 23:50:49+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3151846302,
+    "tags": {
+      "addr:city": "Grand Bassam",
+      "amenity": "police",
+      "name": "Commissariat de Police de Grand-Bassam",
+      "source": "bing",
+      "toilets:wheelchair": "no",
+      "wheelchair": "no"
+    },
+    "lat": 5.2075203,
+    "lon": -3.7376393,
+    "timestamp": "2016-02-12 14:53:22+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3159192192,
+    "tags": {
+      "addr:city": "Cocody",
+      "addr:country": "CI",
+      "addr:state": "Abidjan",
+      "addr:suburb": "Vieux Cocody",
+      "amenity": "police",
+      "is_in": "Vieux Cocody;Cocody;Abidjan;Côte d'Ivoire",
+      "name": "École Nationale de Police de Côte d'Ivoire"
+    },
+    "lat": 5.3521057,
+    "lon": -3.9889779,
+    "timestamp": "2016-03-08 14:43:58+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3505281279,
+    "tags": {
+      "addr:suburb": "Port Bouet",
+      "amenity": "police",
+      "description": "Brigade mondaine Etablissement, légalisation de document administratif Bureau genre, violence base sur le genre Informations légales ou juridiques, Dépôt de plainte",
+      "name": "Commissariat de Police Du 5ᵉ Arrondissement Port-Bouët",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_156"
+    },
+    "lat": 5.2582754,
+    "lon": -3.964754,
+    "timestamp": "2019-11-08 21:41:58+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3610564765,
+    "tags": {
+      "amenity": "police",
+      "name": "Police National - Compagnie Républicaine de Sécurité Groupement 2 (CRS2)"
+    },
+    "lat": 5.296004,
+    "lon": -3.991179,
+    "timestamp": "2016-02-11 23:55:29+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3640923469,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat du 1ᵉʳ arrondissement de Yamoussoukro"
+    },
+    "lat": 6.8216674,
+    "lon": -5.279814,
+    "timestamp": "2024-05-16 21:53:39+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3768753834,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police du 5ème Arrondissement",
+      "operator:type": "government",
+      "police:CI": "police_nationale",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "survey",
+      "source:date": "2018-04-14"
+    },
+    "lat": 7.6828919,
+    "lon": -5.0552636,
+    "timestamp": "2019-08-27 23:44:02+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3840337958,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police du 1er arrondissement d'Abengourou"
+    },
+    "lat": 6.7310312,
+    "lon": -3.486623,
+    "timestamp": "2025-11-20 13:06:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3840337959,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie",
+      "source": "bing;survey"
+    },
+    "lat": 6.731913,
+    "lon": -3.4865201,
+    "timestamp": "2016-02-11 17:04:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3916607890,
+    "tags": {
+      "amenity": "police",
+      "name": "Arrondissement Maritime de Grand-Bassam"
+    },
+    "lat": 5.1964638,
+    "lon": -3.7425738,
+    "timestamp": "2016-09-05 00:41:32+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3929748547,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 5.2101695,
+    "lon": -3.7521236,
+    "timestamp": "2016-01-06 01:42:18+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3941184997,
+    "tags": {
+      "addr:country": "CI",
+      "addr:state": "Abidjan",
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité"
+    },
+    "lat": 5.3290246,
+    "lon": -4.0541597,
+    "timestamp": "2017-03-22 11:05:45+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3947545365,
+    "tags": {
+      "amenity": "police"
+    },
+    "lat": 9.6069498,
+    "lon": -6.0741821,
+    "timestamp": "2016-01-15 10:02:01+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3958625494,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 9.0648424,
+    "lon": -5.166785,
+    "timestamp": "2018-04-26 19:13:31+00:00"
+  },
+  {
+    "type": "node",
+    "id": 3997263739,
+    "tags": {
+      "addr:city": "Adiaké",
+      "addr:country": "CI",
+      "amenity": "police",
+      "name": "Brigarde de Gendarmerie d'Adiaké",
+      "source": "bing"
+    },
+    "lat": 5.2910603,
+    "lon": -3.3092526,
+    "timestamp": "2016-03-13 21:19:13+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4000894478,
+    "tags": {
+      "amenity": "police",
+      "name": "Bureau des Douanes"
+    },
+    "lat": 6.735114,
+    "lon": -3.4892122,
+    "timestamp": "2026-09-14 09:40:24+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4001022025,
+    "tags": {
+      "amenity": "police",
+      "name": "Poste de Police"
+    },
+    "lat": 6.7419594,
+    "lon": -3.5013679,
+    "timestamp": "2016-02-11 17:04:49+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4001645687,
+    "tags": {
+      "addr:city": "Marcory",
+      "addr:country": "CI",
+      "addr:pobox": "26 BP 178",
+      "addr:postcode": "26",
+      "addr:state": "Abidjan",
+      "addr:street": "Rue Clément Ader",
+      "amenity": "police",
+      "name": "Fonds de Prévoyance de la Police Nationale (FPPN)",
+      "phone": "+225-21.21.63.20"
+    },
+    "lat": 5.2960317,
+    "lon": -3.9920547,
+    "timestamp": "2016-03-08 11:31:12+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4117502784,
+    "tags": {
+      "amenity": "police",
+      "name": "Préfecture de police de Korhogo-Commissariat de Police",
+      "projet:eboci": "yes",
+      "source": "survey",
+      "source:date": "2023-08-04"
+    },
+    "lat": 9.4529664,
+    "lon": -5.6331252,
+    "timestamp": "2023-08-17 12:44:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4117663231,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale État-Major 4eme région gendarmerie korhogo",
+      "note": "Gendarmerie nationale, État major, 4e région gendarmerie korhogo",
+      "source": "survey",
+      "source:date": "2023-08-04"
+    },
+    "lat": 9.4507534,
+    "lon": -5.6312817,
+    "timestamp": "2024-08-15 16:53:28+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4256679797,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Sipilou"
+    },
+    "lat": 7.8600815,
+    "lon": -8.0969206,
+    "timestamp": "2016-06-21 16:27:31+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4256842345,
+    "tags": {
+      "amenity": "police",
+      "name": "Comissariat de Police",
+      "wheelchair": "yes"
+    },
+    "lat": 6.6512288,
+    "lon": -4.1985692,
+    "timestamp": "2020-12-12 09:52:37+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4269660631,
+    "tags": {
+      "amenity": "police",
+      "name": "Douane"
+    },
+    "lat": 7.8598937,
+    "lon": -8.1096212,
+    "timestamp": "2016-06-28 11:02:38+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4295496171,
+    "tags": {
+      "amenity": "police",
+      "name": "brigarde de gendarmerie",
+      "opening_hours": "24/7",
+      "wheelchair": "yes"
+    },
+    "lat": 5.6442721,
+    "lon": -4.0789909,
+    "timestamp": "2016-07-11 01:57:08+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4302128089,
+    "tags": {
+      "addr:city": "Duékoué",
+      "addr:country": "CI",
+      "amenity": "police",
+      "name": "Commisariat de Police",
+      "operator:type": "public",
+      "projet:ogpci": "yes",
+      "source": "survey"
+    },
+    "lat": 6.7460693,
+    "lon": -7.3414709,
+    "timestamp": "2016-11-05 15:18:28+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4302133589,
+    "tags": {
+      "addr:suburb": "Tazibouo",
+      "amenity": "police",
+      "contact:mobile": "+22544849876",
+      "contact:phone": "+22532783382",
+      "description": "Gestion des axes routiers, patrouille, régulation, escorte",
+      "name": "Gendarmerie Brigade Routière",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_026",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8936184,
+    "lon": -6.4315865,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4312428289,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police 3e Arrondissement de Grand Gbapleu"
+    },
+    "lat": 7.4067463,
+    "lon": -7.5207823,
+    "timestamp": "2017-04-25 15:17:10+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4405364093,
+    "tags": {
+      "amenity": "police",
+      "name": "Barrage de police"
+    },
+    "lat": 5.5007126,
+    "lon": -3.9425413,
+    "timestamp": "2016-09-17 08:11:51+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4459134199,
+    "tags": {
+      "amenity": "police",
+      "name": "Corridor"
+    },
+    "lat": 7.4782066,
+    "lon": -3.2519963,
+    "timestamp": "2016-10-22 13:43:57+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4464176620,
+    "tags": {
+      "addr:city": "Duékoué",
+      "addr:country": "CI",
+      "amenity": "police",
+      "name": "Gendarmerie",
+      "operator:type": "public",
+      "projet:ogpci": "yes",
+      "source": "survey"
+    },
+    "lat": 6.7385276,
+    "lon": -7.3456277,
+    "timestamp": "2016-11-05 15:18:28+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4467068805,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 8.042127,
+    "lon": -2.7937752,
+    "timestamp": "2016-10-27 22:03:57+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4467068811,
+    "tags": {
+      "amenity": "police",
+      "name": "commissariat"
+    },
+    "lat": 8.0426795,
+    "lon": -2.7957387,
+    "timestamp": "2016-11-14 22:20:08+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4485140203,
+    "tags": {
+      "addr:street": "Boulevard de L’indénié",
+      "amenity": "fire_station",
+      "name": "1ʳᵉ compagnie d’incendie et de secours Adjamé Indenié",
+      "operator": "Groupement des sapeurs pompiers militaires (GSPM)"
+    },
+    "lat": 5.3417452,
+    "lon": -4.0199873,
+    "timestamp": "2017-04-07 20:56:36+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4485222690,
+    "tags": {
+      "addr:suburb": "Adjame",
+      "amenity": "police",
+      "description": "Conseils Dépôt de plainte Brigade mondaine Représentation légale /tutorat Informations légales ou juridiques",
+      "name": "Gendarmerie Nationale Brigade d'Adjame",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_306"
+    },
+    "lat": 5.3573938,
+    "lon": -4.0262046,
+    "timestamp": "2024-05-06 16:28:42+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4504644389,
+    "tags": {
+      "amenity": "police",
+      "name:en": "Pololo Border"
+    },
+    "lat": 4.4350804,
+    "lon": -7.5415631,
+    "timestamp": "2016-11-16 16:43:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4512900942,
+    "tags": {
+      "amenity": "police"
+    },
+    "lat": 6.8637763,
+    "lon": -5.3935976,
+    "timestamp": "2016-11-20 23:24:20+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4528389690,
+    "tags": {
+      "amenity": "police",
+      "name": "Préfecture de police",
+      "name:fr": "Préfecture de police"
+    },
+    "lat": 6.1313713,
+    "lon": -5.9435474,
+    "timestamp": "2017-02-09 15:51:04+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4535667594,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Genarmerie d'Agnibilékrou"
+    },
+    "lat": 7.137392,
+    "lon": -3.2022144,
+    "timestamp": "2017-04-11 14:51:16+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4666234434,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie nationale"
+    },
+    "lat": 5.324378,
+    "lon": -4.3712024,
+    "timestamp": "2019-05-09 14:21:32+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4666234442,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie nationale Brigarde Songon"
+    },
+    "lat": 5.3268673,
+    "lon": -4.2465524,
+    "timestamp": "2017-02-05 21:35:57+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4722560567,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "GSPM 2ème Compagnie"
+    },
+    "lat": 5.2920019,
+    "lon": -3.9898164,
+    "timestamp": "2025-07-14 10:23:37+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4748706291,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:phone": "+22502008232",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat de Police du 35ᵉ Arrondissement",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "phone": "+225-22 49 37 73;+225-22 49 37 76;+225-22 49 37 74",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_394"
+    },
+    "lat": 5.3775578,
+    "lon": -3.9632555,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4873955727,
+    "tags": {
+      "addr:suburb": "Bardot",
+      "amenity": "police",
+      "contact:email": "bambagbeu@gmail.com",
+      "contact:mobile": "+22541628491",
+      "contact:phone": "+22534715401",
+      "description": "Conseils, Informations légales ou juridiques,",
+      "name": "Commissariat du 2ème arrondissement.",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "SP_124",
+      "source": "DigitalGlobe Standard,survey"
+    },
+    "lat": 4.7725448,
+    "lon": -6.6537102,
+    "timestamp": "2019-06-11 11:43:18+00:00"
+  },
+  {
+    "type": "node",
+    "id": 4940322221,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade d'Aboisso",
+      "name:fr": "Brigade d'Aboisso"
+    },
+    "lat": 5.4643912,
+    "lon": -3.2116342,
+    "timestamp": "2017-06-28 12:10:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5037866221,
+    "tags": {
+      "addr:suburb": "Port Bouet",
+      "amenity": "police",
+      "contact:mobile": "+22521586814",
+      "contact:phone": "+22521586808",
+      "description": "Conseils Encadrements Informations Orientation",
+      "name": "Commissariat du 24ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_165"
+    },
+    "lat": 5.2401839,
+    "lon": -3.8965997,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5075188122,
+    "tags": {
+      "addr:suburb": "Adjame",
+      "amenity": "police",
+      "contact:phone": "+22501445007",
+      "description": "Informations légales ou juridiques Conseils Dépôt de plainte Etablissement, légalisation de document administratif",
+      "name": "Commissariat du 37ᵉ Arrondissement d'Abobodoumé ( Attecoubé)",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_012"
+    },
+    "lat": 5.3111882,
+    "lon": -4.0438502,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5135821123,
+    "tags": {
+      "addr:city": "Abidjan",
+      "addr:suburb": "Adjame",
+      "amenity": "police",
+      "contact:phone": "+22520373090",
+      "description": "Informations légales ou juridiques Dépôt de plainte Bureau genre /violence base sur le genre Etablissement, légalisation de document administratif Conseils, Securite routiere",
+      "name": "Commissariat de Police du 27ᵉ Arrondissement Adjamé",
+      "operator": "Ministère de l'intérieur",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_302"
+    },
+    "lat": 5.361908,
+    "lon": -4.0267776,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5144663121,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat du 33ᵉ arrondissement"
+    },
+    "lat": 5.2468504,
+    "lon": -3.9431755,
+    "timestamp": "2017-10-05 21:33:55+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5144663221,
+    "tags": {
+      "alt_name": "Commissariat 20ᵉ arrondissement de Koumassi Campement",
+      "amenity": "police",
+      "name": "Commissariat 20ᵉ arrondissement"
+    },
+    "lat": 5.305366,
+    "lon": -3.9432056,
+    "timestamp": "2017-10-05 21:36:27+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5162677363,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 6.2747668,
+    "lon": -5.0690049,
+    "timestamp": "2017-10-12 09:23:00+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5174563094,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police de Bingerville"
+    },
+    "lat": 5.3582775,
+    "lon": -3.8890797,
+    "timestamp": "2017-10-18 12:17:10+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5209368525,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie du port",
+      "name:fr": "Gendarmerie du port"
+    },
+    "lat": 4.7522749,
+    "lon": -6.6268827,
+    "timestamp": "2018-08-23 20:27:11+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5209368590,
+    "tags": {
+      "addr:suburb": "Cité",
+      "amenity": "police",
+      "contact:phone": "+22534711343",
+      "description": "Conseils, Informations légales ou juridiques,",
+      "name": "Commissariat du 1er arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "SP_112",
+      "source": "DigitalGlobe Standard,survey"
+    },
+    "lat": 4.7464917,
+    "lon": -6.6300635,
+    "timestamp": "2019-06-11 11:30:29+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5485014959,
+    "tags": {
+      "amenity": "police",
+      "name": "Poste de Police de Plateau Carena"
+    },
+    "lat": 5.3304117,
+    "lon": -4.0288582,
+    "timestamp": "2025-11-06 14:54:10+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5503086460,
+    "tags": {
+      "amenity": "police",
+      "name": "District de Police de Bouaké",
+      "operator:type": "government",
+      "police:CI": "police_nationale",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "survey",
+      "source:date": "2018-04-20"
+    },
+    "lat": 7.6775119,
+    "lon": -5.0266534,
+    "timestamp": "2020-07-01 22:34:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5511685996,
+    "tags": {
+      "addr:city": "Abobo",
+      "addr:street": "Route d'Alépé",
+      "addr:suburb": "Abobo",
+      "amenity": "police",
+      "contact:phone": "+22524002195",
+      "description": "Conseils Dépôt de plainte Informations légales ou juridiques Bureau genre /violence base sur le genre Brigade des mineurs",
+      "name": "Commissariat du 34ᵉ Arrondissement",
+      "opening_hours": "24/7",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_340"
+    },
+    "lat": 5.4204988,
+    "lon": -3.990383,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5520281723,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Caserne pompier de San pedro"
+    },
+    "lat": 4.7614554,
+    "lon": -6.6835531,
+    "timestamp": "2018-04-01 12:45:39+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5549956204,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat du premier arrondissement de Bouaké",
+      "operator:type": "government",
+      "police:CI": "police_nationale",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "survey",
+      "source:date": "2018-04-12"
+    },
+    "lat": 7.6923351,
+    "lon": -5.0173134,
+    "timestamp": "2018-05-23 14:03:57+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5550044484,
+    "tags": {
+      "amenity": "police",
+      "name": "Centre de Coordination des Décisions Opérationnelles de Bouaké",
+      "operator:type": "government",
+      "police:CI": "police_nationale",
+      "project:anr_cohesion_bouake": "yes",
+      "short_name": "CCDO",
+      "source": "survey",
+      "source:date": "2018-04-12"
+    },
+    "lat": 7.6878509,
+    "lon": -5.0167152,
+    "timestamp": "2020-06-28 10:23:30+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5556817205,
+    "tags": {
+      "amenity": "police",
+      "disused": "yes",
+      "name": "Gendarmerie Nationale",
+      "operator:type": "government",
+      "police:CI": "gendarmerie",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "survey",
+      "source:date": "2018-05-02"
+    },
+    "lat": 7.6741189,
+    "lon": -5.0695682,
+    "timestamp": "2018-05-23 14:04:02+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5568675116,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale",
+      "operator:type": "government",
+      "police:CI": "gendarmerie",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "survey",
+      "source:date": "2018-04-20"
+    },
+    "lat": 7.6766367,
+    "lon": -5.0313576,
+    "timestamp": "2020-07-01 22:34:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5568831251,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police du 4e Arrondissement de Bouaké",
+      "operator:type": "government",
+      "police:CI": "police_nationale",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "survey",
+      "source:date": "2018-04-20"
+    },
+    "lat": 7.6731513,
+    "lon": -5.0162914,
+    "timestamp": "2019-08-09 00:00:52+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5569112165,
+    "tags": {
+      "amenity": "police",
+      "name": "Groupement des Sapeurs Pompiers Militaires 3e Compagnie de Bouaké",
+      "name:fr": "Groupement des Sapeurs Pompiers Militaires 3e Compagnie de Bouaké",
+      "operator:type": "government",
+      "police:CI": "police_nationale",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "Imagerie Premium DigitalGlobe, survey",
+      "source:date": "2018-04-20"
+    },
+    "lat": 7.68481,
+    "lon": -5.0213581,
+    "timestamp": "2019-07-12 18:07:10+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5569893455,
+    "tags": {
+      "amenity": "police",
+      "name": "Police Municipale de Bouaké",
+      "operator:type": "local_authority",
+      "project:anr_cohesion_bouake": "yes",
+      "source": "survey;Bing",
+      "source:date": "2018-04-13"
+    },
+    "lat": 7.6778231,
+    "lon": -5.0310168,
+    "timestamp": "2018-05-23 14:04:23+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5711070521,
+    "tags": {
+      "addr:suburb": "Yopougon",
+      "amenity": "police",
+      "contact:phone": "+22541295312",
+      "description": "Dépôt de plainte Bureau genre /violence base sur le genre Brigade des mineurs Brigade des stupéfiants Conseils Informations légales ou juridiques",
+      "name": "Gendarmerie Escadron 2/1 de Yopougon",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_240"
+    },
+    "lat": 5.3266103,
+    "lon": -4.0550623,
+    "timestamp": "2019-07-25 09:30:38+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5745389621,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de gendarmerie de Sikensi"
+    },
+    "lat": 5.6608905,
+    "lon": -4.5760811,
+    "timestamp": "2018-07-17 22:41:47+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5751840964,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat",
+      "opening_hours": "24/7",
+      "operator": "Police Nationale"
+    },
+    "lat": 5.6749328,
+    "lon": -4.5662606,
+    "timestamp": "2018-07-10 13:23:24+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5773666354,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police de Soubre"
+    },
+    "lat": 5.7836575,
+    "lon": -6.6014701,
+    "timestamp": "2025-06-01 21:54:33+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5806688856,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police de Tiassalé"
+    },
+    "lat": 5.8927417,
+    "lon": -4.8245443,
+    "timestamp": "2024-03-30 16:25:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5891319135,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationnale"
+    },
+    "lat": 5.783877,
+    "lon": -6.601239,
+    "timestamp": "2025-06-01 21:54:33+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5928726281,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat"
+    },
+    "lat": 5.3783926,
+    "lon": -4.0943565,
+    "timestamp": "2018-09-25 12:09:00+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5937233877,
+    "tags": {
+      "addr:suburb": "Yopougon",
+      "amenity": "police",
+      "contact:phone": "+22523166429",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Brigade des mineurs Brigade des stupéfiants Brigade mondaine",
+      "name": "Gendarmerie Nationale Brigade Autoroutière de Gesco",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_204"
+    },
+    "lat": 5.3671795,
+    "lon": -4.1028075,
+    "timestamp": "2019-07-25 09:39:19+00:00"
+  },
+  {
+    "type": "node",
+    "id": 5968504306,
+    "tags": {
+      "amenity": "police",
+      "name": "Poste de Police Anyama Rang Extension"
+    },
+    "lat": 5.4606164,
+    "lon": -4.0454391,
+    "timestamp": "2018-10-09 09:29:47+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6248509785,
+    "tags": {
+      "amenity": "police",
+      "name": "Cité policière"
+    },
+    "lat": 6.3828133,
+    "lon": -5.4143986,
+    "timestamp": "2019-01-31 04:08:13+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6277979700,
+    "tags": {
+      "amenity": "police"
+    },
+    "lat": 5.1350552,
+    "lon": -3.2904155,
+    "timestamp": "2019-02-14 07:50:27+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6284078685,
+    "tags": {
+      "amenity": "police",
+      "name": "Adk"
+    },
+    "lat": 6.1677276,
+    "lon": -7.0998294,
+    "timestamp": "2019-02-17 10:29:49+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6286967187,
+    "tags": {
+      "amenity": "police",
+      "name": "Cité policière"
+    },
+    "lat": 6.3828024,
+    "lon": -5.4144258,
+    "timestamp": "2019-02-18 20:57:52+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6326947168,
+    "tags": {
+      "amenity": "police",
+      "name": "Préfecture de Police"
+    },
+    "lat": 6.5502638,
+    "lon": -7.4949873,
+    "timestamp": "2019-03-09 12:40:28+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6326950944,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat"
+    },
+    "lat": 6.5467775,
+    "lon": -7.4987578,
+    "timestamp": "2019-03-12 14:13:33+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6383504671,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 5.3246335,
+    "lon": -4.3707467,
+    "timestamp": "2019-05-09 14:21:34+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6410012387,
+    "tags": {
+      "amenity": "police",
+      "name": "Police maritime"
+    },
+    "lat": 5.31006,
+    "lon": -4.0184775,
+    "timestamp": "2019-04-16 18:23:08+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6430889068,
+    "tags": {
+      "addr:suburb": "Doyagouiné 1 Sari",
+      "amenity": "police",
+      "contact:mobile": "+22558492152",
+      "contact:phone": "+22558492152",
+      "description": "Conseils, Informations légales ou juridiques",
+      "name": "Escadron de Gendarmerie",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "MN_051",
+      "source": "DigitalGlobe Standard; survey",
+      "source:date": "2019-04-15"
+    },
+    "lat": 7.4009009,
+    "lon": -7.5578655,
+    "timestamp": "2019-05-08 11:08:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6437284300,
+    "tags": {
+      "addr:suburb": "Camp sea",
+      "amenity": "police",
+      "contact:mobile": "+22507383866",
+      "contact:phone": "+22507383866",
+      "description": "Conseils Informations légales ou juridiques, Dépôt de plainte, Brigade des stupefiants, Conseils",
+      "email": "alphonseamoin@gmail.com",
+      "name": "Brigade de Gendarmerie",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "MN_050",
+      "source": "DigitalGlobe Standard; survey",
+      "source:date": "2019-04-15"
+    },
+    "lat": 7.4022152,
+    "lon": -7.5547944,
+    "timestamp": "2019-05-08 11:08:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6437300099,
+    "tags": {
+      "addr:suburb": "Libreville",
+      "amenity": "police",
+      "contact:phone": "+22539794152",
+      "description": "Brigarde des mineurs, Dépôt de plainte, Brigade des stupefiants, Etablissement, légalisation de document administratif, Bureau genre /violence base sur le genre",
+      "name": "2 ème Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "MN_049",
+      "source": "DigitalGlobe Standard; survey",
+      "source:date": "2019-04-15"
+    },
+    "lat": 7.4161895,
+    "lon": -7.5562495,
+    "timestamp": "2019-05-08 11:08:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6481624695,
+    "tags": {
+      "addr:suburb": "Commerce (non loin de la bceao)",
+      "amenity": "police",
+      "contact:mobile": "+22548998517",
+      "contact:phone": "+22532783156",
+      "description": "Dépôt de plainte Brigade des stupefiants Conseils",
+      "name": "Gendarmerie Brigade Ville Daloa",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_012",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8847155,
+    "lon": -6.4555064,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6482110484,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police Divo"
+    },
+    "lat": 5.8306132,
+    "lon": -5.3571942,
+    "timestamp": "2022-08-09 08:53:06+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6497784186,
+    "tags": {
+      "addr:suburb": "Commerce",
+      "amenity": "police",
+      "contact:email": "zakamthomas@gmail.com",
+      "contact:mobile": "+22503488286",
+      "contact:phone": "+22532783626",
+      "description": "Etablissement, légalisation de document administratif",
+      "name": "Commissariat de Police du 1er Arrondissement Daloa",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_125",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8800946,
+    "lon": -6.4484508,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6520562764,
+    "tags": {
+      "addr:suburb": "Tazibouo",
+      "amenity": "police",
+      "contact:mobile": "+22507458894",
+      "contact:phone": "+22507458894",
+      "description": "Conseils Informations légales ou juridiques Dépôt de",
+      "name": "Gendarmerie ETAT Major 2è Légion",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_062",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8923226,
+    "lon": -6.4291263,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6520562765,
+    "tags": {
+      "addr:suburb": "Abattoir 1",
+      "amenity": "police",
+      "contact:email": "koloudidierabo@gmail.com",
+      "contact:phone": "+22503792112",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte",
+      "name": "Commissariat de Police du 3eme Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_127",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8681116,
+    "lon": -6.4440125,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6520695632,
+    "tags": {
+      "addr:suburb": "Tazibouo 1 maracana",
+      "amenity": "police",
+      "contact:mobile": "+22503040809",
+      "contact:phone": "+22503040809",
+      "description": "Conseils Dépôt de plainte Bureau genre /violence base sur",
+      "name": "Commissariat du 4ème Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_085",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.9011844,
+    "lon": -6.4426446,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6520706397,
+    "tags": {
+      "addr:suburb": "Belle ville",
+      "amenity": "police",
+      "contact:email": "daplegermain@yahoo.fr",
+      "contact:mobile": "+22503488316",
+      "contact:phone": "+22532782206",
+      "description": "Conseils Informations légales ou juridiques",
+      "name": "Commissariat de Police du 2eme Arrondissement Daloa",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_104",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8817963,
+    "lon": -6.4580405,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6520706398,
+    "tags": {
+      "addr:suburb": "Commerce (non loin de la bceao)",
+      "amenity": "police",
+      "contact:phone": "+22532783242",
+      "description": "Informations légales ou juridiques Dépôt de plainte",
+      "name": "Préfecture de Police Daloa",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_068",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8873378,
+    "lon": -6.4547628,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6520706399,
+    "tags": {
+      "addr:suburb": "Evechet",
+      "amenity": "police",
+      "contact:phone": "+22532781505",
+      "description": "Unité d'intervention, régulation de la circulation des corridors",
+      "name": "District de Police",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "DAL_123",
+      "source": "DigitalGlobe Standard,survey",
+      "source:date": "2019-05-12"
+    },
+    "lat": 6.8881806,
+    "lon": -6.4377536,
+    "timestamp": "2019-06-16 15:17:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6539385111,
+    "tags": {
+      "addr:suburb": "Seweke 5",
+      "amenity": "police",
+      "contact:phone": "+22534715797",
+      "description": "Conseils, Informations légales ou juridiques,",
+      "name": "Gendarmerie nationale de San Pedro",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "SP_054",
+      "source": "DigitalGlobe Standard,survey"
+    },
+    "lat": 4.7618294,
+    "lon": -6.6459775,
+    "timestamp": "2019-06-11 11:39:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6640623748,
+    "tags": {
+      "addr:suburb": "Plateau",
+      "amenity": "police",
+      "contact:mobile": "+22541639481",
+      "contact:phone": "+22520215833",
+      "name": "Commissariat du 1ᵉʳ Arrondissement du Plateau",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_467",
+      "source": "DigitalGlobe; survey",
+      "source:date": "2019-06-14"
+    },
+    "lat": 5.326148,
+    "lon": -4.0194149,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6640623749,
+    "tags": {
+      "addr:suburb": "Plateau",
+      "amenity": "police",
+      "check_date": "2026-03-18",
+      "contact:phone": "+22520212300",
+      "name": "Direction de la Police Criminelle",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_043",
+      "source": "DigitalGlobe; survey",
+      "source:date": "2019-06-14"
+    },
+    "lat": 5.32974,
+    "lon": -4.0215895,
+    "timestamp": "2026-03-18 20:57:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6640698462,
+    "tags": {
+      "addr:country": "CI",
+      "addr:suburb": "Treichville",
+      "amenity": "police",
+      "contact:phone": "+22521351027",
+      "description": "Conseils Informations Orientation Encadrements",
+      "name": "Commissariat de Police du 4ᵉ Arrondissement",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_072",
+      "source": "DigitalGlobe; survey",
+      "source:date": "2019-06-14"
+    },
+    "lat": 5.2978654,
+    "lon": -3.9955097,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6640698463,
+    "tags": {
+      "addr:country": "CI",
+      "addr:suburb": "Treichville",
+      "amenity": "police",
+      "contact:phone": "+22521240852",
+      "description": "Informations légales ou juridiques Dépôt de plainte Etablissement, légalisation de document administratif",
+      "name": "Poste de Police du Marché Treichville",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_084",
+      "source": "DigitalGlobe; survey",
+      "source:date": "2019-06-14"
+    },
+    "lat": 5.3082706,
+    "lon": -4.0139633,
+    "timestamp": "2019-07-25 09:12:48+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6640698464,
+    "tags": {
+      "addr:country": "CI",
+      "addr:suburb": "Treichville",
+      "amenity": "police",
+      "contact:phone": "+22521241748",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Etablissement, légalisation de document administratif Brigade des mineurs",
+      "name": "Commissariat du 2ᵉ Arrondissement de Treichville",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_085",
+      "source": "DigitalGlobe; survey",
+      "source:date": "2019-06-14"
+    },
+    "lat": 5.3059497,
+    "lon": -4.015118,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6640698465,
+    "tags": {
+      "addr:suburb": "Treichville",
+      "amenity": "police",
+      "contact:phone": "+22521375556",
+      "description": "Informations légales ou juridiques Dépôt de plainte Bureau genre /violence base sur le genre Brigade des mineurs,",
+      "name": "Gendarmerie Arras Brigade Treichville",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_083",
+      "source": "DigitalGlobe; survey",
+      "source:date": "2019-06-14"
+    },
+    "lat": 5.3001729,
+    "lon": -4.0000226,
+    "timestamp": "2019-07-23 14:03:42+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6640749397,
+    "tags": {
+      "addr:country": "CI",
+      "addr:suburb": "Adjame",
+      "amenity": "police",
+      "contact:phone": "+22520384172",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Préfecture de Police d’Abidjan District de police 4 (Abidjan Centre)",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_436",
+      "source": "DigitalGlobe; survey",
+      "source:date": "2019-06-14"
+    },
+    "lat": 5.3446525,
+    "lon": -4.0178794,
+    "timestamp": "2019-07-25 09:46:30+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646080477,
+    "tags": {
+      "addr:suburb": "Koumassi",
+      "amenity": "police",
+      "contact:phone": "+22521361434",
+      "description": "Dépôt de plainte Brigade des stupéfiants Brigade des mineurs Etablissement, légalisation de document administratif Informations légales ou juridiques",
+      "name": "Commissariat de Police du 6ᵉ Arrondissement Koumassi",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_118"
+    },
+    "lat": 5.2900147,
+    "lon": -3.9697391,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646088377,
+    "tags": {
+      "addr:suburb": "Port Bouet",
+      "amenity": "police",
+      "contact:phone": "+22551088549",
+      "description": "Dépôt de plainte Conseils Informations légales ou juridiques Bureau genre /violence base sur le genre Brigade mondaine",
+      "name": "Brigade de Gendarmerie Port-Bouët",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_148"
+    },
+    "lat": 5.2660573,
+    "lon": -3.9869669,
+    "timestamp": "2019-07-25 08:43:08+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646101611,
+    "tags": {
+      "addr:suburb": "Koumassi",
+      "amenity": "police",
+      "description": "Brigade des stupéfiants Bureau genre /violence base sur le genre Dépôt de plainte Représentation légale /tutorat Brigade des mineurs",
+      "name": "Commissariat du 36ᵉ Arrondissement de Koumassi.",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_120"
+    },
+    "lat": 5.296693,
+    "lon": -3.9559257,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646102262,
+    "tags": {
+      "addr:suburb": "Marcory",
+      "amenity": "police",
+      "contact:phone": "+22508546932",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Brigade des stupéfiants Etablissement, légalisation de document administratif",
+      "name": "District de Police de Marcory",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_462"
+    },
+    "lat": 5.3098343,
+    "lon": -3.9931306,
+    "timestamp": "2019-07-25 09:02:45+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646107888,
+    "tags": {
+      "addr:suburb": "Marcory",
+      "amenity": "police",
+      "contact:mobile": "+22521265971",
+      "contact:phone": "+22521263744",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Bureau genre /violence base sur le genre Représentation légale /tutorat",
+      "name": "Commissariat de Police du 26ᵉ Arrondissement Marcory Aliodan",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_104"
+    },
+    "lat": 5.306795,
+    "lon": -3.9638999,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646108258,
+    "tags": {
+      "addr:suburb": "Marcory",
+      "amenity": "police",
+      "contact:phone": "+22521267858",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat du 9ᵉ Arrondissement de Marcory",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_092"
+    },
+    "lat": 5.3063316,
+    "lon": -3.9855668,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646117758,
+    "tags": {
+      "addr:suburb": "Marcory",
+      "amenity": "police",
+      "contact:phone": "+22508536252",
+      "description": "Commissariat rattaché au district d'Abidjan du quel il reçoit les instructions.",
+      "name": "Commissariat Spécial de Police du District d'Abidjan",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_461"
+    },
+    "lat": 5.3135318,
+    "lon": -3.9984186,
+    "timestamp": "2019-07-25 09:01:07+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646182749,
+    "tags": {
+      "addr:suburb": "Yopougon",
+      "amenity": "police",
+      "contact:phone": "+22523463728",
+      "description": "Conseils Dépôt de plainte Bureau genre /violence base sur le genre Etablissement, légalisation de document administratif Brigade mondaine",
+      "name": "Commissariat de Police du 17ᵉ Arrondissement de Yopougon Niangon",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_282"
+    },
+    "lat": 5.3219578,
+    "lon": -4.0994976,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646182766,
+    "tags": {
+      "addr:suburb": "Yopougon",
+      "alt_name": "Commissariat du 23ᵉ Arrondissement",
+      "amenity": "police",
+      "contact:phone": "+22501811581",
+      "description": "Dépôt de plainte Conseils Informations légales ou juridiques Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat du 23ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_170"
+    },
+    "lat": 5.3608973,
+    "lon": -4.0724033,
+    "timestamp": "2022-10-01 15:02:18+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646187151,
+    "tags": {
+      "addr:suburb": "Yopougon",
+      "amenity": "police",
+      "contact:mobile": "+22523456360",
+      "contact:phone": "+22523456358",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat de Police du 19ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_239"
+    },
+    "lat": 5.3270414,
+    "lon": -4.0506493,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646188180,
+    "tags": {
+      "addr:suburb": "Yopougon",
+      "amenity": "police",
+      "contact:phone": "+22507814334",
+      "description": "Informations légales ou juridiques Dépôt de plainte Bureau genre /violence base sur le genre Brigade des mineurs",
+      "name": "Commissariat du 28ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_209"
+    },
+    "lat": 5.3408043,
+    "lon": -4.0456684,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646192584,
+    "tags": {
+      "addr:suburb": "Adjame",
+      "amenity": "police",
+      "contact:phone": "+22520371591",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Brigade des mineurs",
+      "name": "Commissariat de Police du 7ᵉ Arrondissement Adjamé 220",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_435"
+    },
+    "lat": 5.3490844,
+    "lon": -4.0165227,
+    "timestamp": "2022-11-17 23:46:42+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646216980,
+    "tags": {
+      "addr:suburb": "Atecoube",
+      "amenity": "police",
+      "contact:phone": "+22507913903",
+      "description": "Dépôt de plainte Bureau genre /violence base sur le genre Etablissement, légalisation de document administratif",
+      "name": "Gendarmerie Nationale d'Attecoubé",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_285"
+    },
+    "lat": 5.357905,
+    "lon": -4.0328877,
+    "timestamp": "2019-07-25 09:56:28+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646222827,
+    "tags": {
+      "addr:suburb": "Adjame",
+      "amenity": "police",
+      "contact:phone": "+22520374465",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat de Police du 3ᵉ Arrondissement d'Adjamé",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_310"
+    },
+    "lat": 5.3462789,
+    "lon": -4.0255518,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646241423,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:phone": "+22522441516",
+      "description": "Informations légales ou juridiques Dépôt de plainte Bureau genre /violence base sur le genre Brigade des mineurs Brigade des stupéfiants Etablissement, légalisation de document administratif Brigade mondaine",
+      "name": "Commissariat de Police du 8ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_025"
+    },
+    "lat": 5.3351325,
+    "lon": -4.0010208,
+    "timestamp": "2024-06-10 22:16:10+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646259426,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:phone": "+22522433190",
+      "description": "Brigade mondaine, Dépôt de plainte, Brigade des stupéfiants, Brigade des mineurs Bureau genre /violence base sur le genre",
+      "name": "Brigade de Gendarmerie de Cocody",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_028"
+    },
+    "lat": 5.3364592,
+    "lon": -3.9854863,
+    "timestamp": "2019-07-25 10:07:24+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646259446,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "description": "Informations légales ou juridiques Dépôt de plainte Brigade des mineurs Brigade des stupéfiants Etablissement, légalisation de document administratif Brigade mondaine",
+      "name": "District de Police de Cocody",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_022"
+    },
+    "lat": 5.3361548,
+    "lon": -3.9863366,
+    "timestamp": "2019-07-25 10:07:24+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646263603,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:phone": "+22522471865",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Etablissement, légalisation de document administratif Brigade mondaine",
+      "name": "Commissaire du 18ᵉ Arrondissement de la Rivera Palmeraie",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_403"
+    },
+    "lat": 5.3577274,
+    "lon": -3.959819,
+    "timestamp": "2021-04-01 19:16:48+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646263723,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:phone": "+225 22428405",
+      "description": "Informations légales ou juridiques Dépôt de plainte Etablissement, légalisation de document administratif Bureau genre /violence base sur le genre",
+      "name": "Commissariat de Police du 30ème Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_401"
+    },
+    "lat": 5.37367,
+    "lon": -3.9846146,
+    "timestamp": "2023-12-15 14:50:49+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646271310,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:phone": "+22522420233",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat de Police du 22ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_455"
+    },
+    "lat": 5.3984804,
+    "lon": -3.9912383,
+    "timestamp": "2021-03-25 01:34:19+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646274068,
+    "tags": {
+      "addr:suburb": "Adjame",
+      "amenity": "police",
+      "contact:phone": "+22520372328",
+      "description": "Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Brigade des mineurs",
+      "name": "Commissariat de la Police du 11ᵉ Arrondissements",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_349"
+    },
+    "lat": 5.3676682,
+    "lon": -4.0225129,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646281324,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:mobile": "+22522526996",
+      "contact:phone": "+22522501240",
+      "description": "Conseils Informations légales ou juridiques, Sécurité municipale, garde rapprochée municipale",
+      "name": "Unite Pilote de Projet de l'Ecole Nationale de Police Municipale",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_450"
+    },
+    "lat": 5.3952466,
+    "lon": -3.9860764,
+    "timestamp": "2019-07-25 10:23:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646281835,
+    "tags": {
+      "addr:suburb": "Cocody",
+      "amenity": "police",
+      "contact:phone": "+22502420817",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre Brigade des mineurs",
+      "name": "Commissariat du 12ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_442"
+    },
+    "lat": 5.373773,
+    "lon": -3.9930956,
+    "timestamp": "2025-11-06 15:22:57+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646297054,
+    "tags": {
+      "addr:suburb": "Abobo",
+      "amenity": "police",
+      "contact:phone": "+22554818545",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Etablissement, légalisation de document administratif Brigade mondaine",
+      "name": "Commissariat de Police du 21ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_039"
+    },
+    "lat": 5.4203472,
+    "lon": -4.0235536,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646297892,
+    "tags": {
+      "addr:suburb": "Abobo",
+      "amenity": "police",
+      "contact:mobile": "+22544447177",
+      "contact:phone": "+22544447177",
+      "description": "Conseils Informations légales ou juridiques Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre",
+      "name": "Commissariat du 14ᵉ Arrondissement",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_336"
+    },
+    "lat": 5.4231402,
+    "lon": -4.0148056,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646301534,
+    "tags": {
+      "addr:suburb": "Abobo",
+      "amenity": "police",
+      "contact:phone": "+22502770730",
+      "description": "Etablissement, légalisation de document administratif Informations légales ou juridiques",
+      "name": "Commissariat de Police du 13ᵉ",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_372"
+    },
+    "lat": 5.4365525,
+    "lon": -4.0142691,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646309456,
+    "tags": {
+      "addr:suburb": "Abobo",
+      "amenity": "police",
+      "contact:phone": "+22520550613",
+      "description": "Informations légales ou juridiques Dépôt de plainte Conseils Etablissement, légalisation de document administratif Bureau genre /violence base sur le genre",
+      "name": "Commissariat de Police du 32ᵉ Arrondissements Abobo Avocatier",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_351"
+    },
+    "lat": 5.4379316,
+    "lon": -4.029256,
+    "timestamp": "2019-07-25 12:17:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6646309876,
+    "tags": {
+      "addr:suburb": "Abobo",
+      "amenity": "police",
+      "description": "Dépôt de plainte Représentation légale /tutorat Bureau genre /violence base sur le genre Brigade des mineurs Brigade mondaine",
+      "fid": "610",
+      "name": "Gendarmerie Nationale Cité Camp Commando",
+      "project:geoloc_unicef": "yes",
+      "project:geoloc_unicef:id": "ABJ_379",
+      "project:opencities_abidjan": "yes",
+      "source": "survey",
+      "source:date": "06/03/2021"
+    },
+    "lat": 5.4348917,
+    "lon": -4.0197998,
+    "timestamp": "2021-04-02 00:55:56+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6677806508,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police bonoua"
+    },
+    "lat": 5.2747104,
+    "lon": -3.598048,
+    "timestamp": "2019-08-02 21:16:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6681102025,
+    "tags": {
+      "amenity": "police",
+      "name": "Action Civile et Sécurité",
+      "phone": "03927772"
+    },
+    "lat": 7.6611548,
+    "lon": -5.0210151,
+    "timestamp": "2019-08-04 08:51:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6723702290,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat du 6e arrondissement",
+      "operator:type": "government"
+    },
+    "lat": 7.6700314,
+    "lon": -5.0443971,
+    "timestamp": "2020-07-01 22:34:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6767211943,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Gendarmerie"
+    },
+    "lat": 7.64885,
+    "lon": -3.9971533,
+    "timestamp": "2021-03-21 18:12:20+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6781223747,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigarde de gendarmerie"
+    },
+    "lat": 5.2745052,
+    "lon": -3.5877733,
+    "timestamp": "2019-09-08 22:47:06+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6893814985,
+    "tags": {
+      "addr:street": "Tiassalé-Abidjan",
+      "amenity": "police",
+      "name": "Gendarmerie nationale de Tiassalé",
+      "opening_hours": "Mo-Su 07:00-18:00"
+    },
+    "lat": 5.8931822,
+    "lon": -4.8222389,
+    "timestamp": "2024-03-30 16:25:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6991113862,
+    "tags": {
+      "amenity": "police",
+      "name": "POLICE",
+      "wheelchair": "yes"
+    },
+    "lat": 9.9683868,
+    "lon": -5.1558802,
+    "timestamp": "2019-11-19 23:19:16+00:00"
+  },
+  {
+    "type": "node",
+    "id": 6991113879,
+    "tags": {
+      "amenity": "police",
+      "building:levels": "1",
+      "name": "GENDARMERIE"
+    },
+    "lat": 9.9699449,
+    "lon": -5.1574844,
+    "timestamp": "2023-02-25 10:56:02+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7059751685,
+    "tags": {
+      "amenity": "police",
+      "name": "Poste de Contrôle de la Gendarmerie"
+    },
+    "lat": 9.5600159,
+    "lon": -5.2133875,
+    "timestamp": "2024-10-26 20:44:54+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7076625585,
+    "tags": {
+      "addr:street": "Commerce",
+      "amenity": "police",
+      "email": "kasseadou12@gmail.com",
+      "name": "GENDARMERIE NATIONALE DE DANANÉ",
+      "opening_hours": "24/7"
+    },
+    "lat": 7.2609258,
+    "lon": -8.1511613,
+    "timestamp": "2019-12-22 01:29:22+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7106435087,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police de Bonan"
+    },
+    "lat": 6.9284842,
+    "lon": -6.0405776,
+    "timestamp": "2023-07-19 01:01:47+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7114432085,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat du 1er Arrondissement",
+      "opening_hours": "24/7",
+      "operator:type": "government"
+    },
+    "lat": 7.687866,
+    "lon": -5.016622,
+    "timestamp": "2020-07-01 22:34:50+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7319303123,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police de Mankono"
+    },
+    "lat": 8.0552781,
+    "lon": -6.187323,
+    "timestamp": "2020-03-22 13:16:15+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7319357168,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie de Kongasso"
+    },
+    "lat": 7.8156324,
+    "lon": -6.0791828,
+    "timestamp": "2020-03-22 13:37:56+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7321303270,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale - Brigade de Mankono"
+    },
+    "lat": 8.061492,
+    "lon": -6.189969,
+    "timestamp": "2020-03-23 08:31:46+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7515674986,
+    "tags": {
+      "amenity": "police",
+      "name": "PC KONG"
+    },
+    "lat": 9.159784,
+    "lon": -4.6004534,
+    "timestamp": "2020-05-13 19:11:38+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7541809785,
+    "tags": {
+      "amenity": "police",
+      "name": "PA KAFOLO"
+    },
+    "lat": 9.5836677,
+    "lon": -4.31283,
+    "timestamp": "2020-05-20 16:57:42+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7589902286,
+    "tags": {
+      "amenity": "police",
+      "name": "Fs BASE cocody"
+    },
+    "lat": 5.3334749,
+    "lon": -4.0071661,
+    "timestamp": "2020-06-03 16:06:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7602539203,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie"
+    },
+    "lat": 5.2596766,
+    "lon": -5.0045762,
+    "timestamp": "2020-06-08 11:01:34+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7604627657,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police de Grand-Lahou"
+    },
+    "lat": 5.2735657,
+    "lon": -5.0119216,
+    "timestamp": "2024-11-04 00:37:21+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7615899379,
+    "tags": {
+      "amenity": "police",
+      "name": "Cantonnement des eaux et forêts de Guitry"
+    },
+    "lat": 5.525312,
+    "lon": -5.237327,
+    "timestamp": "2020-06-12 14:32:23+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7621899553,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie de Guitry"
+    },
+    "lat": 5.5171488,
+    "lon": -5.2375451,
+    "timestamp": "2020-06-15 07:55:08+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7660584075,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police d'Odienné"
+    },
+    "lat": 9.501636,
+    "lon": -7.5635336,
+    "timestamp": "2020-06-28 13:05:59+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7660688293,
+    "tags": {
+      "amenity": "police",
+      "name": "Préfecture de Police d'Odienné"
+    },
+    "lat": 9.5025742,
+    "lon": -7.5642299,
+    "timestamp": "2020-06-28 13:07:21+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7667658085,
+    "tags": {
+      "amenity": "police",
+      "name": "PA NEDEX"
+    },
+    "lat": 9.435236,
+    "lon": -4.4531686,
+    "timestamp": "2020-06-29 20:23:19+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7688739424,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 9.8311164,
+    "lon": -6.4482359,
+    "timestamp": "2020-07-06 18:07:18+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7689100868,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police de Tiebissou"
+    },
+    "lat": 7.1588538,
+    "lon": -5.2266358,
+    "timestamp": "2020-07-06 19:43:56+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7724786325,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police de Bouna"
+    },
+    "lat": 9.2686624,
+    "lon": -2.9970378,
+    "timestamp": "2020-07-17 15:59:51+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7741517032,
+    "tags": {
+      "amenity": "police",
+      "name": "Douanes Ivoirienne"
+    },
+    "lat": 7.8919324,
+    "lon": -2.9838519,
+    "timestamp": "2020-07-23 18:37:28+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7741532269,
+    "tags": {
+      "amenity": "police",
+      "name": "Commandement de la Gendarmerie territoriale"
+    },
+    "lat": 7.899162,
+    "lon": -2.9811006,
+    "timestamp": "2020-07-23 18:37:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7798593288,
+    "tags": {
+      "amenity": "police",
+      "name": "Comissariat de police du 31ème arrondissement",
+      "opening_hours": "24/7"
+    },
+    "lat": 5.2831265,
+    "lon": -3.9844637,
+    "timestamp": "2025-12-26 18:37:15+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7865605064,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale",
+      "source": "OpenStreetCam"
+    },
+    "lat": 6.8262746,
+    "lon": -3.5710783,
+    "timestamp": "2020-09-01 15:09:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 7945418116,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Centre de secours de Soubré"
+    },
+    "lat": 5.8037936,
+    "lon": -6.5965766,
+    "timestamp": "2020-09-26 15:35:20+00:00"
+  },
+  {
+    "type": "node",
+    "id": 8331649117,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de gendarmerie nationale kononfla",
+      "name:en": "Office police"
+    },
+    "lat": 6.653441,
+    "lon": -5.6008659,
+    "timestamp": "2021-01-17 19:07:22+00:00"
+  },
+  {
+    "type": "node",
+    "id": 8333436445,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie"
+    },
+    "lat": 5.9295605,
+    "lon": -4.2019483,
+    "timestamp": "2021-01-18 09:08:09+00:00"
+  },
+  {
+    "type": "node",
+    "id": 8583912889,
+    "tags": {
+      "amenity": "police",
+      "fid": "58",
+      "name": "Commissariat Du 18Eme Arrondissement",
+      "project:opencities_abidjan": "yes",
+      "source": "survey",
+      "source:date": "2021-02-26"
+    },
+    "lat": 5.3577271,
+    "lon": -3.9597778,
+    "timestamp": "2021-04-01 19:15:47+00:00"
+  },
+  {
+    "type": "node",
+    "id": 8872510186,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police d'Aboisso"
+    },
+    "lat": 5.4704857,
+    "lon": -3.2058784,
+    "timestamp": "2021-06-28 14:05:25+00:00"
+  },
+  {
+    "type": "node",
+    "id": 8872516233,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police Mixte Tiapoum-Frambo"
+    },
+    "lat": 5.1362836,
+    "lon": -3.0222273,
+    "timestamp": "2021-06-28 14:05:26+00:00"
+  },
+  {
+    "type": "node",
+    "id": 8957485770,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale - Brigade de Sakassou"
+    },
+    "lat": 7.4430147,
+    "lon": -5.2897488,
+    "timestamp": "2021-07-28 14:39:34+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9228809169,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police",
+      "wheelchair": "yes"
+    },
+    "lat": 6.9819468,
+    "lon": -5.7473877,
+    "timestamp": "2021-11-06 00:43:36+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9257260297,
+    "tags": {
+      "addr:city": "GAGNOA",
+      "amenity": "police",
+      "amenity_1": "gendarmerie",
+      "amenity_2": "Eaux et foret",
+      "name": "CORRIDOR ROUTE OURAGAHIO",
+      "opening_hours:covid19": "24/7"
+    },
+    "lat": 6.1933124,
+    "lon": -5.963325,
+    "timestamp": "2021-11-16 16:18:14+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9407858201,
+    "tags": {
+      "amenity": "police",
+      "military": "office",
+      "name": "Groupement Mobile d'Intervention (GMI)"
+    },
+    "lat": 6.1253138,
+    "lon": -5.9364342,
+    "timestamp": "2024-07-22 15:48:53+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9472956558,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie",
+      "wheelchair": "yes"
+    },
+    "lat": 5.5011238,
+    "lon": -3.6617035,
+    "timestamp": "2022-02-04 00:24:21+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9472956560,
+    "tags": {
+      "amenity": "police",
+      "name": "Police",
+      "wheelchair": "yes"
+    },
+    "lat": 5.5006299,
+    "lon": -3.6634523,
+    "timestamp": "2022-02-04 00:24:21+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9562398242,
+    "tags": {
+      "amenity": "police",
+      "name": "Préfecture de police"
+    },
+    "lat": 6.8194737,
+    "lon": -5.2465244,
+    "timestamp": "2025-03-02 11:02:34+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9599243893,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 5.2043806,
+    "lon": -4.408603,
+    "timestamp": "2022-03-23 09:50:42+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9599300034,
+    "tags": {
+      "amenity": "police",
+      "name": "Poste des eaux et forêts de Songon"
+    },
+    "lat": 5.3213532,
+    "lon": -4.2307598,
+    "timestamp": "2022-03-23 09:50:38+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9714426613,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 7.6774589,
+    "lon": -5.0304344,
+    "timestamp": "2022-05-04 15:50:17+00:00"
+  },
+  {
+    "type": "node",
+    "id": 9942017624,
+    "tags": {
+      "amenity": "police"
+    },
+    "lat": 5.8307553,
+    "lon": -5.3844033,
+    "timestamp": "2022-08-09 08:53:09+00:00"
+  },
+  {
+    "type": "node",
+    "id": 10558949790,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat mixte de police de tabou"
+    },
+    "lat": 4.4188491,
+    "lon": -7.3554542,
+    "timestamp": "2023-01-16 08:10:34+00:00"
+  },
+  {
+    "type": "node",
+    "id": 10558954662,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de gendarmerie de Tabou"
+    },
+    "lat": 4.4181662,
+    "lon": -7.3552378,
+    "timestamp": "2023-01-16 08:10:43+00:00"
+  },
+  {
+    "type": "node",
+    "id": 10601512625,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "8ème compagnie GSPM Bingerville"
+    },
+    "lat": 5.3575284,
+    "lon": -3.8896165,
+    "timestamp": "2023-02-02 15:34:04+00:00"
+  },
+  {
+    "type": "node",
+    "id": 10790664605,
+    "tags": {
+      "amenity": "police",
+      "name": "Corridor de la police"
+    },
+    "lat": 6.9099428,
+    "lon": -6.3521079,
+    "timestamp": "2023-07-19 01:01:51+00:00"
+  },
+  {
+    "type": "node",
+    "id": 10795013605,
+    "tags": {
+      "amenity": "police",
+      "name:en": "Checkpoint"
+    },
+    "lat": 7.2617758,
+    "lon": -8.0995988,
+    "timestamp": "2023-04-08 11:07:54+00:00"
+  },
+  {
+    "type": "node",
+    "id": 10795013606,
+    "tags": {
+      "amenity": "police",
+      "name:en": "Checkpoint"
+    },
+    "lat": 7.2569667,
+    "lon": -8.1756793,
+    "timestamp": "2023-04-08 11:07:55+00:00"
+  },
+  {
+    "type": "node",
+    "id": 10795013607,
+    "tags": {
+      "amenity": "police",
+      "name:en": "Liberia immigration"
+    },
+    "lat": 7.2536623,
+    "lon": -8.3646161,
+    "timestamp": "2023-04-08 11:07:56+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11072723198,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Centre de Secours d'urgence"
+    },
+    "lat": 6.542385,
+    "lon": -7.5424267,
+    "timestamp": "2023-07-28 08:45:02+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11168008096,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Securité routière BSR 2"
+    },
+    "lat": 7.7392825,
+    "lon": -7.6167705,
+    "timestamp": "2023-09-05 06:34:47+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11168095475,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat mixte de biankouma"
+    },
+    "lat": 7.7389062,
+    "lon": -7.6161171,
+    "timestamp": "2023-09-04 20:55:25+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11169050468,
+    "tags": {
+      "amenity": "police",
+      "name": "Bataillon de sécurisation ouest BSO"
+    },
+    "lat": 7.7395308,
+    "lon": -7.6158971,
+    "timestamp": "2023-09-05 07:39:06+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11169850189,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie nationale de biankouma"
+    },
+    "lat": 7.7419004,
+    "lon": -7.6225824,
+    "timestamp": "2023-09-05 15:31:59+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11175312833,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police touba"
+    },
+    "lat": 8.2831131,
+    "lon": -7.6855285,
+    "timestamp": "2023-09-07 20:27:45+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11187565549,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Office national de la protection civile"
+    },
+    "lat": 6.756781,
+    "lon": -3.5100093,
+    "timestamp": "2025-11-24 14:49:09+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11191642995,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 6.7414122,
+    "lon": -3.4968048,
+    "timestamp": "2023-09-14 20:57:34+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11195441211,
+    "tags": {
+      "amenity": "police",
+      "name": "Poste de police de Kassirimé",
+      "opening_hours": "24/7",
+      "source": "survey",
+      "source_date": "2023-09-08"
+    },
+    "lat": 9.4442014,
+    "lon": -5.5926982,
+    "timestamp": "2023-09-16 09:01:11+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11195441212,
+    "tags": {
+      "amenity": "police",
+      "name": "Groupement Mobile d'Intervention",
+      "opening_hours": "24/7",
+      "short_name": "GMI",
+      "source": "survey",
+      "source_date": "2023-09-09"
+    },
+    "lat": 9.4808789,
+    "lon": -5.6400794,
+    "timestamp": "2023-09-17 07:43:55+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11195470071,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 6.7251269,
+    "lon": -3.5056635,
+    "timestamp": "2023-09-16 08:58:51+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11197256979,
+    "tags": {
+      "amenity": "police",
+      "name": "École de Police Amadou Gon Coulibaly de Korhogo",
+      "opening_hours": "24/7",
+      "source": "survey",
+      "source_date": "2023-09-08"
+    },
+    "lat": 9.4809636,
+    "lon": -5.6383923,
+    "timestamp": "2023-09-17 07:43:55+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11243431654,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police 21ieme Arrondissement Abobo"
+    },
+    "lat": 5.4199749,
+    "lon": -4.0237718,
+    "timestamp": "2023-10-06 11:28:04+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11271456721,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 6.7497765,
+    "lon": -3.5063318,
+    "timestamp": "2023-10-18 10:25:27+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11279539058,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 6.1086196,
+    "lon": -3.8574209,
+    "timestamp": "2023-10-21 13:23:37+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11341009716,
+    "tags": {
+      "addr:housenumber": "Brigade de gendarmerie de Didievi",
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie de Didievi"
+    },
+    "lat": 7.127085,
+    "lon": -4.9004933,
+    "timestamp": "2024-04-22 11:01:46+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11381892948,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police de Samo"
+    },
+    "lat": 5.283204,
+    "lon": -3.5166704,
+    "timestamp": "2023-11-28 16:19:42+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11670590259,
+    "tags": {
+      "amenity": "police"
+    },
+    "lat": 5.3233834,
+    "lon": -4.3536501,
+    "timestamp": "2024-02-28 00:44:18+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11670590266,
+    "tags": {
+      "amenity": "fire_station"
+    },
+    "lat": 5.3358643,
+    "lon": -4.4550955,
+    "timestamp": "2024-02-28 00:44:18+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11734738079,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 6.7659049,
+    "lon": -6.8657106,
+    "timestamp": "2024-03-15 17:17:11+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11801408917,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police Daoukro"
+    },
+    "lat": 7.054427,
+    "lon": -3.9782202,
+    "timestamp": "2024-04-08 06:57:16+00:00"
+  },
+  {
+    "type": "node",
+    "id": 11806709462,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Ouelle"
+    },
+    "lat": 7.2916211,
+    "lon": -4.0144378,
+    "timestamp": "2024-04-10 08:54:12+00:00"
+  },
+  {
+    "type": "node",
+    "id": 12083899345,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat du 1er arrondissement Gagnoa"
+    },
+    "lat": 6.1316607,
+    "lon": -5.942973,
+    "timestamp": "2024-07-30 20:00:31+00:00"
+  },
+  {
+    "type": "node",
+    "id": 12083901493,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police de Ouragahio"
+    },
+    "lat": 6.3007908,
+    "lon": -5.9343365,
+    "timestamp": "2024-07-30 20:01:42+00:00"
+  },
+  {
+    "type": "node",
+    "id": 12244223623,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Hiré"
+    },
+    "lat": 6.1847043,
+    "lon": -5.2994444,
+    "timestamp": "2024-10-11 13:58:55+00:00"
+  },
+  {
+    "type": "node",
+    "id": 12505497948,
+    "tags": {
+      "amenity": "police",
+      "name": "Police aux frontières",
+      "name:en": "Border Police"
+    },
+    "lat": 7.6205962,
+    "lon": -8.3052816,
+    "timestamp": "2025-01-15 22:37:02+00:00"
+  },
+  {
+    "type": "node",
+    "id": 12696192454,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police Boundiali"
+    },
+    "lat": 9.5178321,
+    "lon": -6.4790603,
+    "timestamp": "2025-03-24 10:03:29+00:00"
+  },
+  {
+    "type": "node",
+    "id": 12696212101,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie de boundiali"
+    },
+    "lat": 9.5170147,
+    "lon": -6.4788103,
+    "timestamp": "2025-03-24 10:03:23+00:00"
+  },
+  {
+    "type": "node",
+    "id": 12786946841,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie Odienné"
+    },
+    "lat": 9.5031276,
+    "lon": -7.5617309,
+    "timestamp": "2025-04-25 20:03:48+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13092296765,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police de sinfra"
+    },
+    "lat": 6.6248735,
+    "lon": -5.9161706,
+    "timestamp": "2025-08-23 10:31:56+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13092300996,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Escadron de Bouna"
+    },
+    "lat": 9.2750759,
+    "lon": -3.0030259,
+    "timestamp": "2025-08-23 10:32:40+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13119572781,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie de Tehini"
+    },
+    "lat": 9.609648,
+    "lon": -3.6700158,
+    "timestamp": "2025-09-04 15:48:20+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13163181505,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police mixte de niablé"
+    },
+    "lat": 6.6579022,
+    "lon": -3.2657585,
+    "timestamp": "2025-09-22 18:55:17+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13239476901,
+    "tags": {
+      "amenity": "police"
+    },
+    "lat": 7.2533658,
+    "lon": -8.3645548,
+    "timestamp": "2025-10-17 17:45:12+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13344386902,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale - Brigade de Marcory"
+    },
+    "lat": 5.3068834,
+    "lon": -3.9934641,
+    "timestamp": "2025-12-01 11:19:57+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13626125803,
+    "tags": {
+      "amenity": "police",
+      "name": "Nkrankwanta Police Headquarters"
+    },
+    "lat": 7.0195528,
+    "lon": -3.0489665,
+    "timestamp": "2026-04-13 10:00:16+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13707213574,
+    "tags": {
+      "amenity": "police",
+      "name": "Corridor"
+    },
+    "lat": 6.1399606,
+    "lon": -5.883136,
+    "timestamp": "2026-04-05 05:27:28+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13745609823,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie de Fresco"
+    },
+    "lat": 5.1090512,
+    "lon": -5.5885862,
+    "timestamp": "2026-04-20 14:39:23+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13745613077,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police de Fresco"
+    },
+    "lat": 5.1078121,
+    "lon": -5.5879817,
+    "timestamp": "2026-04-20 14:39:26+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13790285801,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat du 33ème arrondissement"
+    },
+    "lat": 5.2521755,
+    "lon": -3.9417337,
+    "timestamp": "2026-06-20 16:10:41+00:00"
+  },
+  {
+    "type": "node",
+    "id": 13824582222,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie de Diabo"
+    },
+    "lat": 7.7828194,
+    "lon": -5.1871642,
+    "timestamp": "2026-05-13 12:58:45+00:00"
+  },
+  {
+    "type": "node",
+    "id": 14331359165,
+    "tags": {
+      "amenity": "police",
+      "name": "Caserne de la brigade mobile de bouna"
+    },
+    "lat": 9.2686603,
+    "lon": -2.9858917,
+    "timestamp": "2026-10-29 15:51:14+00:00"
+  },
+  {
+    "type": "way",
+    "id": 93380376,
+    "tags": {
+      "amenity": "fire_station",
+      "barrier": "wall",
+      "landuse": "military",
+      "name": "Groupement des Sapeurs-Pompiers Militaires - 5e compagnie",
+      "short_name": "GSPM"
+    },
+    "lat": 6.789036678260872,
+    "lon": -5.243224647826087,
+    "timestamp": "2023-02-15 22:11:15+00:00"
+  },
+  {
+    "type": "way",
+    "id": 123156423,
+    "tags": {
+      "amenity": "fire_station"
+    },
+    "lat": 5.3419299333333345,
+    "lon": -4.019641827777779,
+    "timestamp": "2024-08-02 15:31:14+00:00"
+  },
+  {
+    "type": "way",
+    "id": 206695517,
+    "tags": {
+      "amenity": "police",
+      "building": "office",
+      "building:levels": "3",
+      "name": "Direction Generale de la Police Nationale",
+      "short_name": "DGPN"
+    },
+    "lat": 5.318056546153847,
+    "lon": -4.019184361538462,
+    "timestamp": "2024-07-22 00:41:39+00:00"
+  },
+  {
+    "type": "way",
+    "id": 229640214,
+    "tags": {
+      "amenity": "police",
+      "name": "Compagnie Républicaine de Sécurité (CRS 1)",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité"
+    },
+    "lat": 5.36849078,
+    "lon": -4.0252465200000005,
+    "timestamp": "2024-03-09 12:02:34+00:00"
+  },
+  {
+    "type": "way",
+    "id": 240003948,
+    "tags": {
+      "addr:country": "CI",
+      "addr:state": "Abidjan",
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Camp Commando de Koumassi",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité"
+    },
+    "lat": 5.2819864999999995,
+    "lon": -3.965743355555555,
+    "timestamp": "2017-03-22 11:05:48+00:00"
+  },
+  {
+    "type": "way",
+    "id": 251002458,
+    "tags": {
+      "amenity": "police",
+      "building": "police",
+      "name": "Préfecture de Police de Bouaké"
+    },
+    "lat": 7.6878462999999995,
+    "lon": -5.02745291111111,
+    "timestamp": "2017-03-26 14:22:42+00:00"
+  },
+  {
+    "type": "way",
+    "id": 273681799,
+    "tags": {
+      "amenity": "police",
+      "name": "gendarmairie"
+    },
+    "lat": 5.40376962,
+    "lon": -6.55860798,
+    "timestamp": "2014-04-12 11:39:51+00:00"
+  },
+  {
+    "type": "way",
+    "id": 292881226,
+    "tags": {
+      "addr:city": "Oumé",
+      "addr:street": "Rue de la Police",
+      "amenity": "police",
+      "building": "yes",
+      "name": "Commissariat de Police Oumé",
+      "operator": "Ministere de L'interieur"
+    },
+    "lat": 6.381084416666667,
+    "lon": -5.4203278333333325,
+    "timestamp": "2019-05-09 19:29:21+00:00"
+  },
+  {
+    "type": "way",
+    "id": 296039194,
+    "tags": {
+      "addr:city": "Toumodi",
+      "amenity": "police",
+      "building": "yes",
+      "name": "Comissariat de Police Toumodi"
+    },
+    "lat": 6.5553138,
+    "lon": -5.01871386,
+    "timestamp": "2014-08-05 15:20:38+00:00"
+  },
+  {
+    "type": "way",
+    "id": 300274505,
+    "tags": {
+      "addr:city": "Man",
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Commissariat 1er Arrondissement Man"
+    },
+    "lat": 7.404177520000002,
+    "lon": -7.55230231,
+    "timestamp": "2024-09-28 11:20:03+00:00"
+  },
+  {
+    "type": "way",
+    "id": 354182283,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police",
+      "opening_hours": "24/7",
+      "wheelchair": "yes"
+    },
+    "lat": 7.801390649999999,
+    "lon": -3.1638111374999998,
+    "timestamp": "2015-06-23 18:59:23+00:00"
+  },
+  {
+    "type": "way",
+    "id": 358209901,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Camp des Eaux et Foret"
+    },
+    "lat": 5.79643172,
+    "lon": -6.593450819999999,
+    "timestamp": "2015-07-02 15:24:13+00:00"
+  },
+  {
+    "type": "way",
+    "id": 370791201,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Gendarmerie"
+    },
+    "lat": 7.457145199999999,
+    "lon": -4.33690974,
+    "timestamp": "2017-04-28 12:30:11+00:00"
+  },
+  {
+    "type": "way",
+    "id": 375862688,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police"
+    },
+    "lat": 5.93175104,
+    "lon": -4.21743426,
+    "timestamp": "2024-10-11 16:41:33+00:00"
+  },
+  {
+    "type": "way",
+    "id": 385347674,
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes"
+    },
+    "lat": 9.3905596,
+    "lon": -5.55304312,
+    "timestamp": "2015-12-11 00:19:50+00:00"
+  },
+  {
+    "type": "way",
+    "id": 397992700,
+    "tags": {
+      "aeroway": "hangar",
+      "amenity": "fire_station",
+      "building": "garage",
+      "building:levels": "1",
+      "name": "Sécurité incendie"
+    },
+    "lat": 5.258386185714286,
+    "lon": -3.930509685714285,
+    "timestamp": "2021-10-06 14:56:11+00:00"
+  },
+  {
+    "type": "way",
+    "id": 401016931,
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes"
+    },
+    "lat": 6.9068605000000005,
+    "lon": -5.35896514,
+    "timestamp": "2023-04-23 11:04:23+00:00"
+  },
+  {
+    "type": "way",
+    "id": 405608111,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Brigade de Sécurité de la Gendarmerie Nationale"
+    },
+    "lat": 5.336600135,
+    "lon": -4.020799159999999,
+    "timestamp": "2016-03-25 09:00:53+00:00"
+  },
+  {
+    "type": "way",
+    "id": 440948384,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Commissariat de Police 2e Arrondissement"
+    },
+    "lat": 7.682796455555555,
+    "lon": -5.037815522222223,
+    "timestamp": "2017-04-27 16:00:23+00:00"
+  },
+  {
+    "type": "way",
+    "id": 457919082,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Gendarmerie Nationale Brigarde de Bonon",
+      "opening_hours": "24/7"
+    },
+    "lat": 6.925300716666666,
+    "lon": -6.0527178500000005,
+    "timestamp": "2024-05-09 14:49:19+00:00"
+  },
+  {
+    "type": "way",
+    "id": 460009190,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Gendarmerie Nationale - Brigade de Logoualé"
+    },
+    "lat": 7.103758662499999,
+    "lon": -7.5486241624999995,
+    "timestamp": "2016-12-16 11:40:13+00:00"
+  },
+  {
+    "type": "way",
+    "id": 462313647,
+    "tags": {
+      "addr:city": "Gagnoa",
+      "amenity": "fire_station",
+      "name": "Centre de secours d'urgence de la region du Gôh ( Base sapeur pompier civile)"
+    },
+    "lat": 6.132075437499999,
+    "lon": -5.944033475,
+    "timestamp": "2024-04-11 13:10:49+00:00"
+  },
+  {
+    "type": "way",
+    "id": 481992309,
+    "tags": {
+      "addr:country": "CI",
+      "addr:state": "Abidjan",
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Commissariat du 29e Arrondissement",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "phone": "+225-21 24 77 07"
+    },
+    "lat": 5.311742242857143,
+    "lon": -4.005064814285714,
+    "timestamp": "2017-03-22 11:05:34+00:00"
+  },
+  {
+    "type": "way",
+    "id": 482004404,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Commissariat du 31e Arrondissement",
+      "operator": "Ministère d'Etat, Ministère de l'Interieur et de la Sécurité",
+      "phone": "+225-21 25 31 20;+225-21.24.87.73"
+    },
+    "lat": 5.28290935,
+    "lon": -3.9844755999999997,
+    "timestamp": "2017-03-22 12:12:27+00:00"
+  },
+  {
+    "type": "way",
+    "id": 483031698,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Centre de Coordination des Décisions Opérationnelles de Bouaké",
+      "name:fr": "Centre de Coordination des Décisions Opérationnelles de Bouaké",
+      "short_name": "CCDO"
+    },
+    "lat": 7.687936687500001,
+    "lon": -5.016747087500001,
+    "timestamp": "2020-07-01 22:34:50+00:00"
+  },
+  {
+    "type": "way",
+    "id": 486144974,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Commissariat de Police Urbaine et Frontière"
+    },
+    "lat": 7.131152283333332,
+    "lon": -3.201620266666667,
+    "timestamp": "2017-04-11 14:50:56+00:00"
+  },
+  {
+    "type": "way",
+    "id": 681510710,
+    "tags": {
+      "amenity": "police",
+      "barrier": "wall",
+      "name": "Gendarmerie de Koumassi, No.32, Akromiabla"
+    },
+    "lat": 5.312513281818183,
+    "lon": -3.9525505363636366,
+    "timestamp": "2026-05-29 13:07:06+00:00"
+  },
+  {
+    "type": "way",
+    "id": 707226830,
+    "tags": {
+      "amenity": "police",
+      "building": "yes"
+    },
+    "lat": 5.340793059999999,
+    "lon": -4.04562562,
+    "timestamp": "2024-09-23 13:54:49+00:00"
+  },
+  {
+    "type": "way",
+    "id": 777093619,
+    "tags": {
+      "amenity": "police",
+      "building": "yes"
+    },
+    "lat": 5.43252136190476,
+    "lon": -4.01285709047619,
+    "timestamp": "2020-02-28 15:54:50+00:00"
+  },
+  {
+    "type": "way",
+    "id": 948417997,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police d'Anonkoua Kouté",
+      "operator": "Police Nationale",
+      "start_date": "2021-05-17"
+    },
+    "lat": 5.431525809999999,
+    "lon": -4.04515372,
+    "timestamp": "2021-05-29 12:58:46+00:00"
+  },
+  {
+    "type": "way",
+    "id": 977445336,
+    "tags": {
+      "amenity": "police",
+      "building": "yes"
+    },
+    "lat": 5.28919962,
+    "lon": -2.77907674,
+    "timestamp": "2023-08-03 20:05:30+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1023592767,
+    "tags": {
+      "amenity": "police",
+      "building": "house",
+      "name": "Poste Frontière"
+    },
+    "lat": 7.609818939999999,
+    "lon": -8.31123816,
+    "timestamp": "2025-04-21 18:43:51+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1085868426,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigade de Gendarmerie de Katiola"
+    },
+    "lat": 8.12717654,
+    "lon": -5.0953739,
+    "timestamp": "2022-08-12 17:19:05+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1085949641,
+    "tags": {
+      "addr:city": "KORHOGO",
+      "amenity": "fire_station",
+      "barrier": "wall",
+      "name": "Groupement des Sapeurs Pompiers Militaires",
+      "opening_hours": "24/7",
+      "short_name": "GSPM",
+      "source": "survey",
+      "source_date": "2023-09-08"
+    },
+    "lat": 9.43050072857143,
+    "lon": -5.660664485714286,
+    "timestamp": "2023-09-17 07:43:55+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1192339629,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de police Bloléquin"
+    },
+    "lat": 6.57232048,
+    "lon": -8.0154814,
+    "timestamp": "2023-07-26 09:36:25+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1192845336,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Sapeurs Pompiers"
+    },
+    "lat": 6.74389564,
+    "lon": -7.32351396,
+    "timestamp": "2023-07-28 09:10:14+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1208267671,
+    "tags": {
+      "amenity": "police",
+      "name": "Brigarde de gendarmerie Abobo Gare"
+    },
+    "lat": 5.427157075000001,
+    "lon": -4.02052806875,
+    "timestamp": "2023-09-16 11:41:59+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1208341827,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police du 2ème Arrondissement"
+    },
+    "lat": 6.803947242857142,
+    "lon": -5.274907457142858,
+    "timestamp": "2024-03-18 15:41:35+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1209565183,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 6.817123928571429,
+    "lon": -5.249799214285714,
+    "timestamp": "2023-09-20 22:38:45+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1210582124,
+    "tags": {
+      "alt_name": "Groupement de Sapeurs Pompiers Militaires",
+      "amenity": "fire_station",
+      "name": "Sapeurs Pompiers",
+      "operator": "7ème compagnie du GSPM",
+      "short_name": "GSPM"
+    },
+    "lat": 6.000977840909091,
+    "lon": -4.822507009090909,
+    "timestamp": "2023-09-24 17:04:26+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1245107311,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Sapeurs Pompiers"
+    },
+    "lat": 6.974350385714286,
+    "lon": -5.729759557142858,
+    "timestamp": "2024-01-31 22:53:35+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1245107329,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie Nationale"
+    },
+    "lat": 6.98318594,
+    "lon": -5.753017440000001,
+    "timestamp": "2024-01-31 22:53:35+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1259368999,
+    "tags": {
+      "addr:street": "Autoroute d'Abobo",
+      "amenity": "police",
+      "name": "Préfecture de police d'Abidjan",
+      "opening_hours": "24/7",
+      "phone": "20210022"
+    },
+    "lat": 5.3846999166666665,
+    "lon": -4.025281108333334,
+    "timestamp": "2024-03-09 12:49:26+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1264998273,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police de Sinfra"
+    },
+    "lat": 6.625100742857143,
+    "lon": -5.9160924999999995,
+    "timestamp": "2024-03-21 22:46:03+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1270833317,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Gendarmerie de Bingerville"
+    },
+    "lat": 5.3594921200000005,
+    "lon": -3.8883637000000006,
+    "timestamp": "2024-04-08 09:29:59+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1276239801,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 7.003814144444444,
+    "lon": -5.4810646555555556,
+    "timestamp": "2024-04-25 21:30:45+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1285377961,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Gendarmerie Nationale",
+      "source": "survey",
+      "source:date": "2023-08-04"
+    },
+    "lat": 9.455601866666667,
+    "lon": -5.646188116666667,
+    "timestamp": "2024-05-21 23:53:47+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1290110805,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Compagnie Républicaine de Sécurité 9",
+      "short_name": "CRS 9"
+    },
+    "lat": 5.3571315,
+    "lon": -3.8868558142857146,
+    "timestamp": "2024-06-06 21:55:41+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1302614662,
+    "tags": {
+      "amenity": "police",
+      "name": "Gendarmerie"
+    },
+    "lat": 7.061671819999999,
+    "lon": -4.5018015,
+    "timestamp": "2024-07-20 00:28:15+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1302781237,
+    "tags": {
+      "amenity": "fire_station"
+    },
+    "lat": 8.011250891666666,
+    "lon": -2.818375816666667,
+    "timestamp": "2024-07-21 01:08:15+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1303475162,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Gendarmerie"
+    },
+    "lat": 6.546196140000001,
+    "lon": -7.502066999999999,
+    "timestamp": "2024-07-24 12:08:21+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1309932521,
+    "tags": {
+      "addr:city": "yawmatwa",
+      "amenity": "police",
+      "building": "yes",
+      "name": "police station",
+      "opening_hours": "24/7"
+    },
+    "lat": 6.76275828,
+    "lon": -3.1917394999999997,
+    "timestamp": "2024-08-22 20:22:13+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1312909917,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Brigade de Gendarmerie de Niakaramandougou"
+    },
+    "lat": 8.658991420000001,
+    "lon": -5.28744114,
+    "timestamp": "2024-09-02 22:02:51+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1315204920,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police du 3e Arrondissement"
+    },
+    "lat": 6.772091542857143,
+    "lon": -5.262145428571428,
+    "timestamp": "2024-09-12 21:20:13+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1354356646,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Centre de Protection Civile"
+    },
+    "lat": 7.403824414285714,
+    "lon": -7.556560035714285,
+    "timestamp": "2025-01-26 07:43:46+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1362874551,
+    "tags": {
+      "amenity": "police",
+      "building": "yes"
+    },
+    "lat": 6.77187264,
+    "lon": -5.2621668800000005,
+    "timestamp": "2025-02-25 15:53:31+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1379394802,
+    "tags": {
+      "amenity": "police",
+      "building": "yes",
+      "name": "Poste Frontière"
+    },
+    "lat": 10.56031504,
+    "lon": -6.427506119999999,
+    "timestamp": "2025-04-21 18:49:57+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1379395777,
+    "tags": {
+      "amenity": "police",
+      "building": "yes",
+      "name": "Poste Frontière"
+    },
+    "lat": 7.85748658,
+    "lon": -8.109963240000003,
+    "timestamp": "2025-04-21 18:55:14+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1385380091,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Gendarmerie Escadron d'odienné"
+    },
+    "lat": 9.498703583333333,
+    "lon": -7.557657183333333,
+    "timestamp": "2025-05-10 16:58:00+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1412589944,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Gendarmerie de Daoukro"
+    },
+    "lat": 7.0581571,
+    "lon": -3.9838650625,
+    "timestamp": "2025-07-05 21:29:55+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1451350459,
+    "tags": {
+      "amenity": "police",
+      "building": "yes",
+      "name": "Commisariat de Police"
+    },
+    "lat": 9.596521200000002,
+    "lon": -5.19527018,
+    "timestamp": "2026-04-20 14:25:39+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1467619370,
+    "tags": {
+      "alt_name": "Brigade de Sapeurs-Pompiers de Yopougon",
+      "amenity": "fire_station",
+      "description": "4e Compagnie d'Incendie et de Secours",
+      "name": "GSPM Yopougon",
+      "official_name": "Groupement des Sapeurs-Pompiers Militaires de Yopougon"
+    },
+    "lat": 5.329707155555555,
+    "lon": -4.060539944444445,
+    "timestamp": "2026-01-16 15:19:32+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1468076632,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police Mixte",
+      "name:en": "Police Station"
+    },
+    "lat": 10.00213224,
+    "lon": -7.835645080000001,
+    "timestamp": "2026-01-18 20:28:15+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1498163740,
+    "tags": {
+      "amenity": "police",
+      "landuse": "military",
+      "name": "Gendarmerie de Kong"
+    },
+    "lat": 9.154236979999999,
+    "lon": -4.617700279999999,
+    "timestamp": "2026-04-10 10:26:53+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1498163814,
+    "tags": {
+      "amenity": "police",
+      "name": "Commissariat de Police Mixte de Kong"
+    },
+    "lat": 9.153957014285714,
+    "lon": -4.613550828571428,
+    "timestamp": "2026-04-10 10:26:53+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1516927368,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Centre de Protection Civile",
+      "short_name": "CPC Bongouanou",
+      "website": "https://www.onpc-ci.org"
+    },
+    "lat": 6.653681766666668,
+    "lon": -4.229916466666666,
+    "timestamp": "2026-05-19 09:05:51+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1522447388,
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Office de Protection Civile de Touba"
+    },
+    "lat": 8.26518614,
+    "lon": -7.68072348,
+    "timestamp": "2026-05-26 09:50:56+00:00"
+  },
+  {
+    "type": "way",
+    "id": 1528724201,
+    "tags": {
+      "amenity": "police"
+    },
+    "lat": 5.872741916666667,
+    "lon": -7.456687183333334,
+    "timestamp": "2026-06-12 09:11:20+00:00"
+  }
+]

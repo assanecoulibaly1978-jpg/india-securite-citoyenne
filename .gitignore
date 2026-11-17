@@ -1,0 +1,30 @@
+# Secrets et configurations privées
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+.ssh/
+secrets/
+credentials/
+
+# Accès privés, sessions, permis et comptabilité locale
+var/
+
+# Dépendances et fichiers générés
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Journaux, sauvegardes et anciens lots
+*.log
+backups/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.pbf

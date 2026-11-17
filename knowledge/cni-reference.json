@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "procedureId": "cni",
+  "checked_on": "2026-11-16",
+  "review": "publications_compared_with_reservations",
+  "generativeUse": false,
+  "completeChecklist": false,
+  "feesConfirmed": false,
+  "timelinesConfirmed": false,
+  "sources": [
+    {
+      "id": 14,
+      "url": "https://www.oneci.ci/nos-produits/carte-identite/documents-a-fournir",
+      "title": "ONECI — CNI : documents à fournir",
+      "publisher": "ONECI",
+      "source_type": "official_administration",
+      "consulted_on": "2026-11-16",
+      "checked_at": "2026-11-16T11:59:43.039046+00:00",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre de mise à jour non établie ; la consultation ne certifie pas l’actualité des exigences.",
+      "currentness": "to_confirm",
+      "linkStatus": "usable",
+      "raw_sha256": "aab19b8769b401e92a92f1d0248bc3eb86691a621799fe652cc7e0a50560adb1"
+    },
+    {
+      "id": 5,
+      "url": "https://www.oneci.ci/faq",
+      "title": "ONECI — Foire aux questions",
+      "publisher": "ONECI",
+      "source_type": "official_administration",
+      "consulted_on": "2026-11-16",
+      "checked_at": "2026-11-16T11:59:43.714655+00:00",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre de mise à jour non établie ; la consultation ne certifie pas l’actualité des exigences.",
+      "currentness": "to_confirm",
+      "linkStatus": "usable",
+      "raw_sha256": "fbbbc19887f241dc66b82c2e495a1a9806da663afd099a3bdb1682a092063613"
+    },
+    {
+      "id": 15,
+      "url": "https://www.oneci.ci/downloads/files/etapes-demande-cni.pdf",
+      "title": "ONECI — Demande de CNI : liste des pièces",
+      "publisher": "ONECI",
+      "source_type": "official_administration",
+      "consulted_on": "2026-11-16",
+      "checked_at": "2026-11-16T11:59:43.016754+00:00",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre de mise à jour non établie ; la consultation ne certifie pas l’actualité des exigences.",
+      "currentness": "to_confirm",
+      "linkStatus": "usable",
+      "raw_sha256": "5a9c1759b737697f900c683614a3f21207e1bf606410561ab5f106f8ff35e468"
+    }
+  ],
+  "facts": [
+    {
+      "id": "first-birth",
+      "variants": [
+        "first"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Cas adulte, Ivoirien d’origine né en Côte d’Ivoire.",
+      "text": "La publication cite un justificatif de naissance récent : copie intégrale, extrait ou acte de notoriété mentionnant l’établissement de la CNI.",
+      "source_ids": [
+        14,
+        15
+      ],
+      "limits": "Les deux publications indiquent moins de deux ans ; cas particuliers non couverts ici."
+    },
+    {
+      "id": "first-nationality",
+      "variants": [
+        "first"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Même cas principal de première demande.",
+      "text": "Un certificat de nationalité datant de moins de deux ans figure dans les références.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "Ce point ne constitue pas une liste complète de pièces."
+    },
+    {
+      "id": "first-parent-dispute",
+      "variants": [
+        "first"
+      ],
+      "section": "documents",
+      "status": "divergent",
+      "scope": "CNI d’un parent, première demande.",
+      "text": "La page et le PDF présentent la CNI parentale comme recommandée ; la FAQ la liste sans cette réserve.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "Son caractère obligatoire universel n’est pas établi : à confirmer, sans conclure à une dispense."
+    },
+    {
+      "id": "renew-title",
+      "variants": [
+        "renewal",
+        "expiration"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Liste publiée pour le renouvellement.",
+      "text": "Les références proposent l’ancienne CNI, sa photocopie, une fiche d’identité ONECI ou un document portant le numéro du titre à renouveler.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "L’applicabilité à une carte expirée et à chaque génération de titre doit être confirmée."
+    },
+    {
+      "id": "renew-birth",
+      "variants": [
+        "renewal",
+        "expiration"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Liste publiée pour le renouvellement.",
+      "text": "Un justificatif de naissance apparaît dans les listes de renouvellement.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "La page et la FAQ précisent un original de moins de deux ans ; le PDF ne précise pas cette ancienneté dans sa rubrique renouvellement."
+    },
+    {
+      "id": "renew-nationality-dispute",
+      "variants": [
+        "renewal",
+        "expiration"
+      ],
+      "section": "documents",
+      "status": "divergent",
+      "scope": "Certificat de nationalité au renouvellement.",
+      "text": "La page et la FAQ citent le certificat de nationalité ; il est absent de la rubrique renouvellement du PDF.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "Cette omission ne prouve pas une dispense. Exigence applicable à confirmer."
+    },
+    {
+      "id": "loss-declaration",
+      "variants": [
+        "loss"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Duplicata d’une CNI biométrique perdue.",
+      "text": "Les références mentionnent une attestation de déclaration de perte établie par une autorité compétente.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "Ne pas transposer à tous les anciens titres ; ne constitue pas une déclaration effectuée ici."
+    },
+    {
+      "id": "loss-identity",
+      "variants": [
+        "loss"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Duplicata d’une CNI biométrique perdue.",
+      "text": "Une copie recto-verso du titre perdu, une fiche d’identité ONECI ou un document portant le NNI sont présentés comme alternatives.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "Ne transmettez ni numéro d’identité ni copie de document à INDIA."
+    },
+    {
+      "id": "loss-birth",
+      "variants": [
+        "loss"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Duplicata d’une CNI biométrique perdue.",
+      "text": "Un justificatif de naissance figure aussi dans les références du duplicata.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "Aucune durée de validité uniforme n’est confirmée ici pour cette rubrique."
+    },
+    {
+      "id": "receipt",
+      "variants": [
+        "first",
+        "renewal",
+        "expiration",
+        "loss"
+      ],
+      "section": "documents",
+      "status": "published",
+      "scope": "Justificatif d’enrôlement ou paiement, selon la rubrique.",
+      "text": "Les publications mentionnent un reçu ou timbre d’enrôlement ; le PDF indique un reçu de paiement pour les demandes.",
+      "source_ids": [
+        14,
+        5,
+        15
+      ],
+      "limits": "Aucun montant ni coût total actuel n’est confirmé par cette sélection."
+    }
+  ]
+}

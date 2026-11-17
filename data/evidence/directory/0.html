@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+
+       <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Annuaire des services publics de CÃ´te d'Ivoire | annuaire.gouv.ci</title>
+
+<meta content="fr" http-equiv="Content-Language" />
+<meta content="Annuaire" name="Classification" />
+<meta content="Centre d'Information et Communication Gouvernementale (CICG)" name="Author" />
+<meta content="Annuaire des services publics de CÃ´te d'Ivoire" name="description">
+<meta name="keywords" content="Annuaire, gouv, MinistÃ¨re, Structure, Publique, Mairie, Commissariat, Gendarmerie, Conseils rÃ©gionaux, Agences CIE, Agences SODECI, pharmacie, hopitaux publiques, pompiers, impÃ´t, palais de justice, prefecture, sous-prefecture, conseil municipal">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+<meta name="msnbot" content="index, follow">
+
+<link rel="icon" href="https://annuaire.gouv.ci/assets/img/icone.ico" type="image/x-ico" />
+<link rel="shortcut icon" href="https://annuaire.gouv.ci/assets/img/icone.ico" />
+
+<!-- google material icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- SWEET ALERT -->
+<script src="https://annuaire.gouv.ci/assets/sweetalert/sweetalert2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://annuaire.gouv.ci/assets/sweetalert/sweetalert2.css">
+<!-- mCustomScrollbar -->
+<link href="https://annuaire.gouv.ci/assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css" media="screen"/>
+<!-- Fontello -->
+<link href="https://annuaire.gouv.ci/assets/css/fontello.css" rel="stylesheet" type="text/css" media="screen"/>
+<!-- SELECT2 -->
+<link href="https://annuaire.gouv.ci/assets/bootstrap-select2/select2.css" rel="stylesheet" type="text/css" media="screen"/>
+<!-- Materialize CSS -->
+<link type="text/css" rel="stylesheet" href="https://annuaire.gouv.ci/assets/css/materialize.css"  media="screen,projection"/>
+<!-- Style CSS -->
+<link rel="stylesheet" href="https://annuaire.gouv.ci/assets/css/style.css" media="screen,projection">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+ 
+        <!-- Jquery full screen popup -->
+        <link rel="stylesheet" type="text/css" href="https://annuaire.gouv.ci/assets/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="https://annuaire.gouv.ci/assets/css/style7.css" />
+        <script src="https://annuaire.gouv.ci/assets/js/modernizr.custom.js"></script>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=[REDACTED_SOURCE_KEY]"></script>
+
+        <script type="text/javascript">
+
+          function initialize(latitude, longitude, Markertitle, adresse) {
+            var myLatLng = {lat: latitude, lng: longitude};
+
+            // Create a map object and specify the DOM element for display.
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: myLatLng,
+              scrollwheel: false,
+              zoom: 17
+            });
+
+            var contentString = '<div id="content">'+
+              '<div id="siteNotice">'+
+              '</div>'+
+              '<h5 style="color: #555; font-size: 20px">'+Markertitle+'</h5>'+
+              '<div id="bodyContent">'+
+              '<p style="color: #777;">'+adresse+'</p>'+
+              
+              '</div>'+
+            '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+              content: contentString,
+              maxWidth: 300
+            });
+
+
+            // Create a marker and set its position.
+            var image = 'https://annuaire.gouv.ci/assets/img/marker.png';
+            var marker = new google.maps.Marker({
+              map: map,
+              position: myLatLng,
+              icon: image,
+            });
+
+            marker.addListener('click', function() {
+              infowindow.open(map, marker);
+            });
+
+          }
+
+
+        </script>
+
+    </head>
+    <body>
+       <div class="conteneur">
+          <div class="language-bar">
+             <div class="content-wrapper">
+               <a class="active" href="https://annuaire.gouv.ci/">FranÃ§ais</a> | <a href="https://annuaire.gouv.ci/accueil/english">Anglais</a>
+             </div>
+           </div>
+           <div class="entete">
+               <div class="entete-cover"></div>
+ <div class="contenu-entete">
+    <div class="row">
+        <div class="col l4 m5 s6">
+            <a href="https://annuaire.gouv.ci/" title="Accueil">
+                <img src="https://annuaire.gouv.ci/assets/img/logo_annuaire.png" alt="logo annuaire" class="responsive-img">
+            </a>
+        </div>
+
+        <div class="col l2 m3 s3 offset-l6 offset-m4 offset-s3">
+            <img src="https://annuaire.gouv.ci/assets/img/armoirie.png" alt="armoirie" class="responsive-img">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col l12 m12 s12">
+            <form action="https://annuaire.gouv.ci/recherche" id="form-search" method="GET">
+                <div class="input-field"> 
+                    <div class="form-group search-group">
+                        <input type="text" class="form-control" name="search" pattern=".{4,}" required id="search-bar" title="4 characters minimum" placeholder="Tapez votre mot clÃ©">
+                        <button type="submit" id="btn-search" class="btn"><i class="material-icons i-search">search</i></button>
+                        <span class="help-block search-help">Quoi ? : ministÃ¨re de la santÃ©, mairie de san pedro, chu de treichville, 20312828, ...</span>
+                        
+                    </div>
+                </div>
+                
+                
+            </form>
+        </div>
+                    </div> <!-- fin row search bar -->
+
+ 
+ 
+
+                     <div class="row row-content">
+                        <div class="col l9 m8 s12 main-head-content">
+                            <div class="inner-page">
+                                <h5 class="truncate" style="color: #FFF;">Commissariats de police</h5>
+                            </div>
+                        </div>
+                        <div class="col l3 m4 hide-on-small-only head-aside">
+                            <div class="inner-page">
+                                <h5>Rectification</h5>
+                            </div>
+                        </div>  
+                       
+                    </div>
+               </div> <!-- contenu entÃªte -->
+           </div><!--  fin entete -->
+
+           <div class="main-content">
+               <div class="row row-main-content mb15">
+                   <div class="col l9 m8 s12 col-content mb15">
+                       <div class="main-inner-page z-depth-1">
+                          <ul class="liste_institution">
+                            
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>COMMISSARIAT DU 34ÃME ARRONDISSEMENT</h5>
+                                                                      
+                                                                      <span class="detail_institution" title="Adresse gÃ©ographique"><i class="tiny material-icons">my_location</i> ABOBO BAOULE-BELLEVILLE                                    </span>
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      01 41 88 19 89 / 01 03 05 91 78 / 01 01 63 37 21 / 05 06 90 50 70                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                      <a href="#"><i class="xlarge_off material-icons">location_off</i></a>
+                                  <span class="geolocaliser_off"><a href="#">GÃ©olocalisation indisponible</a></span>
+                                                                  </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>COMMISSARIAT DU 35ÃME ARRONDISSEMENT</h5>
+                                                                      
+                                                                      <span class="detail_institution" title="Adresse gÃ©ographique"><i class="tiny material-icons">my_location</i> Riviera-palmeraie                                    </span>
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      27 22.49.37.73 / 01 01 16 44 96 / 01 60 59 40 00 / 01 72 85 62 73 / 01 72 85 67 20                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                      <a href="#"><i class="xlarge_off material-icons">location_off</i></a>
+                                  <span class="geolocaliser_off"><a href="#">GÃ©olocalisation indisponible</a></span>
+                                                                  </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>PREFET DE POLICE BONDOUKOU</h5>
+                                                                      
+                                                                      <span class="detail_institution" title="Adresse gÃ©ographique"><i class="tiny material-icons">my_location</i> BONDOUKOU                                    </span>
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      05-64-38-26 / 40-11-21-03                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                      <a href="#"><i class="xlarge_off material-icons">location_off</i></a>
+                                  <span class="geolocaliser_off"><a href="#">GÃ©olocalisation indisponible</a></span>
+                                                                  </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>BRIGADE DE GENDARMERIE</h5>
+                                                                      
+                                                                      <span class="detail_institution" title="Adresse gÃ©ographique"><i class="tiny material-icons">my_location</i> Av.HKB (Bon Berger) Grand-Bassam - CÃ´te dâIvoire                                    </span>
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      (+225) 21 30 11 19                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                      <a href="#"><i class="xlarge_off material-icons">location_off</i></a>
+                                  <span class="geolocaliser_off"><a href="#">GÃ©olocalisation indisponible</a></span>
+                                                                  </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>PREFET DE POLICE BOUAKE</h5>
+                                                                      
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      07-07-27-44 / 01-83-27-12                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                     <a href="#" onClick="initialize(7.6855873, -5.02679, 'PREFET DE POLICE BOUAKE', '')" class="trigger-overlay-map"><i class="xlarge material-icons">location_on</i></a>
+                                  <span class="geolocaliser"><a href="#" onClick="initialize(7.6855873, -5.02679, 'PREFET DE POLICE BOUAKE', '')" class="trigger-overlay-map">GÃ©olocaliser</a></span>
+                                                                   </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>PREFETURE DE POLICE DALOA</h5>
+                                                                      
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      03-33-33-10 / 07-05-31-29                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                      <a href="#"><i class="xlarge_off material-icons">location_off</i></a>
+                                  <span class="geolocaliser_off"><a href="#">GÃ©olocalisation indisponible</a></span>
+                                                                  </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>PREFETURE DE POLICE DâABENGOUROU</h5>
+                                                                      
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      05-09-74-53 | 01-63-11-00                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                      <a href="#"><i class="xlarge_off material-icons">location_off</i></a>
+                                  <span class="geolocaliser_off"><a href="#">GÃ©olocalisation indisponible</a></span>
+                                                                  </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>PREFETURE DE POLICE DâABIDJAN</h5>
+                                                                      
+                                                                      <span class="detail_institution" title="Adresse gÃ©ographique"><i class="tiny material-icons">my_location</i> Plateau Abidjan - CÃ´te dâIvoire                                    </span>
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      (+225) 20 21 00 22 (+225) 20 22 42 27                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                     <a href="#" onClick="initialize(5.3355112, -4.0241879, 'PREFETURE DE POLICE DâABIDJAN', 'Plateau Abidjan - CÃ´te dâIvoire')" class="trigger-overlay-map"><i class="xlarge material-icons">location_on</i></a>
+                                  <span class="geolocaliser"><a href="#" onClick="initialize(5.3355112, -4.0241879, 'PREFETURE DE POLICE DâABIDJAN', 'Plateau Abidjan - CÃ´te dâIvoire')" class="trigger-overlay-map">GÃ©olocaliser</a></span>
+                                                                   </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>PREFECTURE DE POLICE DâABOISSO</h5>
+                                                                      
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      07-60-18-43                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                     <a href="#" onClick="initialize(37.0625, -95.677068, 'PREFECTURE DE POLICE DâABOISSO', '')" class="trigger-overlay-map"><i class="xlarge material-icons">location_on</i></a>
+                                  <span class="geolocaliser"><a href="#" onClick="initialize(37.0625, -95.677068, 'PREFECTURE DE POLICE DâABOISSO', '')" class="trigger-overlay-map">GÃ©olocaliser</a></span>
+                                                                   </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                            <li>
+                                  <div class="row">
+                                    <div class="col l9 m9 s12 pl0"><h5>PREFECTURE DE POLICE GAGNOA</h5>
+                                                                      
+                                                                    
+                                                                     
+                                                                      <span class="detail_institution" title="TÃ©lÃ©phone"><i class="tiny material-icons">call</i> 
+                                      01-27-32-25 / 07-06-08-96                                    </span>
+                                                                    
+                                                                    
+                                  
+                                  
+                                  
+                                 
+                                </div>
+                                  
+
+                                <div class="col l3 m3 s12 geolocalisation">
+                                                                     <a href="#" onClick="initialize(37.0625, -95.677068, 'PREFECTURE DE POLICE GAGNOA', '')" class="trigger-overlay-map"><i class="xlarge material-icons">location_on</i></a>
+                                  <span class="geolocaliser"><a href="#" onClick="initialize(37.0625, -95.677068, 'PREFECTURE DE POLICE GAGNOA', '')" class="trigger-overlay-map">GÃ©olocaliser</a></span>
+                                                                   </div>
+                                 
+                                    
+                                    
+                                  </div>
+                                  
+                                </li>
+                              
+                                                        
+
+                            
+                            
+                          </ul>
+                            <ul class="pagination"><li class="prev waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/3">&larr;</a></li><li class="waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/">1</a></li><li class="waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/2">2</a></li><li class="waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/3">3</a></li><li class="active">4</li><li class="waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/5">5</a></li><li class="waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/6">6</a></li><li class="waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/7">7</a></li><li class="next waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/5">&rarr;</a></li><li class="next waves-effect"><a href="https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/8">Dernier &raquo;</a></li></ul>                       </div>
+
+                   </div>
+                   <div class="col l3 m4 s12 col-aside">
+                       <div class="rectification z-depth-1 mb15">
+  <h5 class="hide-on-med-and-up show-on-small" id="rectif_s"><p></p>RECTIFICATION</h5>
+  <p> Une adresse manque ou est Ã©rronÃ©e ?</p>
+  <div class="rect-action-btn">
+    <a class="btn-floating waves-effect waves-light btn-large yellow darken-4 tooltipped modal-trigger" href="#modal1" data-position="left" data-delay="50" data-tooltip="Nous informer !">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+  </div>
+</div> <!-- fin rectification -->
+
+<div class="annuaire-web mb15 z-depth-1">
+
+  <h5>Annuaire web</h5>
+  <div class="zone-select">
+    <div class="">
+      <select id="source" style="width:100%" class="browser-default"  onchange="MM_jumpMenu('window.open()',this,0)">
+        <option value="">Sites des ministÃ¨re</option>
+                  <option value="https://diplomatie.gouv.ci/">Affaires EtrangÃ¨res, intÃ©gration Africaine et Diaspora</option>
+                  <option value="https://agriculture.gouv.ci/">Agriculture et DÃ©veloppement Rural</option>
+                  <option value="http://www.bonnegouvernance.gouv.ci/">Bonne Gouvernance et lutte contre la corruption</option>
+                  <option value="http://budget.gouv.ci">Budget et Portefeuille de lâEtat</option>
+                  <option value="http://www.commerce.gouv.ci/">Commerce, Industrie et Promotion des PME</option>
+                  <option value="http://www.communication.gouv.ci/">Communication et Economie NumÃ©rique</option>
+                  <option value="http://www.construction.gouv.ci/">Construction, Logement et Urbanisme</option>
+                  <option value="http://culture.gouv.ci/">Culture et Francophonie</option>
+                  <option value="https://defense.gouv.ci/">DÃ©fense</option>
+                  <option value="http://www.eauxetforets.gouv.ci/">Eaux et ForÃªts</option>
+                  <option value="http://www.education.gouv.ci/">Ãducation Nationale et AlphabÃ©tisation</option>
+                  <option value="http://emploi.gouv.ci/">Emploi et Protection sociale</option>
+                  <option value="http://www.enseignement.gouv.ci/">Enseignement SupÃ©rieur et Recherche Scientifique</option>
+                  <option value="https://enseignement.gouv.ci/">Enseignement technique, Formation professionnelle et Apprentissage</option>
+                  <option value="https://environnement.gouv.ci/accueil/">Environnement et DÃ©veloppement Durable</option>
+                  <option value="http://www.entretienroutier.gouv.ci/">Equipement et Entretien routier</option>
+                  <option value="http://famille.gouv.ci/">Femme, Famille et Enfant</option>
+                  <option value="https://www.fonctionpublique.gouv.ci/">Fonction Publique</option>
+                  <option value="https://justice.gouv.ci/">Garde des Sceaux, Justice et des Droits de lâHomme</option>
+                  <option value="https://hydraulique.gouv.ci">Hydraulique, Assainissement et SalubritÃ©</option>
+                  <option value="https://interieur.gouv.ci/">IntÃ©rieur et SÃ©curitÃ©</option>
+                  <option value="http://www.jeunesse.gouv.ci">Jeunesse, Insertion professionnelle et Service civique</option>
+                  <option value="https://www.energie.gouv.ci/">Mines, PÃ©trole et Energie</option>
+                  <option value="https://plan.gouv.ci/">Plan et DÃ©veloppement</option>
+                  <option value="https://primature.ci/">Premier ministre, Chef du Gouvernement</option>
+                  <option value="https://ressourcesanimales.gouv.ci/accueil/">Ressources Animales et Halieutiques</option>
+                  <option value="http://www.sante.gouv.ci">SantÃ©, HygiÃ¨ne publique et Couverture Maladie Universelle</option>
+                  <option value="https://solidarite.gouv.ci/">SolidaritÃ© et lutte contre la PauvretÃ©</option>
+                  <option value="https://sport.gouv.ci/">Sports</option>
+                  <option value="http://www.tourisme.gouv.ci/">Tourisme</option>
+                  <option value="http://www.transports.gouv.ci/">Transports</option>
+                
+      </select>
+    </div>
+    <div class="clear"></div>
+    
+    <div class="">
+
+      <select id="source2" style="width:100%" class="browser-default"  onchange="MM_jumpMenu('window.open()',this,0)">
+        <option value="">Sites des Ambassades</option>
+        
+          <option value="http://www.unesco.diplomatie.gouv.ci">
+            DÃ©lÃ©gation Permanente de CÃ´te d&acute;Ivoire Ã  l&acute;UNESCO avec rÃ©sidence Ã  Paris          </option>
+        
+          <option value="http://www.france.diplomatie.gouv.ci/">
+             France avec rÃ©sidence Ã  Paris           </option>
+        
+          <option value="www.rpci-geneve.org">
+            ReprÃ©sentation Permanente de CÃ´te D&acute;ivoire auprÃ¨s des Nations-Unies et de l&acute;Organisation Mondiale du Commerce (OMC) en Suisse - GenÃ¨ve,avec rÃ©sidence Ã  GenÃ¨ve          </option>
+        
+          <option value="http://www.tunisie.diplomatie.gouv.ci">
+             Tunisie avec rÃ©sidence Ã  Tunis           </option>
+        
+          <option value="http://www.japon.diplomatie.gouv.ci">
+             Japon / Singapour / IndonÃ©sie/ Philippines / Malaisie avec rÃ©sidence Ã  Tokyo          </option>
+        
+          <option value="http://www.maroc.diplomatie.gouv.ci/">
+             Maroc, avec rÃ©sidence Ã  Rabbat
+          </option>
+        
+          <option value="http://belgique.diplomatie.gouv.ci/index.php">
+             Belgique /Luxembourg (Benelux) / Union EuropÃ©enne / A.C.P avec rÃ©sidence Ã  Bruxelles
+          </option>
+        
+          <option value="http://www.nigeria.diplomatie.gouv.ci/">
+             NigÃ©ria / BÃ©nin / Victoria Island, avec rÃ©sidence Ã  Abuja
+          </option>
+        
+          <option value="http://www.suisse.diplomatie.gouv.ci/">
+             Suisse avec rÃ©sidence Ã  Berne 
+          </option>
+        
+          <option value="www.pretoria.ambaci-gmail.com">
+             Afrique du Sud avec rÃ©sidence Ã  Pretoria          </option>
+        
+          <option value="http://www.canada.diplomatie.gouv.ci">
+             Canada, avec rÃ©sidence Ã  Ottawa
+          </option>
+        
+          <option value="http://www.chine.diplomatie.gouv.ci/">
+             Chine /RPD de CorÃ©e/ Royaume De ThaÃ¯lande, avec rÃ©sidence Ã  Bejing           </option>
+        
+          <option value="http://www.ghana.diplomatie.gouv.ci">
+             Ghana et au Togo, RÃ©sidence Ã  Accra          </option>
+        
+          <option value="http://arabiesaoudite.diplomatie.gouv.ci/">
+             Arabie Saoudite / BahreÃ¯n / Emirats  Arabes Unis / KoweÃ¯t / Qatar,  avec rÃ©sidence Ã  Riyadh          </option>
+        
+          <option value="http://www.ambaci-dakar.org">
+             SÃ©nÃ©gal / Cap Vert / Gambie / Mauritanie, avec rÃ©sidence Ã  Dakar          </option>
+        
+          <option value="www.ambacimex.org">
+             Mexique /Cuba avec rÃ©sidence Ã  Mexico          </option>
+        
+          <option value="http://www.espagne.diplomatie.gouv.ci/">
+             Espagne avec rÃ©sidence Ã  Madrid           </option>
+        
+          <option value="http://www.gabon.diplomatie.gouv.ci/">
+             Gabon /Sao TomÃ© & Principe avec rÃ©sidence Ã  Libreville          </option>
+        
+          <option value="http://www.danemark.diplomatie.gouv.ci/">
+             Danemark / SuÃ¨de / NorvÃ¨ge / Finlande avec rÃ©sidence Ã  Copenhague          </option>
+        
+          <option value="http://www.africavf.net/Ambaciran">
+             Iran, RÃ©sidence Ã  TÃ©hÃ©ran           </option>
+        
+          <option value="http://www.cameroun.diplomatie.gouv.ci/">
+             Cameroun avec rÃ©sidence Ã  Douala          </option>
+        
+          <option value="http://bresil.diplomatie.gouv.ci/index.php">
+             BrÃ©sil / Colombie / Argentine / Chili/  Uruguay avec rÃ©sidence Ã  Brasilia          </option>
+        
+          <option value="http://www.mali.diplomatie.gouv.ci/">
+             Mali, avec rÃ©sidence Ã  Bamako
+          </option>
+        
+          <option value="http://www.italie.diplomatie.gouv.ci/">
+             Italie, avec rÃ©sidence Ã  Rome           </option>
+        
+          <option value="www.ambaci-va.it">
+             Saint SiÃ¨ge (Vatican) / Ordre Souverain de Malte, avec rÃ©sidence Ã  Rome          </option>
+        
+          <option value="http://www.egypte.diplomatie.gouv.ci/">
+             Ãgypte / Soudan  avec rÃ©sidence au Caire           </option>
+                  
+        
+        </select>
+      </div>
+      <div class="clear"></div>
+
+      <div class="">
+        <select id="source3" style="width:100%" class="browser-default"  onchange="MM_jumpMenu('window.open()',this,0)">
+          <option value="">Sites des institutions</option>
+                    <option value="http://www.presidence.ci/">La PrÃ©sidence</option>
+                  <option value="http://www.premierministre.ci/">La Primature</option>
+                  <option value="http://www.assnat.ci">L'AssemblÃ©e Nationale</option>
+                  <option value="http://www.lecesec.ci/">Le Conseil Economique, Social,Environemental, et Culturel </option>
+                  <option value="http://www.lemediateur.ci/">Le MÃ©diateur de la Republique</option>
+                  <option value="http://conseil-constitutionnel.ci/">le Conseil Constitutionnel</option>
+                  <option value="http://www.chamco-ci.org/">La Chambre de Commerce et d'Industrie</option>
+                </select>
+      </div>
+      <div class="clear"></div>
+      
+      <div class="">
+        <select id="source4" style="width:100%" class="browser-default"  onchange="MM_jumpMenu('window.open()',this,0)">
+          <option value="">Autres sites</option>
+                    <option value="https://www.campc.net/"> Centre Africain de Management et de Perfectionnement des Cadres (CAMPC)</option>
+                  <option value="https://cidfor.org/"> Centre ivoiren pour le developpement de la formation professionnelle ( Cidfor)</option>
+                  <option value="https://sicogi.com/"> SociÃ©tÃ© Ivoirienne de Construction et de Gestion Immobili?re (SICOGI)</option>
+                  <option value="http://arstm.org/new/index.php">Academie regionale des sciences et techniques de la mer (ARSTM)</option>
+                  <option value="http://www.acbfabidjan2016.gouv.ci/">ACBF</option>
+                  <option value="http://www.acbfabidjan2016.gouv.ci/">ACBF</option>
+                  <option value="https://www.dgamp.ci/">Affaires maritimes ivoiriennes </option>
+                  <option value="https://agencecipme.ci/">Agence CÃ´te d'Ivoire PME </option>
+                  <option value="https://ageroute.ci/">Agence de Gestion des Routes ( AGEROUTE)</option>
+                  <option value="https://www.agenceemploijeunes.ci/site/">Agence Emploi jeunes </option>
+                  <option value="https://www.aip.ci/">Agence ivoirienne de presse (AIP)</option>
+                  <option value="http://www.anaged.org/">Agence national de gestion des dechest (ANAGED)</option>
+                  <option value="http://www.anader.ci/">Agence Nationale d'Appui au DÃ©veloppement Rural (ANADER)</option>
+                  <option value="https://www.agefop.ci/">Agence nationale de formation professionnelle (AGEFOP)</option>
+                  <option value="http://anasur.salubrite.gouv.ci/">ANASUR</option>
+                  <option value="http://anasur.salubrite.gouv.ci/">ANASUR</option>
+                  <option value="https://www.apex-ci.net/">Association pour la Promotion des Exportations de C?te d'Ivoire (APEX-CI)</option>
+                  <option value="http://www.audiencesforaines.gouv.ci/">audiences foraines</option>
+                  <option value="http://www.audiencesforaines.gouv.ci/">audiences foraines</option>
+                  <option value="http://www.anare.ci/">AutoritÃ© nationale de rÃ©gulation du secteur de l'electricit? en C?te d'Ivoire (Anareci)</option>
+                  <option value="https://www.bhci.ci/">Banque de l'Habitat de CÃ´te d'Ivoire (BHCI)</option>
+                  <option value="https://www.bni.ci/index">Banque nationale d'investissement ( BNI)</option>
+                  <option value="http://www.pejedec.org/">Bureau de Coordination des programmes d'emploi ( BCP-Emploi)</option>
+                  <option value="https://www.buridaci.com/web/">Bureau ivoirien du droit d'auteur (BURIDA)</option>
+                  <option value="http://www.c2d.gouv.ci/">C2D</option>
+                  <option value="http://www.c2d.gouv.ci/">C2D</option>
+                  <option value="http://www.cacao.gouv.ci/">CACAO</option>
+                  <option value="http://www.cacao.gouv.ci/">CACAO</option>
+                  <option value="http://www.caidp.ci/">CAIDP</option>
+                  <option value="http://www.caidp.ci/">CAIDP</option>
+                  <option value="https://www.centif.ci/presentation.php">Cellule Nationale de Traitement de l'Information Financi?res de Cote d?Ivoire (CENTIFI-CI)</option>
+                  <option value="http://www.cicg.gouv.ci/">Centre d'Information et de Communication Gouvernem...</option>
+                  <option value="http://www.cicg.gouv.ci/">Centre d'Information et de Communication Gouvernementale</option>
+                  <option value="https://www.cepici.gouv.ci/en/">Centre de promotion des investissements en CI (CEPICI)</option>
+                  <option value="http://www.cpntic.com/">Centre de promotion des nouvelles technologies de l'information et de la communication (CPNCTIC)</option>
+                  <option value="http://www.cepici.gouv.ci/">CEPICI</option>
+                  <option value="http://www.cepici.gouv.ci/">CEPICI</option>
+                  <option value="https://www.chambragri.ci/">Chambre d'agriculture de CÃ´te d'Ivoire </option>
+                  <option value="https://cci-ci.com/">Chambre de commerce de CÃ´te d'Ivoire (CCC-CI)</option>
+                  <option value="http://www.ppp.gouv.ci/">ComitÃ© national de pilotage des partenariats public-prive</option>
+                  <option value="http://www.ppp.gouv.ci/">ComitÃ© national de pilotage des partenariats public-prive</option>
+                  <option value="http://cac.gouv.ci/">commission administrative de conciliation</option>
+                  <option value="http://cac.gouv.ci/">commission administrative de conciliation</option>
+                  <option value="http://www.competencesfeminines.gouv.ci/">Compendium des CompÃ©tences FÃ©minines</option>
+                  <option value="http://www.competencesfeminines.gouv.ci/">Compendium des CompÃ©tences FÃ©minines</option>
+                  <option value="https://cnlvc.ci/">Conseil national de lutte contre la Vie chÃ¨re (CNLCVC)</option>
+                  <option value="http://www.cne-ci.org/">Conseil national des Exportations (CNE)</option>
+                  <option value="http://cop.gouv.ci/cop22/index.php">COP</option>
+                  <option value="http://cop.gouv.ci/cop22/index.php">COP</option>
+                  <option value="https://www.cinergies.ci/">CÃ´te d'Ivoire Energies </option>
+                  <option value="http://www.dechetstoxiques.gouv.ci/">dÃ©chets toxiques</option>
+                  <option value="http://diaspora.gouv.ci/">Diaspora</option>
+                  <option value="http://diaspora.gouv.ci/">Diaspora</option>
+                  <option value="https://www.men-deco.org/c/">Direction des examens et concours (DECO)</option>
+                  <option value="http://tresor.gouv.ci/">Direction GÃ©nÃ©rale  du TrÃ©sor et de la ComptabilitÃ©</option>
+                  <option value="http://www.dgddl.interieur.gouv.ci/">Direction GÃ©nÃ©rale de la DÃ©centralisation et du DÃ©veloppement local</option>
+                  <option value="http://www.dgddl.interieur.gouv.ci/">Direction GÃ©nÃ©rale de la DÃ©centralisation et du DÃ©veloppement Local D?...</option>
+                  <option value="http://dgi.gouv.ci/site/">Direction GÃ©nÃ©rale des ImpÃ´ts</option>
+                  <option value="http://dgi.gouv.ci/site/">Direction GÃ©nÃ©rale des ImpÃ´ts</option>
+                  <option value="http://dgbf.gouv.ci/">Direction GÃ©nÃ©rale du Budget et des Finances</option>
+                  <option value="http://dgbf.gouv.ci/">Direction GÃ©nÃ©rale du Budget et des Finances</option>
+                  <option value="http://tresor.gouv.ci/">Direction GÃ©nÃ©rale du TrÃ©sor et de la ComptabilitÃ© Publique</option>
+                  <option value="http://www.dgdi.gouv.ci/">Don de Gouvernance et de DÃ©veloppement Institution...</option>
+                  <option value="http://www.dgdi.gouv.ci/">Don de Gouvernance et de DÃ©veloppement Institutionnel</option>
+                  <option value="https://www.ecgecole.com/">Ecole de commerce et de gestion (ECG)</option>
+                  <option value="http://eibma.sch-ci.org/">Ecole ivorienne de bijouterie et des metiers annexes </option>
+                  <option value="https://www.ena.ci/">Ecole nationale d'administration (ENA)</option>
+                  <option value="http://ensabidjan.ci/">Ecole nationale supÃ©rieur d'Abidjan (ENS) </option>
+                  <option value="https://ensea.ed.ci/">Ecole nationale supÃ©rieur de statistique et d'Ã©conomie appliquÃ©e ( ENSEA)</option>
+                  <option value="https://www.fdfp.ci/">Fonds de dÃ©veloppement de la formation professionnelle</option>
+                  <option value="https://www.fga-ci.net/fr/">Fonds de Garantie Automobile</option>
+                  <option value="https://firca.ci/about/">Fonds interprofessionnel pour la recherche et conseil agricole (Firca)</option>
+                  <option value="https://www.fratmat.info/">Fraternit? matin</option>
+                  <option value="http://www.gcpnd.gouv.ci/">GCPND</option>
+                  <option value="http://www.gcpnd.gouv.ci/">GCPND</option>
+                  <option value="https://www.haca.ci/">Haute AutoritÃ© de communication audiovisuelle (Haca)</option>
+                  <option value="https://habg.ci/">Haute AutoritÃ© pour la Bonne gouvernance</option>
+                  <option value="http://www.cardiologie.gouv.ci/">Institut de cardiologie</option>
+                  <option value="http://www.cardiologie.gouv.ci/">Institut de cardiologie</option>
+                  <option value="http://www.istcpolytechnique.ci/">Institut des Sciences et des Techniques de Communication (ISTC)</option>
+                  <option value="http://www.inieci.com/">Institut Ivoirien de l'Entreprise (INIE)</option>
+                  <option value="http://www.inhp.ci/">Institut national d'HygiÃ©ne publique (INHP)</option>
+                  <option value="https://www.infpa.ci/">Institut National de Formation Professionnelle Agricole (INFPA)</option>
+                  <option value="https://insaac.edu.ci/">Institut National SupÃ©rieur des Arts et de l'Action Culturelle (INSAAC)</option>
+                  <option value="https://ipnetp.laatech.net/2019/">Institut PÃ©dagogique national de l'enseignement technique et professionnelle ( Ipnetp)</option>
+                  <option value="http://istc-gouv-ci.net/">ISTC</option>
+                  <option value="http://istc-gouv-ci.net/">ISTC</option>
+                  <option value="http://www.annuaire.gouv.ci/">L'annuaire des services publics de CÃ´te d'Ivoire</option>
+                  <option value="http://www.annuaire.gouv.ci/">L'annuaire des services publics de CÃ´te d'Ivoire</option>
+                  <option value="http://www.banquepopulaire.ci/">La Caisse d'Ã©pargne </option>
+                  <option value="https://laposte.ci.post/">La poste CÃ´te d'Ivoire </option>
+                  <option value="https://www.lbtp.org/">laboratoire du bÃ¢timent et des Travaux Publics (LBTP)</option>
+                  <option value="http://www.lanada.ci/">Laboratoire National d'Appui au DÃ©veloppement Agricole (LANADA)</option>
+                  <option value="http://www.conseilcafecacao.ci/">Le conseil CafÃ© Cacao</option>
+                  <option value="https://guce.gouv.ci/?lang=fr">Le Guichet Unique du Commerce ExtÃ©rieur de la CÃ´te d'Ivoire</option>
+                  <option value="https://guce.gouv.ci/?lang=fr">Le Guichet Unique du Commerce ExtÃ©rieur de la CÃ´te d'Ivoire</option>
+                  <option value="https://lonaci.net/">Loterie nationale de CÃ´te d'Ivoire (LONACI)</option>
+                  <option value="http://www.npsp.ci/">Nouvelle pharmacie de la santÃ© publique (NPSP-CI)</option>
+                  <option value="http://www.nutrition.gouv.ci/">Nutrition</option>
+                  <option value="http://www.nutrition.gouv.ci/">Nutrition</option>
+                  <option value="https://www.ocpv-ci.com/">Office d'aide Ã  la commercialisation des produits vivriers ( OCPV)</option>
+                  <option value="https://www.oscn.ci/">Office du service civique national (OSCN)</option>
+                  <option value="https://www.oipr.ci/">Office Ivoirien des Parcs et RÃ©serves (OIPR)</option>
+                  <option value="http://www.oissu.sport.gouv.ci/">office ivoirien des sports scolaires et universita...</option>
+                  <option value="http://www.oissu.sport.gouv.ci/">office ivoirien des sports scolaires et universitaires</option>
+                  <option value="http://www.onp.gouv.ci/">Office national de la population (OND)</option>
+                  <option value="https://onacci.ci/">Office national du CinÃ©ma de CÃ´te d'Ivoire</option>
+                  <option value="http://onepci.net/fr/acceuil/">Office nationale de l'eau potable ( ONEP)</option>
+                  <option value="http://www.onp.gouv.ci/">ONP</option>
+                  <option value="http://www.onp.gouv.ci/">ONP</option>
+                  <option value="https://data.gouv.ci/">Open data C?te d'Ivoire</option>
+                  <option value="https://data.gouv.ci/">Open data CÃ´te d'Ivoire</option>
+                  <option value="http://www.bilan2011-2015.gouv.ci/">Plateforme officielle pour accÃ©der au bilan du gouvernement</option>
+                  <option value="http://www.bilan2011-2015.gouv.ci/">Plateforme officielle pour accÃ©der au bilan du gouvernement</option>
+                  <option value="http://www.prevention-ebola.gouv.ci/">prevention Ã©bola</option>
+                  <option value="http://www.prevention-ebola.gouv.ci/">prevention Ã©bola</option>
+                  <option value="http://prixdexcellence.gouv.ci/">prix d'excellence</option>
+                  <option value="http://prixdexcellence.gouv.ci/">prix d'excellence</option>
+                  <option value="https://pnmr.ci/">Programme National de Formation aux MÃ©tiers Ruraux (PNMR)</option>
+                  <option value="http://www.pnoev.org/">Programme National de Prise en Charge des Orphelins et autres Enfants rendus Vuln?rables du fait du VIH/SIDA/ R?publique de C?te d'Ivoire ( PN-OEV)</option>
+                  <option value="https://www.prici.ci/">Projet de Renaissance des Infrastructures de CÃ´te d'Ivoire (PRICI)</option>
+                  <option value="https://www.rti.ci/">Radiodiffusion tÃ©lÃ©vision ivoirienne (RTI)</option>
+                  <option value="http://www.saara.gouv.ci/home/">SAARA</option>
+                  <option value="http://www.saara.gouv.ci/home/">SAARA</option>
+                  <option value="http://www.sgg.gouv.ci/">SÃ©crÃ©tariat GÃ©nÃ©ral du Gouvernement de CÃ´te d'Ivoire</option>
+                  <option value="http://www.sgg.gouv.ci/">SÃ©crÃ©tariat GÃ©nÃ©ral du Gouvernement de CÃ´te d'Ivoire</option>
+                  <option value="http://www.sodefor.ci/">SociÃ©tÃ© de Developpement des ForÃªts (SODEFOR)</option>
+                  <option value="http://www.sodertour.ci/#/">SociÃ©tÃ© de dÃ©veloppement touristique de la rÃ©gion des lacs (Sodetour Lacs)</option>
+                  <option value="https://www.gestoci.ci/">SociÃ©tÃ© de Gestion des Stocks PÃ©troliers de CÃ´te d'Ivoire (GESTOCI)</option>
+                  <option value="https://www.gens-ci.com/">SociÃ©tÃ© de gestion du patrimoine immobilier de l'Etat (SOGEPIE)</option>
+                  <option value="https://sodemi.ci/">SociÃ©tÃ© du developpement minier de Ci (SODEMI)</option>
+                  <option value="http://www.sir.ci/">SociÃ©tÃ© ivoirienne de raffinage (SIR)</option>
+                  <option value="http://www.smb.ci/website/">SociÃ©tÃ© multinationale de bitume (SMB)</option>
+                  <option value="http://www.petroci.ci/">SociÃ©tÃ© nationale des opÃ©rations pÃ©troliÃ©res de CÃ´te d'Ivoire (Petroci)</option>
+                  <option value="https://versusbank.ci/">Versus Bank</option>
+                </select>
+      </div>
+
+    </div><!-- fin zone select -->
+  </div><!-- fin annuaire web -->
+
+  <div class="pub-allo101 z-depth-1 mb15">
+   <a href="#"><img src="https://annuaire.gouv.ci/assets/img/allo101.jpg" alt="Allo101" class="responsive-img"></a>
+ </div>
+
+ <div class="num-utile z-depth-1 mb15">
+   <h5>NumÃ©ros utiltes</h5>
+   <ul class="num_liste mCustomScrollbar" data-mcs-theme="rounded-dots-dark">
+    
+    <li><a href="tel:101
+" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="101
+">Allo 101, Allo gouvernement</a></li>
+
+  
+    <li><a href="tel:180" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="180">Pompier</a></li>
+
+  
+    <li><a href="tel:23 45 16" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="23 45 16">Pompiers IndeniÃ©</a></li>
+
+  
+    <li><a href="tel:23 45 16 90" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="23 45 16 90">Pompiers Yopougon</a></li>
+
+  
+    <li><a href="tel:225 21 35 73 65" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="225 21 35 73 65">Pompiers Zone 4</a></li>
+
+  
+    <li><a href="tel:22-44-53-53/22 44 31 47" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="22-44-53-53/22 44 31 47">Samu</a></li>
+
+  
+    <li><a href="tel:185" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="185">SOS mÃ©decins</a></li>
+
+  
+    <li><a href="tel:22 44 90 00 / 22 44 90 38" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="22 44 90 00 / 22 44 90 38">CHU de Cocody</a></li>
+
+  
+    <li><a href="tel:225 21 24 91 22 / 225 21 25 65 70" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="225 21 24 91 22 / 225 21 25 65 70">CHU de Treichville</a></li>
+
+  
+    <li><a href="tel:23 46 64 54 / 23 46 61 70" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="23 46 64 54 / 23 46 61 70">CHU de Yopougon</a></li>
+
+  
+    <li><a href="tel:31 63 21 90 / 31 63 53 50 / 31 63 53 49" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="31 63 21 90 / 31 63 53 50 / 31 63 53 49">CHU de BouakÃ©</a></li>
+
+  
+    <li><a href="tel:20 37 94 26" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="20 37 94 26">Centre National Anti tuberculeux</a></li>
+
+  
+    <li><a href="tel:32 78 22 90 / 32 78 36 23" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="32 78 22 90 / 32 78 36 23">CHR DALOA</a></li>
+
+  
+    <li><a href="tel:30 64 01 26 / 30 64 00 33" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="30 64 01 26 / 30 64 00 33">CHR YAMOUSSOUKRO</a></li>
+
+  
+    <li><a href="tel:22 48 31 31" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="22 48 31 31">PISAM</a></li>
+
+  
+    <li><a href="tel:20 32 13 35" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="20 32 13 35">Croix Rouge</a></li>
+
+  
+    <li><a href="tel:06208059 / 20238059" class="truncate tooltipped" data-position="right" data-delay="50" data-tooltip="06208059 / 20238059">ONUCI</a></li>
+
+  
+
+</ul>
+
+</div> <!-- fin num_utile -->
+
+
+
+
+
+
+                   </div> <!-- fin col aside -->
+               </div> <!-- fin row-main-content -->
+               <div class="row copy_concept">
+    <!--  <div class="col l10 m9 s12 mb15 copyright center-on-small-only">Â©  - Annuaire des services publics de CÃ´te dâIvoire. Tous droits rÃ©servÃ©s</div>
+    <div class="col l2 m3 s12 conception"><span>Conception:</span> <img src="assets/img/by_cicg.png" alt="Conception by CICG"></div> -->
+
+    <div class="col l12 s12 mb15">
+        <img src="https://annuaire.gouv.ci/assets/img/logo_annuaire.png" width="300" alt="logo" class="responsive-img">
+    </div>
+    <div class="col l12"><p class="social-header">Nous suivre</p></div>
+    <div class="col l2 s12">
+        <ul class="social-list">
+            <li><a target="_blank" href="https://www.facebook.com/gouvci.officiel/?fref=ts"><i class="icon-facebook"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/Gouvci"><i class="icon-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/user/gouvcivideo"><i class="icon-youtube"></i></a></li>
+        </ul>
+    </div> 
+    <div class="col l5 s12 app valign-wrapper">TÃ©lÃ©charger l'application gouv.ci <a target="_blank" href="https://play.google.com/store/apps/details?id=ci.gouv&hl=fr"><img width="75" src="https://annuaire.gouv.ci/assets/img/plays-store.png" alt="Play store" class="responsive-img"></a> <a target="_blank" href="https://itunes.apple.com/fr/app/gouvernement-ivoirien-officiel/id808890193?mt=8#"><img width="75" src="https://annuaire.gouv.ci/assets/img/appstore-icon.png" alt="App Strore" class="responsive-img"></a></div>
+    <!-- <div class="col l5 s12 app valign-wrapper">TÃ©lÃ©charger l'application gouv.ci <a href="#"><img width="75" src="assets/img/plays-store.png" alt="" class="responsive-img"></a> <a href="#"><img width="75" src="assets/img/appstore-icon.png" alt="" class="responsive-img"></a></div> -->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="col l12 s12"><p class="social-header">Plan du site</p></div>
+    <div class="col l12">
+        <h5 class="plan-title">ThÃ©matiques</h5>
+        <ul class="list-footer-menu">
+            
+                    </ul>
+    </div>
+ </div>
+ <div class="footer-droit-auteur">
+     <div class="row last-footer">
+         <div class="col l12">
+            <ul class="site-gouv">
+                <li><a target="_blank" href="http://www.gouv.ci/">gouv.ci</a></li>
+                <li><a target="_blank" href="http://www.eadministration.ci/">eadministration</a></li>
+                <li><a target="_blank" href="http://www.annuaire.gouv.ci/">annuaire.gouv.ci</a></li>
+                <li><a target="_blank" href="http://www.participationcitoyenne.gouv.ci/">participationcitoyenne.gouv.ci</a></li>
+                <li><a target="_blank" href="http://www.servicepublic.gouv.ci/">servicepublic.gouv.ci</a></li>
+                <li><a target="_blank" href="http://www.data.gouv.ci/">data.gouv.ci</a></li>
+            </ul>
+         </div>
+         <div class="col l12 small-footer">&copy; 2026 Copyright annuaire.gouv.ci - Tous droits rÃ©servÃ©s | <!-- <a href="#">Mentions lÃ©gales</a> | --> <a href="https://annuaire.gouv.ci/accueil/contact">Contact</a> | Mis Ã  jour le 06/06/2017</div>
+         <div class="col l12 s12 conception">Conception: <img src="https://annuaire.gouv.ci/assets/img/by_cicg.png" alt="Conception by CICG"></div>
+     </div>
+ </div>                </div> <!-- fin main content -->
+       </div> <!-- fin conteneur -->
+
+        <!-- content Google Map -->
+        <div class="overlay-map overlay-contentpush">
+          <button type="button" class="overlay-close">Fermer</button>
+          <div id="map">
+           
+          </div>
+        </div>
+
+        
+ <!-- Modal Trigger -->
+ <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h5>Une adresse manque ou est Ã©rronÃ©e ? Ecrivez-nous</h5>
+      
+        <form action="https://annuaire.gouv.ci/accueil/rectification" id="contat-form" method="POST" class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input name="name" id="name" required type="text">
+              <label for="name">* Nom et prÃ©noms</label>
+            </div>
+            <div class="input-field col s6">
+              <input name="email" id="email" type="email" required class="validate">
+              <label for="email" data-error="invalide">* Email</label>
+            </div>
+            <div class="input-field col s6">
+              <input name="phone" id="phone" type="text">
+              <label for="phone">TÃ©lÃ©phone</label>
+            </div>
+            <div class="input-field col s12">
+              <input name="institution" id="institution" required type="text">
+              <label for="institution">* Nom de la structure / Institution / Service</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea name="message" id="message" required class="materialize-textarea"></textarea>
+              <label for="message">* Message</label>
+            </div>
+          </div>
+    
+    <div class="modal-footer">
+      <button type="submit" class="modal-action modal-close btn waves-effect waves-light"><i class="material-icons right">send</i></button>
+     <!--  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a> -->
+    </div>
+  </form>
+</div>
+  </div>
+
+
+
+
+ <!-- jQuery -->
+ <script src="https://annuaire.gouv.ci/assets/js/jquery-2.1.4.js"></script>
+ <!-- Materialize JavaScript -->
+ <script type="text/javascript" src="https://annuaire.gouv.ci/assets/js/materialize.min.js"></script>
+ <!-- Jquery parallax -->
+ <script type="text/javascript" src="https://annuaire.gouv.ci/assets/js/jquery.parallax-1.1.3.js"></script>
+ <!-- mCustomScrollbar js -->
+ <script src="https://annuaire.gouv.ci/assets/js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+ <!-- Select2 js -->
+ <script src="https://annuaire.gouv.ci/assets/bootstrap-select2/select2.min.js" type="text/javascript"></script>
+
+ <!-- Materialize JavaScript -->
+ <script type="text/javascript" src="https://annuaire.gouv.ci/assets/js/script.js"></script>
+
+ <script>
+     $(document).ready(function(){
+        $('.tooltipped').tooltip({delay: 50});
+
+      /*----------------------------------------------------------*/
+      /*              selectSEL                         */
+      /*----------------------------------------------------------*/
+
+       $("#source").select2();
+       $("#source2").select2();
+       $("#source3").select2();
+       $("#source4").select2();
+    });
+
+    /*----------------------------------------------------------*/
+    /*              mCustomScrollbar              */
+    /*----------------------------------------------------------*/
+    $(".num_liste").mCustomScrollbar({
+        autoHideScrollbar: true
+    });
+
+     /*----------------------------------------------------------*/
+    /*              Sumit contact form                           */
+    /*----------------------------------------------------------*/
+     var form = $('#contat-form');
+      $(form).submit(function(event) {
+        event.preventDefault();
+        var donnees = $(form).serialize();
+        $.ajax({
+          url: 'https://annuaire.gouv.ci/accueil/rectification',
+          type: 'POST',
+          data: donnees,
+          success: function (data) {
+            console.log(data);
+            $('#modal1').closeModal();
+          },
+          complete: function () {
+            swal(
+                'Merci pour vos remarques!',
+                'Nous en tiendrons compte le plus tÃ´t possible!',
+                'success'
+            )
+          }
+        })
+      });
+
+    //effet de parallax sur le conteneur
+    $('.entete').parallax("center", 0.3, 0.1, true);
+
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+
+    $('.modal-trigger').click(function() {
+      $('#modal1').removeAttr('style');
+      $('#modal1').css({
+        zIndex: '9999',
+        display: 'block',
+        opacity: '1',
+        transform: 'scaleX(1)',
+        top: '10%'
+      });
+    });
+
+</script>
+
+<script>
+  /* ---------------------------------------------------- */
+    /*                 SELECT LAUNCH LINK                   */
+    /* ---------------------------------------------------- */          
+
+    function MM_jumpMenu(targ,selObj,restore){ //v3.0  
+        eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");  
+        if (restore) selObj.selectedIndex=0;
+    }
+</script>
+
+
+
+
+
+
+        <!-- Jquery full screen popup js -->
+        <script src="https://annuaire.gouv.ci/assets/js/classie.js"></script>
+        <script src="https://annuaire.gouv.ci/assets/js/demo7.js"></script>
+    </body>
+</html>
+

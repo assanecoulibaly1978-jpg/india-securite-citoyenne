@@ -1,0 +1,224 @@
+{
+  "requested_week": {
+    "start": "2026-11-09",
+    "end": "2026-11-15"
+  },
+  "country": "Côte d’Ivoire",
+  "record_count": 396,
+  "raw_duty_entries": 400,
+  "deduplicated_entries": 4,
+  "period_counts": [
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-13",
+      "entries": 196
+    },
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-14",
+      "entries": 3
+    },
+    {
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "entries": 1
+    },
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-20",
+      "entries": 197
+    },
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-21",
+      "entries": 3
+    }
+  ],
+  "locality_counts": {
+    "ABENGOUROU": 6,
+    "ABOBO": 39,
+    "ABOISSO": 2,
+    "ADIAKE": 2,
+    "ADJAME": 19,
+    "ADZOPE": 4,
+    "AGBOVILLE": 4,
+    "AGNIBILEKRO": 2,
+    "ALEPE / MONTEZO / BROFODOUME": 2,
+    "ALLOKOI PK 23": 2,
+    "ANYAMA": 6,
+    "ATTECOUBE": 10,
+    "AZAGUIE": 2,
+    "BAYOTA": 2,
+    "BINGERVILLE": 16,
+    "BONDOUKOU": 4,
+    "BONOUA": 2,
+    "BOUAFLE": 4,
+    "BOUAKE": 17,
+    "COCODY": 57,
+    "DABOU": 4,
+    "DALOA": 9,
+    "DANANE": 2,
+    "DIEGONEFLA": 2,
+    "DIVO": 9,
+    "DUEKOUE": 4,
+    "GAGNOA": 9,
+    "GRAND-BASSAM": 8,
+    "GUIGLO": 2,
+    "HIRE": 2,
+    "ISSIA": 4,
+    "KATIOLA": 2,
+    "KM 17 / SONGON": 2,
+    "KORHOGO": 10,
+    "KOUMASSI": 13,
+    "MAN": 8,
+    "MARCORY": 14,
+    "ODIENNE": 2,
+    "OUME": 1,
+    "PLATEAU": 2,
+    "PORT BOUET": 15,
+    "SAN PEDRO": 12,
+    "SINFRA": 2,
+    "SONGON / KM 17": 2,
+    "SOUBRE": 4,
+    "TIASSALE": 2,
+    "TREICHVILLE": 5,
+    "YAMOUSSOUKRO": 12,
+    "YOPOUGON": 31
+  },
+  "address_count": 307,
+  "coordinate_count": 0,
+  "phone_record_count": 396,
+  "callable_phone_record_count": 394,
+  "source_extraction_checks": [
+    {
+      "url": "https://unppci.org/controllers/downloads.php?id=994",
+      "total_pdf_pages": 13,
+      "selected_pages": [
+        {
+          "page": 1,
+          "expected_records": 29,
+          "extracted_records": 29
+        },
+        {
+          "page": 2,
+          "expected_records": 32,
+          "extracted_records": 32
+        },
+        {
+          "page": 3,
+          "expected_records": 18,
+          "extracted_records": 18
+        },
+        {
+          "page": 4,
+          "expected_records": 31,
+          "extracted_records": 31
+        },
+        {
+          "page": 5,
+          "expected_records": 31,
+          "extracted_records": 31
+        },
+        {
+          "page": 6,
+          "expected_records": 18,
+          "extracted_records": 18
+        },
+        {
+          "page": 13,
+          "expected_records": 7,
+          "extracted_records": 7
+        }
+      ]
+    },
+    {
+      "url": "https://unppci.org/controllers/downloads.php?id=995",
+      "total_pdf_pages": 24,
+      "selected_pages": [
+        {
+          "page": 1,
+          "expected_records": 23,
+          "extracted_records": 23
+        },
+        {
+          "page": 2,
+          "expected_records": 12,
+          "extracted_records": 12
+        },
+        {
+          "page": 3,
+          "expected_records": 38,
+          "extracted_records": 38
+        },
+        {
+          "page": 4,
+          "expected_records": 14,
+          "extracted_records": 14
+        },
+        {
+          "page": 5,
+          "expected_records": 11,
+          "extracted_records": 11
+        },
+        {
+          "page": 6,
+          "expected_records": 19,
+          "extracted_records": 19
+        },
+        {
+          "page": 7,
+          "expected_records": 24,
+          "extracted_records": 24
+        },
+        {
+          "page": 8,
+          "expected_records": 13,
+          "extracted_records": 13
+        },
+        {
+          "page": 9,
+          "expected_records": 38,
+          "extracted_records": 38
+        },
+        {
+          "page": 10,
+          "expected_records": 13,
+          "extracted_records": 13
+        },
+        {
+          "page": 11,
+          "expected_records": 11,
+          "extracted_records": 11
+        },
+        {
+          "page": 12,
+          "expected_records": 18,
+          "extracted_records": 18
+        }
+      ]
+    }
+  ],
+  "retrieval": [
+    {
+      "url": "https://unppci.org/controllers/downloads.php?id=994",
+      "mode": "live",
+      "error": null
+    },
+    {
+      "url": "https://unppci.org/controllers/downloads.php?id=995",
+      "mode": "live",
+      "error": null
+    }
+  ],
+  "not_exhaustive_national_directory": true,
+  "warnings": [
+    "Semaine civile demandée, et non période de garde : les rotations restent inchangées.",
+    "Couverture des deux PDF UNPPCI publiés pour novembre, pas garantie de couverture de toute officine ivoirienne.",
+    "Azaguié et Bondoukou : rotations samedi–samedi ; Oumé : lundi–dimanche.",
+    "Heure de relève non publiée : ne pas interpréter les dates partagées comme double ouverture garantie.",
+    "Certaines permanences locales ont des horaires restreints (voir notes, notamment Manuella à Gagnoa).",
+    "Aucun point GPS de pharmacie vérifié ; aucune coordonnée de centre-ville substituée.",
+    "Téléphones anciens conservés sans réparation ; préfixes non validés exclus des liens appel.",
+    "Appeler avant déplacement ; ni horaires ni disponibilité effective vérifiés par appel."
+  ]
+}

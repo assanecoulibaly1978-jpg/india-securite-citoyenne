@@ -1,0 +1,1024 @@
+{
+  "schema_version": "0.1",
+  "status": "proposal_not_integrated",
+  "prepared_on": "2026-11-12",
+  "country": "CI",
+  "language": "fr",
+  "read_only": true,
+  "runtime_enabled": false,
+  "approval_required": true,
+  "reviewer_approved": false,
+  "policy": {
+    "emergency_protocols_first": true,
+    "contacts_directory_only": true,
+    "collect_personal_documents": false,
+    "allow_payments": false,
+    "allow_network_actions": false,
+    "allow_generated_requirements": false,
+    "reverify_before_payment": true,
+    "all_facts_blocked_until_review": true
+  },
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://e-justice.ci",
+      "title": "Tarifs et profils du casier",
+      "publisher": "Ministère de la Justice / e-Justice",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Plateforme expressément reliée depuis la page Services du ministère : https://web.justice.gouv.ci/services"
+    },
+    {
+      "id": 2,
+      "url": "https://web.justice.gouv.ci/services",
+      "title": "Services du ministère",
+      "publisher": "Ministère de la Justice et des Droits de l’Homme",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site de l’administration compétente ; page publique lue directement."
+    },
+    {
+      "id": 3,
+      "url": "https://e-justice.ci/surfer/requests/new/cj/type",
+      "title": "Formulaire du bulletin n°3",
+      "publisher": "Ministère de la Justice / e-Justice",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site de l’administration compétente ; page publique lue directement."
+    },
+    {
+      "id": 4,
+      "url": "https://servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/81/61",
+      "title": "Casier au casier central",
+      "publisher": "Portail de l’administration ivoirienne",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Portail gouvernemental ; ancien pied de page, pas date certaine de cette fiche."
+    },
+    {
+      "id": 5,
+      "url": "https://www.oneci.ci/faq",
+      "title": "FAQ ONECI",
+      "publisher": "ONECI",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site de l’administration compétente ; page publique lue directement."
+    },
+    {
+      "id": 6,
+      "url": "https://certificat-actes-etatcivil.oneci.ci",
+      "title": "Portail des actes d’état civil",
+      "publisher": "ONECI",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site de l’administration compétente ; page publique lue directement."
+    },
+    {
+      "id": 7,
+      "url": "https://certificat-actes-etatcivil.oneci.ci/demande-acte",
+      "title": "Formulaire de demande d’acte",
+      "publisher": "ONECI",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site de l’administration compétente ; page publique lue directement."
+    },
+    {
+      "id": 10,
+      "url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1./480/1",
+      "title": "Copie d’extrait égaré",
+      "publisher": "Portail de l’administration ivoirienne",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Domaine gouvernemental ; pied de page générique 08/11/2016, pas date certaine de cette fiche."
+    },
+    {
+      "id": 11,
+      "url": "https://www.oneci.ci/nos-produits/etat-civil",
+      "title": "Rôle de l’ONECI dans l’état civil",
+      "publisher": "ONECI",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site de l’administration compétente ; page publique lue directement."
+    },
+    {
+      "id": 13,
+      "url": "https://www.justice.ci/digitalisation-du-service-public-de-la-justice-16-nouvelles-juridictions-connectees-a-la-plateforme-e-justice-ci",
+      "title": "Déploiement e-Justice, avril 2026",
+      "publisher": "Ministère de la Justice et des Droits de l’Homme",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site institutionnel du ministère ; événement daté dans le corps, date de publication distincte non établie."
+    },
+    {
+      "id": 14,
+      "url": "https://www.oneci.ci/nos-produits/carte-identite/documents-a-fournir",
+      "title": "ONECI — CNI, documents à fournir",
+      "publisher": "ONECI",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Documents de CNI sur le domaine de l’ONECI, identifié par sa présentation institutionnelle."
+    },
+    {
+      "id": 15,
+      "url": "https://www.oneci.ci/downloads/files/etapes-demande-cni.pdf",
+      "title": "Demande de carte nationale d’identité — liste des pièces à fournir",
+      "publisher": "ONECI / Direction de l’identité et de l’authentification",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "PDF hébergé par ONECI; en-tête du ministère de l’Intérieur et de la Sécurité."
+    },
+    {
+      "id": 16,
+      "url": "https://www.oneci.ci/qui-sommes-nous",
+      "title": "ONECI — Qui sommes-nous ?",
+      "publisher": "ONECI",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Présentation institutionnelle citant le décret de création 2019-458 et la CNI parmi ses produits."
+    },
+    {
+      "id": 17,
+      "url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/220/38",
+      "title": "Renouveler la CNI — anciens demandeurs",
+      "publisher": "Portail de l’Administration ivoirienne",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Sous-domaine gouv.ci; portail explicitement administratif; rubrique Direction: ONECI."
+    },
+    {
+      "id": 18,
+      "url": "https://servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/205/38",
+      "title": "Demander une nouvelle Carte Nationale d’Identité",
+      "publisher": "Portail de l’Administration ivoirienne",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Sous-domaine gouv.ci; portail explicitement administratif; rubrique Direction: ONECI."
+    },
+    {
+      "id": 19,
+      "url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/288",
+      "title": "Demander un passeport",
+      "publisher": "Portail de l’Administration ivoirienne",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Source gouvernementale primaire; liens explicites vers SNEDAI et monpasseport.ci. Aucune date de mise à jour propre à la fiche identifiée. Pied de page global daté 08/11/2016, non date certaine de la fiche."
+    },
+    {
+      "id": 20,
+      "url": "https://snedai.com/passeport-en-cote-divoire",
+      "title": "Passeport en Côte d’Ivoire",
+      "publisher": "SNEDAI Groupe — opérateur délégué",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "delegated_operator",
+      "official_basis": "Source opérationnelle déléguée, non ministère. Opérateur expressément attesté et lié par la fiche gouvernementale source 1."
+    },
+    {
+      "id": 21,
+      "url": "https://snedai.com/faq-passeport-biometrique",
+      "title": "Foire Aux Questions Passeport Biométrique",
+      "publisher": "SNEDAI Groupe — opérateur délégué",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "delegated_operator",
+      "official_basis": "FAQ liée depuis la page opérationnelle SNEDAI; provenance déléguée attestée par la source 1."
+    },
+    {
+      "id": 22,
+      "url": "https://doc.monpasseport.ci/faq",
+      "title": "Monpasseport.ci — FAQ",
+      "publisher": "SNEDAI — plateforme monpasseport.ci, opérateur délégué",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "delegated_operator",
+      "official_basis": "monpasseport.ci explicitement lié par le portail public et SNEDAI; FAQ sur son sous-domaine doc. Ce n’est pas un ministère."
+    },
+    {
+      "id": 23,
+      "url": "https://france.diplomatie.gouv.ci/fichiers/1547557712formulaire-passeport-ci.pdf",
+      "title": "Formulaire de demande de passeport ordinaire en Côte d’Ivoire",
+      "publisher": "DST / Sous-direction de la Police de l’Air et des Frontières; copie hébergée par l’Ambassade en France",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "PDF gouvernemental consulaire, une page; en-tête Ministère de la Sécurité, DST, S/DPAF. Formulaire intérieur malgré hébergement consulaire."
+    },
+    {
+      "id": 24,
+      "url": "https://passeportsofficiels.diplomatie.gouv.ci",
+      "title": "Portail de demande de passeport officiel en ligne",
+      "publisher": "Ministère des Affaires étrangères — Service des passeports officiels",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Domaine gouvernemental diplomatique; le corps précise passeports diplomatiques ou de service, pas passeports ordinaires. Pied de page global daté 22/01/2018, non date certaine du contenu."
+    },
+    {
+      "id": 25,
+      "url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1/160/24",
+      "title": "Obtenir son permis de conduire de Catégorie « B »",
+      "publisher": "Portail officiel de l’Administration ivoirienne",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Portail administratif officiel ivoirien, domaine servicepublic.gouv.ci."
+    },
+    {
+      "id": 26,
+      "url": "https://www.transports.gouv.ci/sites/default/files/permis_de_conduire.pdf",
+      "title": "Permis de conduire : documents et tarifs",
+      "publisher": "CGI / Quipux Afrique, diffusion ministère des Transports",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "officially_hosted_operator_material",
+      "official_basis": "Site officiel du ministère des Transports, domaine transports.gouv.ci. Brochure opérationnelle CGI/Quipux hébergée et liée par la publication ministérielle https://transports.gouv.ci/permis-de-conduire ; opérateur, non autorité réglementaire autonome."
+    },
+    {
+      "id": 27,
+      "url": "https://www.servicepublic.gouv.ci/accueil/detaildemarcheparticulier/1./70/24",
+      "title": "Obtenir le nouveau format du permis de conduire",
+      "publisher": "Portail officiel de l’Administration ivoirienne",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Portail administratif officiel ivoirien, domaine servicepublic.gouv.ci."
+    },
+    {
+      "id": 28,
+      "url": "https://transports.gouv.ci/actualites/permis-de-conduire-lautomatisation-de-lexamen-theorique-etendue-toute-la-cote-divoire-des",
+      "title": "Permis de conduire / Automatisation de l’examen théorique",
+      "publisher": "Ministère des Transports",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": "2024-04-11",
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site officiel du ministère des Transports, domaine transports.gouv.ci."
+    },
+    {
+      "id": 29,
+      "url": "https://transports.gouv.ci/permis-de-conduire",
+      "title": "Permis de conduire — publication du ministère",
+      "publisher": "Ministère des Transports",
+      "consulted_on": "2026-11-12",
+      "published_or_updated_at": null,
+      "publication_date_note": "Date propre non établie ; pied de page et date de téléchargement non assimilés à une mise à jour.",
+      "source_type": "official_administration",
+      "official_basis": "Site officiel du ministère des Transports, domaine transports.gouv.ci."
+    }
+  ],
+  "procedures": [
+    {
+      "id": "cni",
+      "title": "Carte nationale d’identité",
+      "scope": "Première demande, Ivoirien d’origine né en Côte d’Ivoire ; renouvellement signalé séparément.",
+      "administration": {
+        "text": "ONECI.",
+        "source_ids": [
+          14,
+          16
+        ],
+        "scope": "Établissement de la CNI",
+        "status": "published",
+        "verified_on": "2026-11-12",
+        "auto_answer_eligible": false
+      },
+      "conditions": [
+        {
+          "text": "Justifier la nationalité ivoirienne ; ne pas transposer les règles de carte de résident.",
+          "source_ids": [
+            14,
+            16
+          ],
+          "scope": "Demande de CNI",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "documents": [
+        {
+          "text": "Naissance : extrait/copie intégrale de moins de deux ans ; alternative publiée : acte de notoriété portant la mention CNI.",
+          "source_ids": [
+            15
+          ],
+          "scope": "Première demande",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_by_source"
+        },
+        {
+          "text": "Certificat de nationalité de moins de deux ans ; reçu d’enrôlement/paiement.",
+          "source_ids": [
+            14,
+            15
+          ],
+          "scope": "Première demande",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_by_source"
+        },
+        {
+          "text": "Justificatif professionnel pour professions spécifiques ; justificatif matrimonial selon situation.",
+          "source_ids": [
+            15
+          ],
+          "scope": "Cas conditionnels",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "conditional"
+        },
+        {
+          "text": "CNI parentale : recommandée sur la page/PDF, mais listée sans réserve dans la FAQ.",
+          "source_ids": [
+            14,
+            15,
+            5
+          ],
+          "scope": "Première demande",
+          "status": "conflict",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "not_established_as_universal"
+        },
+        {
+          "text": "Renouvellement : ancienne CNI ou justificatif admis et naissance ; nationalité demandée par page/FAQ mais omise du PDF.",
+          "source_ids": [
+            14,
+            15,
+            5
+          ],
+          "scope": "Renouvellement",
+          "status": "conflict",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "confirmation_required"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Constituer le dossier adapté ; obtenir le timbre/reçu via le service officiel ; effectuer l’enrôlement, suivre puis retirer avec justificatif et message de retrait.",
+          "source_ids": [
+            5,
+            15,
+            17
+          ],
+          "scope": "Parcours courant ; modalités d’enrôlement à reconfirmer",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "fees": [
+        {
+          "text": "5 000 FCFA publiés pour première demande et renouvellement.",
+          "source_ids": [
+            17,
+            18
+          ],
+          "scope": "Droits de CNI ; fiches non datées",
+          "status": "published_currentness_uncertain",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "amount_xof": 5000,
+          "currency": "XOF",
+          "cost_kind": "administrative_rights",
+          "limits": "Actualité opérationnelle non corroborée ; hors pièces, options et cas particuliers."
+        }
+      ],
+      "timelines": [
+        {
+          "text": "Première demande : indéterminé ; renouvellement : 45 jours affichés.",
+          "source_ids": [
+            17,
+            18
+          ],
+          "scope": "Fiches du portail",
+          "status": "published_currentness_uncertain",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "guaranteed": false,
+          "limits": "Aucun délai actuel garanti ni point de départ précisé."
+        }
+      ],
+      "uncertainties": [
+        {
+          "text": "Naissance à l’étranger, naturalisation, mariage, déclaration et mineurs exigent des branches distinctes ; listes définitives non établies pour tous ces cas.",
+          "source_ids": [
+            14,
+            15,
+            5
+          ],
+          "scope": "Hors cas principal",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "Aucune date propre d’actualisation ; le pied de page commun 2016 du portail ne date pas chaque fiche.",
+          "source_ids": [
+            17,
+            18
+          ],
+          "scope": "Fraîcheur documentaire",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ]
+    },
+    {
+      "id": "extrait_naissance",
+      "title": "Extrait d’acte de naissance",
+      "scope": "Copie d’une naissance déjà enregistrée ; pas déclaration initiale, rectification ni jugement supplétif.",
+      "administration": {
+        "text": "Centre d’état civil dépositaire ; coordination ONECI et portail numérique ONECI.",
+        "source_ids": [
+          5,
+          11,
+          6
+        ],
+        "scope": "Délivrance selon parcours",
+        "status": "published",
+        "verified_on": "2026-11-12",
+        "auto_answer_eligible": false
+      },
+      "conditions": [
+        {
+          "text": "Identifier le centre où l’acte est conservé et le document souhaité.",
+          "source_ids": [
+            5,
+            10
+          ],
+          "scope": "Copie existante",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "documents": [
+        {
+          "text": "Copie perdue : courrier avec identité, filiation, date de naissance et motif.",
+          "source_ids": [
+            10
+          ],
+          "scope": "Extrait égaré/détruit uniquement",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_for_specific_case"
+        },
+        {
+          "text": "Portail : NNI ou références d’extrait ; justificatifs selon branche du formulaire.",
+          "source_ids": [
+            6,
+            7
+          ],
+          "scope": "Parcours en ligne",
+          "status": "conditional",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "not_universally_established"
+        }
+      ],
+      "steps": [
+        {
+          "text": "S’adresser au centre d’état civil ; en ligne, choisir le parcours, rechercher l’acte puis suivre ou télécharger après paiement.",
+          "source_ids": [
+            5,
+            6,
+            7
+          ],
+          "scope": "Guichet ou portail ; disponibilité du parcours à confirmer",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "fees": [],
+      "timelines": [],
+      "uncertainties": [
+        {
+          "text": "Tarif et délai ordinaires non confirmés. La fiche de copie perdue affiche un coût nul et un délai indéterminé, sans portée générale.",
+          "source_ids": [
+            10
+          ],
+          "scope": "Pas de gratuité universelle déduite",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "La FAQ annonce l’indisponibilité en ligne alors qu’un portail ONECI est consultable ; couverture et fonctionnement transactionnel non testés.",
+          "source_ids": [
+            5,
+            6,
+            7
+          ],
+          "scope": "Contradiction de disponibilité",
+          "status": "conflict",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "Certificat d’état civil et extrait sont deux choix du formulaire ; leur équivalence pour un dossier n’est pas établie.",
+          "source_ids": [
+            7
+          ],
+          "scope": "Acceptation par le destinataire",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ]
+    },
+    {
+      "id": "casier_judiciaire",
+      "title": "Casier judiciaire — bulletin n°3",
+      "scope": "Demande personnelle via e-Justice ; cas principal : Ivoirien né en Côte d’Ivoire.",
+      "administration": {
+        "text": "Ministère de la Justice : juridiction liée à la naissance ; DACP pour les profils de naissance à l’étranger indiqués.",
+        "source_ids": [
+          1,
+          2
+        ],
+        "scope": "Bulletin n°3",
+        "status": "published",
+        "verified_on": "2026-11-12",
+        "auto_answer_eligible": false
+      },
+      "conditions": [
+        {
+          "text": "Demande personnelle ; sélectionner le bon profil et la juridiction appropriée.",
+          "source_ids": [
+            1,
+            3
+          ],
+          "scope": "Ne pas appliquer aux bulletins n°1/n°2",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "documents": [
+        {
+          "text": "Acte de naissance original à téléverser et références d’état civil.",
+          "source_ids": [
+            3
+          ],
+          "scope": "Profil principal",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_by_source"
+        },
+        {
+          "text": "Acte de mariage si la mention manque ; justificatifs supplémentaires selon situation.",
+          "source_ids": [
+            1,
+            3
+          ],
+          "scope": "Conditionnel",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "conditional"
+        },
+        {
+          "text": "Le formulaire propose avec ou sans CNI : pas d’exigence universelle déduite.",
+          "source_ids": [
+            3
+          ],
+          "scope": "Parcours consulté",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "not_universally_required"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Choisir profil, renseigner et joindre les pièces ; vérifier avant paiement puis récupérer le document sécurisé après traitement.",
+          "source_ids": [
+            1,
+            3
+          ],
+          "scope": "Sur le site officiel, pas dans l’assistant",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "fees": [
+        {
+          "text": "2 500 FCFA de droits + 500 FCFA de service ; total affiché 3 000 FCFA pour le profil principal.",
+          "source_ids": [
+            1,
+            3
+          ],
+          "scope": "Ivoiriens nés en Côte d’Ivoire ou à l’étranger ; étrangers nés en Côte d’Ivoire",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "amount_xof": 3000,
+          "currency": "XOF",
+          "cost_kind": "displayed_platform_total",
+          "components": [
+            {
+              "label": "Droits",
+              "amount_xof": 2500
+            },
+            {
+              "label": "Service",
+              "amount_xof": 500
+            }
+          ],
+          "limits": "Autres frais éventuels du paiement non confirmés."
+        },
+        {
+          "text": "10 000 FCFA de droits, frais de service en supplément.",
+          "source_ids": [
+            1
+          ],
+          "scope": "Étranger né à l’étranger résidant en Côte d’Ivoire",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "amount_xof": 10000,
+          "currency": "XOF",
+          "cost_kind": "administrative_rights",
+          "limits": "Ne pas appliquer au cas principal."
+        }
+      ],
+      "timelines": [],
+      "uncertainties": [
+        {
+          "text": "24 h affichées pour le casier central sur le portail ; en avril 2026, ministère : 80 % des actes en moins de 72 h. Ni délai numérique actuel garanti ni résultat individuel.",
+          "source_ids": [
+            4,
+            13
+          ],
+          "scope": "Annonce statistique tous actes, distincte de la fiche casier central",
+          "status": "not_a_guarantee",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "Confirmer profil, juridiction, délai et éventuels frais de paiement avant demande ; pages opérationnelles non datées.",
+          "source_ids": [
+            1,
+            3
+          ],
+          "scope": "Aucune transaction testée",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ]
+    },
+    {
+      "id": "passeport",
+      "title": "Passeport ivoirien ordinaire",
+      "scope": "Première demande en Côte d’Ivoire ; majeur national d’origine avec CNI valide.",
+      "administration": {
+        "text": "Autorités policières / Police de l’Air et des Frontières ; SNEDAI, opérateur d’édition délégué.",
+        "source_ids": [
+          19,
+          23
+        ],
+        "scope": "Passeport ordinaire, pas diplomatique/de service",
+        "status": "published",
+        "verified_on": "2026-11-12",
+        "auto_answer_eligible": false
+      },
+      "conditions": [
+        {
+          "text": "Citoyenneté ivoirienne ; liste opérationnelle adulte à partir de 18 ans avec CNI valide.",
+          "source_ids": [
+            19,
+            20
+          ],
+          "scope": "Cas principal",
+          "status": "published_with_delegated_detail",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "documents": [
+        {
+          "text": "Photo récente, CNI valide original/copie, naissance originale ; reçu et documents imprimés selon canal.",
+          "source_ids": [
+            20,
+            22
+          ],
+          "scope": "Liste opérationnelle du cas principal",
+          "status": "published_delegated",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_by_source"
+        },
+        {
+          "text": "Justificatif de profession et acte de mariage selon situation.",
+          "source_ids": [
+            20
+          ],
+          "scope": "Commerçant/chauffeur ou usage du nom marital",
+          "status": "published_delegated",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "conditional"
+        },
+        {
+          "text": "Nationalité et pièce parentale : FAQ/formulaire les évoquent mais la liste adulte ne les énumère pas.",
+          "source_ids": [
+            20,
+            21,
+            23
+          ],
+          "scope": "Ne pas cumuler toutes les cases du formulaire",
+          "status": "conflict",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "confirmation_required"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Remplir le formulaire ; suivre le canal de paiement/rendez-vous choisi ; se présenter pour contrôle et biométrie ; conserver le récépissé pour retrait.",
+          "source_ids": [
+            19,
+            22
+          ],
+          "scope": "Aucune inscription ni opération effectuée par l’assistant",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "fees": [
+        {
+          "text": "40 000 FCFA de droits affichés.",
+          "source_ids": [
+            19,
+            20
+          ],
+          "scope": "Demande en Côte d’Ivoire",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "amount_xof": 40000,
+          "currency": "XOF",
+          "cost_kind": "administrative_rights",
+          "limits": "Frais annexes et total transactionnel non confirmés ; pas le tarif diaspora."
+        }
+      ],
+      "timelines": [
+        {
+          "text": "72 heures après validation par la Police de l’Air et des Frontières.",
+          "source_ids": [
+            19,
+            20,
+            22
+          ],
+          "scope": "Pas depuis dépôt, paiement ou rendez-vous",
+          "status": "published_conditional_target",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "guaranteed": false,
+          "limits": "Attente de rendez-vous et phase de validation exclues ; pas promesse individuelle."
+        }
+      ],
+      "uncertainties": [
+        {
+          "text": "Mineur, renouvellement, diaspora, nationalité acquise et CNI manquante nécessitent d’autres listes.",
+          "source_ids": [
+            20,
+            21
+          ],
+          "scope": "Hors cas principal",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "Retrait par tiers et banques : indications divergentes. Actualisation des fiches non datée ; ne pas annoncer une liste exclusive.",
+          "source_ids": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "scope": "Modalités à confirmer",
+          "status": "conflict",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "Le portail des passeports officiels traite diplomatiques/de service, pas le passeport ordinaire.",
+          "source_ids": [
+            24
+          ],
+          "scope": "Hors périmètre",
+          "status": "excluded_scope",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ]
+    },
+    {
+      "id": "permis_conduire",
+      "title": "Permis de conduire — catégorie B",
+      "scope": "Première candidature, examens puis édition ; pas duplicata, renouvellement ni changement de format.",
+      "administration": {
+        "text": "Ministère des Transports, services des transports terrestres/DGTTC et CGI ; brochure opérationnelle Quipux diffusée par le ministère.",
+        "source_ids": [
+          25,
+          26,
+          28,
+          29
+        ],
+        "scope": "Catégorie B",
+        "status": "published",
+        "verified_on": "2026-11-12",
+        "auto_answer_eligible": false
+      },
+      "conditions": [
+        {
+          "text": "Au moins 18 ans et réussite du code et de la conduite ; aptitude médicale demandée par la fiche.",
+          "source_ids": [
+            25
+          ],
+          "scope": "Catégorie B uniquement",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "documents": [
+        {
+          "text": "Inscription : identité utilisée par l’auto-école et attestation d’inscription, originaux.",
+          "source_ids": [
+            26
+          ],
+          "scope": "Avant examens",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_by_source"
+        },
+        {
+          "text": "Édition : identité valide, certificats théorique/pratique, attestation d’enregistrement ; copies lisibles avec originaux.",
+          "source_ids": [
+            26
+          ],
+          "scope": "Après réussite",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_by_source"
+        },
+        {
+          "text": "Certificat médical : exigé par la fiche B ; stade et durée de validité à confirmer.",
+          "source_ids": [
+            25,
+            26
+          ],
+          "scope": "Fiche B et liste d’édition distinctes",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "mandatory_status": "listed_with_scope_uncertainty"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Inscription et enregistrement, formation puis examens ; après réussite, dossier d’édition au CGI.",
+          "source_ids": [
+            25,
+            26
+          ],
+          "scope": "Première obtention",
+          "status": "published",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ],
+      "fees": [
+        {
+          "text": "23 500 FCFA affichés pour B ; brochure : 16 000 d’enregistrement et 7 500 d’édition.",
+          "source_ids": [
+            25,
+            26
+          ],
+          "scope": "Postes administratifs B",
+          "status": "published_currentness_uncertain",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "amount_xof": 23500,
+          "currency": "XOF",
+          "cost_kind": "administrative_components",
+          "components": [
+            {
+              "label": "Enregistrement",
+              "amount_xof": 16000
+            },
+            {
+              "label": "Édition",
+              "amount_xof": 7500
+            }
+          ],
+          "limits": "Ne pas ajouter deux fois ces postes. Hors auto-école, visite, reprises ; actualité 2026 à confirmer."
+        }
+      ],
+      "timelines": [
+        {
+          "text": "Un mois minimum indiqué sur la fiche.",
+          "source_ids": [
+            25
+          ],
+          "scope": "Fiche B ; calendrier complet non établi",
+          "status": "published_currentness_uncertain",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false,
+          "guaranteed": false,
+          "limits": "Ne pas promettre un délai global depuis inscription ; fiche sans date propre."
+        }
+      ],
+      "uncertainties": [
+        {
+          "text": "Prix de formation, examens/reprises, visite et durée totale non confirmés.",
+          "source_ids": [
+            25,
+            26
+          ],
+          "scope": "Pas de forfait auto-école inventé",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "Brochure : métadonnées PDF modifiées en juillet 2021, pas preuve de publication ni de tarif actuel.",
+          "source_ids": [
+            26
+          ],
+          "scope": "Métadonnée technique vérifiée",
+          "status": "confirmation_required",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        },
+        {
+          "text": "Tarifs/délais de changement de format concernent des titulaires existants et non une première obtention.",
+          "source_ids": [
+            27
+          ],
+          "scope": "Opérations distinctes",
+          "status": "excluded_scope",
+          "verified_on": "2026-11-12",
+          "auto_answer_eligible": false
+        }
+      ]
+    }
+  ]
+}

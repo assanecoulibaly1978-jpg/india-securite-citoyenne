@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "sourceVersion": "8781",
+  "note": "Original collection manifests describe original local captures. Listed export files are sanitized derivatives, not byte-identical originals. Application code and structured directory records are unchanged.",
+  "files": [
+    {
+      "file": "data/evidence/directory/police-1.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "988a66e17f4718456d33b343c9e17427ef96ee658915bddcd6cb0154f522eb8d",
+      "exportSha256": "4a99da5f3a34b1624f30e0d97b9308b1c1668136cb8dffbd0f9cc269c074ed19",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/police-6.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "a4858aa6a6b03f75d0a25c0d60e3db61d0f0b74fb892ff617b9c4908a4aabb06",
+      "exportSha256": "f4faa6f6e0dccaf834b21d626292c6b5c38d1258427177a77944a5e2131d3c37",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/pompiers.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "ccf9dba59bf424c4960a2d7dd67eb7b3366f442c24f498e2662d5703bd17da32",
+      "exportSha256": "d8a83c25cee4801a7047267d2da29951c5783ff4451549f7b2734cc56c1c3c3c",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/police-7.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "eb6fae5dacd6afdd8ed9b136904d5cd0cc28bf89ecb3dcbd74d404621d397f31",
+      "exportSha256": "6892b9d3fbeae277b7e1a5f5ece16dfc58bbb1b6e19d54125bebf6236ae199b9",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/facaci.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "08f286c3e91c6c5d7c259cebddd38a91dc41ffe12f2689bdf9bd1efc56e09f24",
+      "exportSha256": "f03bfcc70fd12a971097746569181023ae97c6028dc541596ae3c490746474ed",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/police-4.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "9a0f5641a3be32a6f6d0454f40e31baa256bcadfb11ec8e3c0b5e42ebb49401a",
+      "exportSha256": "d861e4f6df48c28b05f710e0c91998a622bf7f547878e2e92c850ff3a5a431b7",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/police-8.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "17fd47d0cca10bab28978418514c566a9642ec483186a917fca1c63ec4a98262",
+      "exportSha256": "487652f3fe5f70e56fd3d2cea1024dafbecda1eb97722ebeaca44d9270a4cbb6",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/police-5.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "83803de7b0b003248ffac44794e26bc50a1603626cf0669edadfe22b00e79a25",
+      "exportSha256": "85fcb50f73228f8224705f54e74a2af8842c18f1354dae1a926f3825dee7ce0a",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/0.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "64e668e6e082f9146a2b9ee6e59066eebd1fda772095479f50d20407d6b3256f",
+      "exportSha256": "6a49c9159513d12cc916b4914e61440f098362da7b766972b6660d11271f46f9",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/police-2.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "4ce3d6a3d9a14c6e57c7eaaaf1d87fe725d82684429edbcc698cda31cbfc838d",
+      "exportSha256": "235c8eff3b0fbe78b7d23303db25250d0b8175cdf111f9700a4d309e6b9709c7",
+      "lineEndingsNormalized": false
+    },
+    {
+      "file": "data/evidence/directory/police-3.html",
+      "reason": "Third-party map key removed; original retained locally.",
+      "replacements": 1,
+      "originalSha256": "cfc845d9024c26eb7806c56afb184e36963ca977a0d65fb8226111eec98a034a",
+      "exportSha256": "a82493f63df65d672fcc2f4069d554dec17369241ab734ee0d6681900727f2c1",
+      "lineEndingsNormalized": false
+    }
+  ]
+}

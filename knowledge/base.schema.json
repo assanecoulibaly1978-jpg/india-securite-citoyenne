@@ -1,0 +1,281 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:secours-citoyen:administration:proposal:0.1",
+  "title": "Proposition documentaire administrative — pas une base active",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "prepared_on",
+    "country",
+    "language",
+    "read_only",
+    "runtime_enabled",
+    "approval_required",
+    "reviewer_approved",
+    "policy",
+    "sources",
+    "procedures"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "status": {
+      "const": "proposal_not_integrated"
+    },
+    "prepared_on": {
+      "const": "2026-11-12"
+    },
+    "country": {
+      "const": "CI"
+    },
+    "language": {
+      "const": "fr"
+    },
+    "read_only": {
+      "const": true
+    },
+    "runtime_enabled": {
+      "const": false
+    },
+    "approval_required": {
+      "const": true
+    },
+    "reviewer_approved": {
+      "const": false
+    },
+    "policy": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "url",
+          "title",
+          "publisher",
+          "consulted_on",
+          "published_or_updated_at",
+          "source_type",
+          "official_basis"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "title": {
+            "type": "string"
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "consulted_on": {
+            "const": "2026-11-12"
+          },
+          "published_or_updated_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_type": {
+            "enum": [
+              "official_administration",
+              "delegated_operator",
+              "officially_hosted_operator_material"
+            ]
+          },
+          "official_basis": {
+            "type": "string"
+          },
+          "publication_date_note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "procedures": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "$ref": "#/$defs/procedure"
+      }
+    }
+  },
+  "$defs": {
+    "fact": {
+      "type": "object",
+      "required": [
+        "text",
+        "source_ids",
+        "scope",
+        "status",
+        "verified_on",
+        "auto_answer_eligible"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "conditional",
+            "confirmation_required",
+            "conflict",
+            "excluded_scope",
+            "not_a_guarantee",
+            "published",
+            "published_conditional_target",
+            "published_currentness_uncertain",
+            "published_delegated",
+            "published_with_delegated_detail"
+          ]
+        },
+        "verified_on": {
+          "const": "2026-11-12"
+        },
+        "auto_answer_eligible": {
+          "const": false
+        },
+        "mandatory_status": {
+          "type": "string"
+        },
+        "amount_xof": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "currency": {
+          "const": "XOF"
+        },
+        "cost_kind": {
+          "type": "string"
+        },
+        "limits": {
+          "type": "string"
+        },
+        "guaranteed": {
+          "const": false
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "amount_xof"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "amount_xof": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "procedure": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "scope",
+        "administration",
+        "conditions",
+        "documents",
+        "steps",
+        "fees",
+        "timelines",
+        "uncertainties"
+      ],
+      "properties": {
+        "id": {
+          "enum": [
+            "cni",
+            "extrait_naissance",
+            "casier_judiciaire",
+            "passeport",
+            "permis_conduire"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "administration": {
+          "$ref": "#/$defs/fact"
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "documents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "fees": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "timelines": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "uncertainties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

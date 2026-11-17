@@ -1,0 +1,188 @@
+{
+  "police-1.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/1",
+    "sha256": "988a66e17f4718456d33b343c9e17427ef96ee658915bddcd6cb0154f522eb8d",
+    "bytes": 66812,
+    "retrieved_at": "2026-11-11T00:11:27.541697Z"
+  },
+  "police-2.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/2",
+    "sha256": "4ce3d6a3d9a14c6e57c7eaaaf1d87fe725d82684429edbcc698cda31cbfc838d",
+    "bytes": 66815,
+    "retrieved_at": "2026-11-11T00:11:27.542679Z"
+  },
+  "police-3.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/3",
+    "sha256": "cfc845d9024c26eb7806c56afb184e36963ca977a0d65fb8226111eec98a034a",
+    "bytes": 67019,
+    "retrieved_at": "2026-11-11T00:11:27.541715Z"
+  },
+  "police-4.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/4",
+    "sha256": "9a0f5641a3be32a6f6d0454f40e31baa256bcadfb11ec8e3c0b5e42ebb49401a",
+    "bytes": 66190,
+    "retrieved_at": "2026-11-11T00:11:27.533344Z"
+  },
+  "police-5.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/5",
+    "sha256": "83803de7b0b003248ffac44794e26bc50a1603626cf0669edadfe22b00e79a25",
+    "bytes": 65922,
+    "retrieved_at": "2026-11-11T00:11:27.522474Z"
+  },
+  "police-6.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/6",
+    "sha256": "a4858aa6a6b03f75d0a25c0d60e3db61d0f0b74fb892ff617b9c4908a4aabb06",
+    "bytes": 66707,
+    "retrieved_at": "2026-11-11T00:11:27.724242Z"
+  },
+  "police-7.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/7",
+    "sha256": "eb6fae5dacd6afdd8ed9b136904d5cd0cc28bf89ecb3dcbd74d404621d397f31",
+    "bytes": 66392,
+    "retrieved_at": "2026-11-11T00:11:27.760259Z"
+  },
+  "police-8.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/commissariats-de-police/8",
+    "sha256": "17fd47d0cca10bab28978418514c566a9642ec483186a917fca1c63ec4a98262",
+    "bytes": 52062,
+    "retrieved_at": "2026-11-11T00:11:27.760252Z"
+  },
+  "pompiers.html": {
+    "url": "https://annuaire.gouv.ci/accueil/liste_institution/pompiers",
+    "sha256": "ccf9dba59bf424c4960a2d7dd67eb7b3366f442c24f498e2662d5703bd17da32",
+    "bytes": 54738,
+    "retrieved_at": "2026-11-11T00:11:27.760252Z"
+  },
+  "cpc.html": {
+    "url": "https://onpc-ci.org/cpc",
+    "sha256": "1d4c9318f636f1749b237c017e00a008590867501e110e516050dbad321df770",
+    "bytes": 101628,
+    "retrieved_at": "2026-11-11T00:01:15.680773Z"
+  },
+  "1.html": {
+    "url": "https://lepompierenvous.com/annuaire-secours",
+    "sha256": "d4634dcbe7d3517f94cbd00543c1bdbdf912827e89cb07002673b263208ce6dd",
+    "bytes": 113557,
+    "retrieved_at": "2026-11-11T00:00:08.415536Z"
+  },
+  "go-99492.html": {
+    "url": "https://www.goafricaonline.com/ci/99492-brigade-gendarmerie-police-grand-bassam-cote-ivoire",
+    "sha256": "f4479f2c434656141648a292d5b3e134ed65a6c6b6bf42ab13bae78c901be19d",
+    "bytes": 157957,
+    "retrieved_at": "2026-11-11T00:11:31.571801Z"
+  },
+  "go-35512.html": {
+    "url": "https://www.goafricaonline.com/ci/35512-commissariat-17e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "a9253778a0db6a699216278c8b2d07c9f9ae41ef8edf7ef67bf3af69d5fe2bff",
+    "bytes": 156826,
+    "retrieved_at": "2026-11-11T00:11:28.878736Z"
+  },
+  "go-97926.html": {
+    "url": "https://www.goafricaonline.com/ci/97926-commissariat-police-grand-bassam-cote-ivoire",
+    "sha256": "09f6cefdf71bffaee24c17e117363c6d7359cf05cacab01bbe5b44f52412e6c0",
+    "bytes": 153807,
+    "retrieved_at": "2026-11-11T00:11:31.544777Z"
+  },
+  "go-35497.html": {
+    "url": "https://www.goafricaonline.com/ci/35497-commissariat-10e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "c08f9440365119a120f20f126c4fe151d2f4df5465597e7565db381aaf38e5e2",
+    "bytes": 154186,
+    "retrieved_at": "2026-11-11T00:11:28.823940Z"
+  },
+  "go-35498.html": {
+    "url": "https://www.goafricaonline.com/ci/35498-commissariat-11e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "d7d1d463edfc7115b3c5bd739f5f3a90a85175c4eff416879239646e61c709a1",
+    "bytes": 154231,
+    "retrieved_at": "2026-11-11T00:11:29.000050Z"
+  },
+  "go-83318.html": {
+    "url": "https://www.goafricaonline.com/ci/83318-commissariat-12e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "bc15a33a0cecbb94a0fc2daf0c30c007fb30b0acddea10aa76bf9aee8f4ed8a9",
+    "bytes": 155046,
+    "retrieved_at": "2026-11-11T00:11:30.745935Z"
+  },
+  "go-35515.html": {
+    "url": "https://www.goafricaonline.com/ci/35515-commissariat-18e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "d81837a3da1364206595c34c7267f40e8744b207306706ede1e6579854d301b1",
+    "bytes": 155054,
+    "retrieved_at": "2026-11-11T00:11:29.551651Z"
+  },
+  "go-35518.html": {
+    "url": "https://www.goafricaonline.com/ci/35518-commissariat-19e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "886f980394f82aa4fb8da426973ca7e0d11409ab8f4734158059621a54d6ecd3",
+    "bytes": 155031,
+    "retrieved_at": "2026-11-11T00:11:29.645509Z"
+  },
+  "go-35524.html": {
+    "url": "https://www.goafricaonline.com/ci/35524-commissariat-3e-arondissement-police-abidjan-cote-ivoire",
+    "sha256": "0c245b540688606d121a485ede464beff1c6af5b2e6f70a098785648270eb0a3",
+    "bytes": 155066,
+    "retrieved_at": "2026-11-11T00:11:29.885154Z"
+  },
+  "go-35526.html": {
+    "url": "https://www.goafricaonline.com/ci/35526-commissariat-4e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "e62f82d8acd853da6c6f07f3e5e6686f991fbdda5eead8d5f8757a22e6df4d07",
+    "bytes": 155070,
+    "retrieved_at": "2026-11-11T00:11:29.864927Z"
+  },
+  "go-35531.html": {
+    "url": "https://www.goafricaonline.com/ci/35531-commissariat-6e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "724bc10907b9839c59adf2f68542bea23f1928dfa2b5bfd08aeab872ce2ee012",
+    "bytes": 155070,
+    "retrieved_at": "2026-11-11T00:11:29.843797Z"
+  },
+  "go-35534.html": {
+    "url": "https://www.goafricaonline.com/ci/35534-commissariat-8e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "c10a63abfd4a1d0bccef14a84bdf6c49fad25267caf6e59cd42d014b5ea7052b",
+    "bytes": 155157,
+    "retrieved_at": "2026-11-11T00:11:30.518497Z"
+  },
+  "go-35538.html": {
+    "url": "https://www.goafricaonline.com/ci/35538-commissariat-9e-arrondissement-police-abidjan-cote-ivoire",
+    "sha256": "966aa00dd8532ef47c9f92d019130a7ad012800b3711c579bcaa3bab5ac2301b",
+    "bytes": 154129,
+    "retrieved_at": "2026-11-11T00:11:30.560620Z"
+  },
+  "go-101240.html": {
+    "url": "https://www.goafricaonline.com/ci/101240-commissariat-5eme-arrondissement-police-bouake-cote-ivoire",
+    "sha256": "fe220ff3ec1c29150efee0bd0c9c6ba5d538c6eee28793186b7145ac273f8cf7",
+    "bytes": 155052,
+    "retrieved_at": "2026-11-11T00:11:28.744282Z"
+  },
+  "go-35545.html": {
+    "url": "https://www.goafricaonline.com/ci/35545-compagnie-republicaine-securite-police-abidjan-cote-ivoire",
+    "sha256": "467f5b20ebd3f5270d187d588442abfe8d5ff6b197157de96c92ea8667a0b8f0",
+    "bytes": 155524,
+    "retrieved_at": "2026-11-11T00:11:30.746139Z"
+  },
+  "go-94841.html": {
+    "url": "https://www.goafricaonline.com/ci/94841-police-nationale-abidjan-cote-ivoire",
+    "sha256": "eb5d5837aa091efed7d718189794d26f093f4aae1fed3196ebbc3fdfeed3af2e",
+    "bytes": 153528,
+    "retrieved_at": "2026-11-11T00:11:31.461587Z"
+  },
+  "go-99574.html": {
+    "url": "https://www.goafricaonline.com/ci/99574-brigade-gendarmerie-police-bonoua-cote-ivoire",
+    "sha256": "3eae8c389eaeaf684968c74ec710534136e8d6ec7f24462a27da40c9dec762bd",
+    "bytes": 152150,
+    "retrieved_at": "2026-11-11T00:11:31.725466Z"
+  },
+  "go-100770.html": {
+    "url": "https://www.goafricaonline.com/ci/100770-brigade-gendarmerie-bouake-cote-ivoire",
+    "sha256": "3e4c1a1c7edc8a2eba78abe7f6b5930700f3b98b626a9f13732c720c00ea6d60",
+    "bytes": 151730,
+    "retrieved_at": "2026-11-11T00:11:28.744320Z"
+  },
+  "go-363989.html": {
+    "url": "https://www.goafricaonline.com/ci/363989-commissariat-police-vavoua-cote-ivoire",
+    "sha256": "57a7daa4b6783e4dfc29104a8611e918d90d40bb783386dfa9210539913c4d7e",
+    "bytes": 153607,
+    "retrieved_at": "2026-11-11T00:11:30.756799Z"
+  },
+  "osm-candidates.json": {
+    "url": "https://download.geofabrik.de/africa/ivory-coast-latest.osm.pbf",
+    "sha256": "1e85d286d2d66457ec55b98f0f35535588e142222a6e8e764f7861869f7f3040",
+    "bytes": 101894,
+    "retrieved_at": "2026-11-11T00:19:42.034256Z"
+  }
+}

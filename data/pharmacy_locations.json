@@ -1,0 +1,2170 @@
+{
+  "locations": [
+    {
+      "record_id": "pharmacy-64fde73eb201e1ead798",
+      "lat": 5.4335283,
+      "lon": -3.9884733,
+      "source_url": "https://www.openstreetmap.org/node/5254411022",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 14:56:23+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5254411022,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-694a1b514aec3d9316f9",
+      "lat": 5.4229613,
+      "lon": -4.0029147,
+      "source_url": "https://www.openstreetmap.org/node/8832521809",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-22 18:19:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8832521809,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-f9c5db786b995f5ad232",
+      "lat": 5.4399094,
+      "lon": -4.022789,
+      "source_url": "https://www.openstreetmap.org/node/8842281397",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 14:15:14+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8842281397,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-53e64b18a0f144a4fd26",
+      "lat": 5.4106283,
+      "lon": -4.0062612,
+      "source_url": "https://www.openstreetmap.org/node/3282351225",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3282351225,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-7364f2d9c40e3055bceb",
+      "lat": 5.4362977,
+      "lon": -4.0150382,
+      "source_url": "https://www.openstreetmap.org/node/3870504806",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 14:15:14+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3870504806,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-9b9db43fbaac9ad4c165",
+      "lat": 5.426908,
+      "lon": -4.0198186,
+      "source_url": "https://www.openstreetmap.org/node/2468312981",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 14:15:14+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2468312981,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-5a31be7b7fd4f765390e",
+      "lat": 5.4245007,
+      "lon": -4.0240143,
+      "source_url": "https://www.openstreetmap.org/node/5964272753",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5964272753,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-fdbae34fd0986d454fe4",
+      "lat": 5.434002,
+      "lon": -4.0266186,
+      "source_url": "https://www.openstreetmap.org/node/4485222291",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 14:15:14+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4485222291,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-e4264320c9778fe8bfb6",
+      "lat": 5.415265,
+      "lon": -4.000793,
+      "source_url": "https://www.openstreetmap.org/node/5599203448",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5599203448,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-bcff4acea973d663a689",
+      "lat": 5.4139487,
+      "lon": -4.0158466,
+      "source_url": "https://www.openstreetmap.org/node/8584548910",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8584548910,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-d380ac13cae79cad9c5d",
+      "lat": 5.4496408,
+      "lon": -4.0706108,
+      "source_url": "https://www.openstreetmap.org/node/6583236573",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 14:15:14+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6583236573,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-5775b6bef630e8fed4a0",
+      "lat": 5.4390365,
+      "lon": -4.0683042,
+      "source_url": "https://www.openstreetmap.org/node/5599203446",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2025-04-17 00:19:43+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5599203446,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-b09782b00579aa339c4d",
+      "lat": 5.4107562,
+      "lon": -4.0009742,
+      "source_url": "https://www.openstreetmap.org/node/11195832443",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-09-16 12:22:47+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11195832443,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-7cfe657462a17b8fdc4c",
+      "lat": 5.387211,
+      "lon": -4.0070714,
+      "source_url": "https://www.openstreetmap.org/node/11990648571",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-22 18:19:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11990648571,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-06509de2d2428b4754a6",
+      "lat": 5.4147026,
+      "lon": -4.030412,
+      "source_url": "https://www.openstreetmap.org/node/6281025704",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 15:03:37+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6281025704,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-c68c6a12b600b02f65c2",
+      "lat": 5.4327675,
+      "lon": -4.0147336,
+      "source_url": "https://www.openstreetmap.org/node/2899084831",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 14:15:14+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2899084831,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-118c711294a56958451b",
+      "lat": 5.4298108,
+      "lon": -3.9893898,
+      "source_url": "https://www.openstreetmap.org/node/13284973526",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2026-02-28 19:27:58+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 13284973526,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-7cbc5b1dc8435e061ee8",
+      "lat": 5.340781,
+      "lon": -4.0263818,
+      "source_url": "https://www.openstreetmap.org/node/2550498686",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2550498686,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-a637f4e664df0cb48458",
+      "lat": 5.3508986,
+      "lon": -4.0317393,
+      "source_url": "https://www.openstreetmap.org/node/2427131501",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2427131501,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-db608a881f8a5e5a0859",
+      "lat": 5.3431365,
+      "lon": -4.0263566,
+      "source_url": "https://www.openstreetmap.org/node/8795840647",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8795840647,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-5a34aa1845b412339ea5",
+      "lat": 5.349435,
+      "lon": -4.0192937,
+      "source_url": "https://www.openstreetmap.org/node/2924123675",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-13 16:08:44+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2924123675,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-b8c25241421188bc008a",
+      "lat": 5.3542799,
+      "lon": -4.01814,
+      "source_url": "https://www.openstreetmap.org/node/4485201599",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-13 16:08:44+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4485201599,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-d15877005b34268e2291",
+      "lat": 5.355871,
+      "lon": -4.0271856,
+      "source_url": "https://www.openstreetmap.org/node/3665101722",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3665101722,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-7b99abc8851d45e8c3ba",
+      "lat": 5.3502011,
+      "lon": -4.0256853,
+      "source_url": "https://www.openstreetmap.org/node/3665823355",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3665823355,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-e0f2aa404af6459b7ef3",
+      "lat": 5.345772,
+      "lon": -4.026625,
+      "source_url": "https://www.openstreetmap.org/node/3017000440",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-13 16:08:44+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3017000440,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-4fc07e05f615b333a8ed",
+      "lat": 5.3503866,
+      "lon": -4.0172334,
+      "source_url": "https://www.openstreetmap.org/node/2382468257",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-13 16:08:44+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2382468257,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-5962812569747c8f70e2",
+      "lat": 5.364705,
+      "lon": -4.0164336,
+      "source_url": "https://www.openstreetmap.org/node/2388866090",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2019-08-01 09:19:27+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2388866090,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-81f3d6097509d183b126",
+      "lat": 5.9248333,
+      "lon": -4.2083455,
+      "source_url": "https://www.openstreetmap.org/node/8331280259",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-10-11 16:41:33+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8331280259,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-3584573827c6b1063db7",
+      "lat": 5.9302448,
+      "lon": -4.219722,
+      "source_url": "https://www.openstreetmap.org/node/6320440490",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-16 13:57:00+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6320440490,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-8a37833171593db7a059",
+      "lat": 5.9233927,
+      "lon": -4.2161386,
+      "source_url": "https://www.openstreetmap.org/node/10151639419",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-10-11 21:52:40+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 10151639419,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-744ae69091657a46025c",
+      "lat": 5.4954331,
+      "lon": -4.0519162,
+      "source_url": "https://www.openstreetmap.org/node/11183385646",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-09-11 13:16:44+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11183385646,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-90bf1ebc09f672fb616e",
+      "lat": 5.4828537,
+      "lon": -4.0514091,
+      "source_url": "https://www.openstreetmap.org/node/5864438643",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-09-11 13:16:44+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5864438643,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-687f81428cae8e6a93c6",
+      "lat": 5.3515046,
+      "lon": -4.0337579,
+      "source_url": "https://www.openstreetmap.org/node/4485201597",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4485201597,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-0a5e899fddd6fb812a7c",
+      "lat": 5.3196357,
+      "lon": -4.043815,
+      "source_url": "https://www.openstreetmap.org/node/5425049450",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:57:26+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5425049450,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-f41a023aed298f8dcefa",
+      "lat": 5.3573711,
+      "lon": -4.0348825,
+      "source_url": "https://www.openstreetmap.org/node/2864434305",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2864434305,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-92884932a82e59cf7af5",
+      "lat": 5.358428,
+      "lon": -4.0306546,
+      "source_url": "https://www.openstreetmap.org/node/4587509992",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-09-26 22:04:43+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4587509992,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-4d2b29d90a4b602cd4b5",
+      "lat": 5.3453334,
+      "lon": -4.0345663,
+      "source_url": "https://www.openstreetmap.org/node/2407403822",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2407403822,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-96ef6e76913ac5e31482",
+      "lat": 5.3094083,
+      "lon": -4.0376754,
+      "source_url": "https://www.openstreetmap.org/node/5390466023",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 13:54:49+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5390466023,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-893a3d7c364f333da605",
+      "lat": 8.040929,
+      "lon": -2.8004658,
+      "source_url": "https://www.openstreetmap.org/node/6480215570",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2021-03-21 13:14:41+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6480215570,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-acd6ca368db6aeb2c194",
+      "lat": 8.0419169,
+      "lon": -2.7966976,
+      "source_url": "https://www.openstreetmap.org/node/6480215572",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2021-03-21 13:14:41+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6480215572,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-ff43681ebb7b88ef2243",
+      "lat": 5.4027482,
+      "lon": -3.9615278,
+      "source_url": "https://www.openstreetmap.org/node/6260390886",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2025-10-04 15:07:23+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6260390886,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-a80b78832489da4fa0cd",
+      "lat": 5.3615428,
+      "lon": -3.9911651,
+      "source_url": "https://www.openstreetmap.org/node/3974043657",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3974043657,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-f823b001787958eba1b5",
+      "lat": 5.4060263,
+      "lon": -3.9907671,
+      "source_url": "https://www.openstreetmap.org/node/3178557828",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3178557828,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-665ee0bd3d0fb1cbb1dd",
+      "lat": 5.3390537,
+      "lon": -3.9978433,
+      "source_url": "https://www.openstreetmap.org/node/6382206005",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6382206005,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-712146ba0ad4b6b6fd52",
+      "lat": 5.391027,
+      "lon": -3.9758868,
+      "source_url": "https://www.openstreetmap.org/node/4363722340",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4363722340,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-19ec174f4c48ebc02e94",
+      "lat": 5.3282274,
+      "lon": -3.954167,
+      "source_url": "https://www.openstreetmap.org/node/5143754322",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 11:30:37+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5143754322,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-ed7208c511760bfe9040",
+      "lat": 5.4109359,
+      "lon": -3.9833698,
+      "source_url": "https://www.openstreetmap.org/node/8584384603",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8584384603,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-09a1e991a3d35fe8d457",
+      "lat": 5.3585285,
+      "lon": -3.9898168,
+      "source_url": "https://www.openstreetmap.org/node/6379136669",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-10-18 10:44:02+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6379136669,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-f30f2f77246fdf5e7bb3",
+      "lat": 5.3975431,
+      "lon": -3.9861222,
+      "source_url": "https://www.openstreetmap.org/node/4368676895",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4368676895,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-27e42908b59b169768ac",
+      "lat": 5.3695041,
+      "lon": -3.9590591,
+      "source_url": "https://www.openstreetmap.org/node/3161306363",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:29:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3161306363,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-93a7ef62e821ac282f78",
+      "lat": 5.362022,
+      "lon": -3.9571261,
+      "source_url": "https://www.openstreetmap.org/node/6587398989",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:29:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6587398989,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-e0475100dba13fdab83b",
+      "lat": 5.4065242,
+      "lon": -3.9854351,
+      "source_url": "https://www.openstreetmap.org/node/4505731192",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:40:28+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4505731192,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-d9cc5e335a8917c74e13",
+      "lat": 5.4010719,
+      "lon": -3.9827652,
+      "source_url": "https://www.openstreetmap.org/node/9259536930",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 9259536930,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-8019c3e6ca169fcb3d77",
+      "lat": 5.3826538,
+      "lon": -3.9320769,
+      "source_url": "https://www.openstreetmap.org/node/6587379226",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 13:57:55+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6587379226,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-75e1d164a23287966dbe",
+      "lat": 5.3639266,
+      "lon": -3.9332443,
+      "source_url": "https://www.openstreetmap.org/node/8832680269",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-22 18:22:49+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8832680269,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-80a53b5bb1df461552fe",
+      "lat": 5.3454053,
+      "lon": -4.0025026,
+      "source_url": "https://www.openstreetmap.org/node/6466587886",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:38:21+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6466587886,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-425ab6ca0cacfe8911a8",
+      "lat": 5.3449235,
+      "lon": -3.9776064,
+      "source_url": "https://www.openstreetmap.org/node/3163382546",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2019-12-18 16:20:49+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3163382546,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-3446808f4c37a3efdce9",
+      "lat": 5.3746487,
+      "lon": -3.9558734,
+      "source_url": "https://www.openstreetmap.org/node/8843066203",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:29:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8843066203,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-07b57b12bf24662bed5f",
+      "lat": 5.3857115,
+      "lon": -3.9688627,
+      "source_url": "https://www.openstreetmap.org/node/8592276934",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 14:36:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8592276934,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-11cc7e7a4b614b6180aa",
+      "lat": 5.3337045,
+      "lon": -4.0002534,
+      "source_url": "https://www.openstreetmap.org/node/11970836680",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-06-10 22:16:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11970836680,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-1a8bb164281c3c2ebdfa",
+      "lat": 5.3641459,
+      "lon": -3.9631243,
+      "source_url": "https://www.openstreetmap.org/node/4003509537",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:29:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4003509537,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-f2b5ff085363c6d41300",
+      "lat": 5.3483678,
+      "lon": -3.9535001,
+      "source_url": "https://www.openstreetmap.org/node/454179919",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:43:25+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 454179919,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-2b664ea1ccb893145358",
+      "lat": 5.3572365,
+      "lon": -3.9782585,
+      "source_url": "https://www.openstreetmap.org/node/2989750715",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2989750715,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-f2cd0a74e3133e6a35f5",
+      "lat": 5.3672069,
+      "lon": -3.979422,
+      "source_url": "https://www.openstreetmap.org/node/3163363578",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-04-29 23:34:26+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3163363578,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-4c6216eabb1484512560",
+      "lat": 5.3723482,
+      "lon": -3.9707689,
+      "source_url": "https://www.openstreetmap.org/node/8596306256",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:29:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 8596306256,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-3f0da770ef3b941a30dc",
+      "lat": 5.3552841,
+      "lon": -3.9612958,
+      "source_url": "https://www.openstreetmap.org/node/452867033",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-04-10 23:45:40+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 452867033,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-bd0674c73ab515bb6c53",
+      "lat": 5.3432671,
+      "lon": -4.0040769,
+      "source_url": "https://www.openstreetmap.org/node/3069866010",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2025-04-19 21:22:12+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3069866010,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-e5cec73901f7d74a506a",
+      "lat": 5.3745013,
+      "lon": -3.952737,
+      "source_url": "https://www.openstreetmap.org/node/6605027855",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:29:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6605027855,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-0b2112989e8f2e79ae8f",
+      "lat": 5.3803017,
+      "lon": -3.9410288,
+      "source_url": "https://www.openstreetmap.org/node/6587398988",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2022-09-03 13:30:40+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6587398988,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-a1d86317c0a8ca712d09",
+      "lat": 6.7461243,
+      "lon": -7.3443925,
+      "source_url": "https://www.openstreetmap.org/node/4477215075",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 13:19:47+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4477215075,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-722412554962d7b696b6",
+      "lat": 6.7355197,
+      "lon": -7.3531694,
+      "source_url": "https://www.openstreetmap.org/node/7648730117",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 13:19:47+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 7648730117,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-cfca5c92e1770dcd54db",
+      "lat": 6.7463897,
+      "lon": -7.3463327,
+      "source_url": "https://www.openstreetmap.org/node/4464822485",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-05 13:19:47+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4464822485,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-892fd2d5f0e550da6f76",
+      "lat": 6.1408309,
+      "lon": -5.9468009,
+      "source_url": "https://www.openstreetmap.org/node/4577203705",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-07-10 20:21:48+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4577203705,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-440d9b9336192bad0f7e",
+      "lat": 6.117885,
+      "lon": -5.9376406,
+      "source_url": "https://www.openstreetmap.org/node/11736769526",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-13 15:58:38+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11736769526,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-ef8bea52501f65667e0b",
+      "lat": 6.133448,
+      "lon": -5.9503372,
+      "source_url": "https://www.openstreetmap.org/node/6245415186",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-07-10 20:21:48+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6245415186,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-4e60a3175c40af7e428f",
+      "lat": 6.1291939,
+      "lon": -5.94434,
+      "source_url": "https://www.openstreetmap.org/node/4437982089",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-07-10 20:21:48+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4437982089,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-b7bd6d11fcd2e48849fb",
+      "lat": 5.2081565,
+      "lon": -3.7345512,
+      "source_url": "https://www.openstreetmap.org/node/3043869179",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-19 11:40:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3043869179,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-84a39ae1d5bd0aaaeb0f",
+      "lat": 5.2217178,
+      "lon": -3.7261136,
+      "source_url": "https://www.openstreetmap.org/node/3737692096",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-19 11:40:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3737692096,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-ea64336a7e6759cb654c",
+      "lat": 5.2150589,
+      "lon": -3.7645118,
+      "source_url": "https://www.openstreetmap.org/node/5037866621",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2022-08-20 07:41:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5037866621,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-e906bca2d36845b9bf1a",
+      "lat": 5.2158367,
+      "lon": -3.7405218,
+      "source_url": "https://www.openstreetmap.org/node/3652004134",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-19 11:40:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3652004134,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-c2b05538e84de082745d",
+      "lat": 6.5449097,
+      "lon": -7.5037144,
+      "source_url": "https://www.openstreetmap.org/node/11060642393",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-07-21 22:42:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11060642393,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-c25abf756bffe16ca468",
+      "lat": 6.5474,
+      "lon": -7.4894744,
+      "source_url": "https://www.openstreetmap.org/node/11727065440",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-03-13 11:26:20+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11727065440,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-79cf42689326750a8ece",
+      "lat": 8.1407907,
+      "lon": -5.0998899,
+      "source_url": "https://www.openstreetmap.org/node/6990034281",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-20 18:42:14+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6990034281,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-14d3030ff2512a7e4485",
+      "lat": 5.2914254,
+      "lon": -3.9660246,
+      "source_url": "https://www.openstreetmap.org/node/4011580143",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4011580143,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-0f06dd594e7ad56c948b",
+      "lat": 5.3012296,
+      "lon": -3.9576197,
+      "source_url": "https://www.openstreetmap.org/node/2484690751",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2484690751,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-59264ea4fa7a4a67b7eb",
+      "lat": 5.28299,
+      "lon": -3.9677122,
+      "source_url": "https://www.openstreetmap.org/node/6425421807",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6425421807,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-8db680c1bf871c3e836c",
+      "lat": 5.2894839,
+      "lon": -3.9585637,
+      "source_url": "https://www.openstreetmap.org/node/5971132511",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5971132511,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-b4721f3cfcac616cb670",
+      "lat": 5.3008916,
+      "lon": -3.9475484,
+      "source_url": "https://www.openstreetmap.org/node/3218939368",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3218939368,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-ce398452365d2f5d42f1",
+      "lat": 5.2983829,
+      "lon": -3.9493845,
+      "source_url": "https://www.openstreetmap.org/node/5966454473",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5966454473,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-7380ff1cb25e8330f827",
+      "lat": 5.3072654,
+      "lon": -3.994634,
+      "source_url": "https://www.openstreetmap.org/node/1951868956",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 11:50:35+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 1951868956,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-ba7ccea5b4c433a87d2d",
+      "lat": 5.2763231,
+      "lon": -3.9671464,
+      "source_url": "https://www.openstreetmap.org/node/13482224401",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2026-01-24 17:44:06+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 13482224401,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-8add868bc3aae9ca8629",
+      "lat": 5.2883483,
+      "lon": -3.9820812,
+      "source_url": "https://www.openstreetmap.org/node/12626038401",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2026-01-17 11:33:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 12626038401,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-97bb7ebf2d7d407c8475",
+      "lat": 5.3070916,
+      "lon": -3.963643,
+      "source_url": "https://www.openstreetmap.org/node/2445138436",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2445138436,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-5e660ec755b8efbb4213",
+      "lat": 5.2944022,
+      "lon": -3.9763781,
+      "source_url": "https://www.openstreetmap.org/node/13730565801",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2026-04-14 22:01:24+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 13730565801,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-9e9405ce4d114adf16e0",
+      "lat": 5.299279,
+      "lon": -3.9848761,
+      "source_url": "https://www.openstreetmap.org/node/1951820175",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2025-12-15 12:56:29+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 1951820175,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-8c8ee9ed709fb2dbff1d",
+      "lat": 5.2806319,
+      "lon": -3.9767344,
+      "source_url": "https://www.openstreetmap.org/node/4019333307",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2021-09-02 17:41:15+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4019333307,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-857dbe73572e3ef39f8b",
+      "lat": 5.3085936,
+      "lon": -3.9770997,
+      "source_url": "https://www.openstreetmap.org/node/2434350774",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 12:49:30+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2434350774,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-37a27f669998b499a79b",
+      "lat": 5.2556079,
+      "lon": -3.8997977,
+      "source_url": "https://www.openstreetmap.org/node/6519025986",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2019-06-04 10:09:22+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6519025986,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-cd5027cd4d2404992fc6",
+      "lat": 5.2436568,
+      "lon": -3.9226954,
+      "source_url": "https://www.openstreetmap.org/node/5205036163",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-19 11:40:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5205036163,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-d3da2be84da91dda7026",
+      "lat": 5.2578081,
+      "lon": -3.9647711,
+      "source_url": "https://www.openstreetmap.org/node/6958783416",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:47:02+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6958783416,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-eecba306bb37279d1993",
+      "lat": 5.266435,
+      "lon": -3.9869013,
+      "source_url": "https://www.openstreetmap.org/node/7154300885",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 11:30:37+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 7154300885,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-7d3bcd82c977ea3cfe88",
+      "lat": 5.241599,
+      "lon": -3.892701,
+      "source_url": "https://www.openstreetmap.org/node/6661675436",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-19 11:40:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6661675436,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-19ef4c3a9dd3709b38d7",
+      "lat": 5.2415206,
+      "lon": -3.9097661,
+      "source_url": "https://www.openstreetmap.org/node/4838947123",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-19 11:40:11+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4838947123,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-9e4772e758d444d4fc68",
+      "lat": 5.3001693,
+      "lon": -4.0028159,
+      "source_url": "https://www.openstreetmap.org/node/3015621029",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3015621029,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-86c5dec847ea9f930994",
+      "lat": 5.2977556,
+      "lon": -4.0085609,
+      "source_url": "https://www.openstreetmap.org/node/7342513063",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-04-29 12:22:55+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 7342513063,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-1444487c6c892cdef7af",
+      "lat": 5.3086684,
+      "lon": -4.0161018,
+      "source_url": "https://www.openstreetmap.org/node/4013672698",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4013672698,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-7b7fc60355f658814200",
+      "lat": 5.3010543,
+      "lon": -4.003838,
+      "source_url": "https://www.openstreetmap.org/node/3015623534",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-15 13:30:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3015623534,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-b9f79d58a18b6dd19748",
+      "lat": 5.3083235,
+      "lon": -4.0128852,
+      "source_url": "https://www.openstreetmap.org/node/3277255119",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2020-12-23 21:40:10+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3277255119,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-1efe10f6a1d92eb527c3",
+      "lat": 6.8145102,
+      "lon": -5.2644167,
+      "source_url": "https://www.openstreetmap.org/node/11574557769",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2025-07-07 07:25:15+00:00",
+      "match_method": "exact_published_phone",
+      "osm_type": "node",
+      "osm_id": 11574557769,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par numéro publié exact.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-834b6bdec35a186a41fd",
+      "lat": 6.8157511,
+      "lon": -5.2742657,
+      "source_url": "https://www.openstreetmap.org/node/4985719449",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-09-19 16:07:45+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4985719449,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-e6c92fd241152e70d85c",
+      "lat": 6.8199171,
+      "lon": -5.2788645,
+      "source_url": "https://www.openstreetmap.org/node/3254374039",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-02 09:32:29+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3254374039,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-aec2c2273cfe861c19a0",
+      "lat": 6.82470232,
+      "lon": -5.270999839999999,
+      "source_url": "https://www.openstreetmap.org/way/858947181",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-10-20 19:00:49+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "way",
+      "osm_id": 858947181,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement.",
+        "Point représentatif du bâtiment OSM, pas une entrée confirmée."
+      ]
+    },
+    {
+      "record_id": "pharmacy-bc807bae448aa53eef99",
+      "lat": 6.822645433333334,
+      "lon": -5.27671785,
+      "source_url": "https://www.openstreetmap.org/way/359364588",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-10-20 19:00:49+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "way",
+      "osm_id": 359364588,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement.",
+        "Point représentatif du bâtiment OSM, pas une entrée confirmée."
+      ]
+    },
+    {
+      "record_id": "pharmacy-0c8aead067c2de32c764",
+      "lat": 6.7788243,
+      "lon": -5.2378312,
+      "source_url": "https://www.openstreetmap.org/node/11768815436",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-03-28 12:17:08+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11768815436,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-9e1d5cc0b22a38538c1a",
+      "lat": 6.812754,
+      "lon": -5.2527053,
+      "source_url": "https://www.openstreetmap.org/node/11274379069",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-10-19 23:00:44+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11274379069,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-a14120fc7bc7c1972903",
+      "lat": 6.809718,
+      "lon": -5.2648823,
+      "source_url": "https://www.openstreetmap.org/node/11370616769",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-12-10 18:15:49+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 11370616769,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-2a04f6e04fc37f182cde",
+      "lat": 5.3265029,
+      "lon": -4.0772183,
+      "source_url": "https://www.openstreetmap.org/node/6264111271",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:48:59+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6264111271,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-bba58923a25c2a695da7",
+      "lat": 5.3095708,
+      "lon": -4.0872609,
+      "source_url": "https://www.openstreetmap.org/node/4379454777",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:57:26+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4379454777,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-3d8872e70fc69b725886",
+      "lat": 5.3183843,
+      "lon": -4.064931,
+      "source_url": "https://www.openstreetmap.org/node/4403254989",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:57:26+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4403254989,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-2d906453981087839e5b",
+      "lat": 5.3311726,
+      "lon": -4.0909415,
+      "source_url": "https://www.openstreetmap.org/node/4431337543",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:41:27+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4431337543,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-f66ae3d32b923064d3ee",
+      "lat": 5.3553092,
+      "lon": -4.0826607,
+      "source_url": "https://www.openstreetmap.org/node/5370700921",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:14:31+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5370700921,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-ffcda6db3483bfb965cd",
+      "lat": 5.3277181,
+      "lon": -4.1100323,
+      "source_url": "https://www.openstreetmap.org/node/4346043372",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-23 10:52:29+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4346043372,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-dacfd48cbd7ba46e47f6",
+      "lat": 5.3670411,
+      "lon": -4.1018952,
+      "source_url": "https://www.openstreetmap.org/node/4985719139",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-06 16:14:31+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4985719139,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-2f145d66b3b3843bce1a",
+      "lat": 5.3425079,
+      "lon": -4.0802419,
+      "source_url": "https://www.openstreetmap.org/node/3287708271",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:41:27+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3287708271,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-6632a2338749b7abaae3",
+      "lat": 5.3468317,
+      "lon": -4.0731625,
+      "source_url": "https://www.openstreetmap.org/node/768587606",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:48:59+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 768587606,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-6e5b1b9d28fd0e1eb0bd",
+      "lat": 5.3236882,
+      "lon": -4.1088047,
+      "source_url": "https://www.openstreetmap.org/node/2696374105",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:57:26+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2696374105,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-fdddd3822475d4cab305",
+      "lat": 5.3332213,
+      "lon": -4.0625749,
+      "source_url": "https://www.openstreetmap.org/node/4331386460",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 11:34:04+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4331386460,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-e0a0d6a21a15421cf2d9",
+      "lat": 5.365879,
+      "lon": -4.0738434,
+      "source_url": "https://www.openstreetmap.org/node/5931332651",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2025-03-24 08:11:40+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5931332651,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-021b58b710109508c19b",
+      "lat": 5.3386512,
+      "lon": -4.0625105,
+      "source_url": "https://www.openstreetmap.org/node/2446130579",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:41:27+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 2446130579,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-9bb7d9088030429bd3f4",
+      "lat": 5.3292371,
+      "lon": -4.0696135,
+      "source_url": "https://www.openstreetmap.org/node/6480212957",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:48:59+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 6480212957,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-32443a467e34bc3d10e3",
+      "lat": 5.358791,
+      "lon": -4.1005749,
+      "source_url": "https://www.openstreetmap.org/node/4084427768",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2023-09-26 22:04:43+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 4084427768,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-91acfea5d756ce9b3ca2",
+      "lat": 5.3299382,
+      "lon": -4.0501665,
+      "source_url": "https://www.openstreetmap.org/node/5359355322",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:48:59+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 5359355322,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-825633dcb80b59b6b477",
+      "lat": 5.3397977,
+      "lon": -4.0736017,
+      "source_url": "https://www.openstreetmap.org/node/768587563",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 11:34:04+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 768587563,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    },
+    {
+      "record_id": "pharmacy-5ec8d2c8df5af795b54f",
+      "lat": 5.3400734,
+      "lon": -4.0975114,
+      "source_url": "https://www.openstreetmap.org/node/3407617164",
+      "source_label": "OpenStreetMap — point communautaire de pharmacie",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "source_updated_at": "2024-09-11 10:41:27+00:00",
+      "match_method": "exact_name_and_locality",
+      "osm_type": "node",
+      "osm_id": 3407617164,
+      "notes": [
+        "Position communautaire rapprochée du planning primaire par nom normalisé et localité concordante.",
+        "Point non validé par la pharmacie ; confirmer l’adresse avant déplacement."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://download.geofabrik.de/africa/ivory-coast-latest.osm.pbf",
+      "label": "OpenStreetMap / Geofabrik — localisation complémentaire des pharmacies",
+      "kind": "community",
+      "retrieved_at": "2026-11-11T00:17:27.125417+00:00",
+      "evidence_file": "data/evidence/directory/osm-pharmacies.json",
+      "notes": "Garde fournie par UNPPCI ; OSM fournit uniquement des points de localisation."
+    }
+  ],
+  "coverage": {
+    "matched": 134,
+    "unmatched": 262,
+    "ambiguous_rejected": 4,
+    "methods": {
+      "exact_name_and_locality": 133,
+      "exact_published_phone": 1
+    },
+    "exhaustive": false
+  }
+}

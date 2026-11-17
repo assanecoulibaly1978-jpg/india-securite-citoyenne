@@ -1,0 +1,22 @@
+{
+  "article_url": "https://unppci.org/?p=articles&id=303",
+  "article_published_at": "2026-11-04T10:17:00",
+  "retrieval_method": "live browser fetch (same-origin fetch of original PDF); requests connection closed by origin",
+  "retrieved_at": "2026-11-11T00:03:40.945546+00:00",
+  "documents": [
+    {
+      "url": "https://unppci.org/controllers/downloads.php?id=994",
+      "file": "unppci-994.pdf",
+      "sha256": "7a93bb08c2afe65b0e406ae42b124718f06161e0481a9246e6db922beb05a2a0",
+      "pages": 13,
+      "retrieved_at": "2026-11-11T00:09:17.630333+00:00"
+    },
+    {
+      "url": "https://unppci.org/controllers/downloads.php?id=995",
+      "file": "unppci-995.pdf",
+      "sha256": "99034ab0df6a2d0ed75714d31164e063cfd6ae56e90b6987fce2af9ab065d724",
+      "pages": 24,
+      "retrieved_at": "2026-11-11T00:09:21.265453+00:00"
+    }
+  ]
+}
